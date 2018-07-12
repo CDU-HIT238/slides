@@ -1,0 +1,31 @@
+
+.grid-3 {
+	display: grid;
+	grid-template-rows: [row-start] 20vh [row-middle] 20vh [row-end] 20vh;
+	grid-template-columns: [col-start] 20vw [col-middle] 20vw [col-end] 20vw;
+}
+
+@for $i from 1 through 3 {
+	.grid__row-span-#{$i} {
+		grid-row-end: span $i;
+	}
+	.grid__col-span-#{$i} {
+		grid-column-end: span $i;
+	}
+}
+
+.grid-left-col {
+	grid-column-start: col-start;
+	grid-row-start: row-start;
+	grid-row-end: row-end;
+}
+
+.grid-start-middle-top {
+	grid-column-start: col-middle;
+	grid-row-start: row-start;
+}
+
+.grid-start-middle-bottom {
+	grid-column-start: col-middle;
+	grid-row-start: row-end;
+}

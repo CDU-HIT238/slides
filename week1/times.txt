@@ -1,0 +1,4 @@
+
+Structure: 7m
+Functions: Talk 3 mins - class: 10 minutes
+Arrays: Talk 2 minutes - class 15 minutes
