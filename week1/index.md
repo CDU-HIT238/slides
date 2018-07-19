@@ -94,13 +94,13 @@ What makes them "mobile"?
 	* may access sensors
 
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Types of mobile applications
 * Web applications
 * Hybrid applications
 * Cross-platform applications
 * Native applications
+
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -115,6 +115,13 @@ What makes them "mobile"?
 ### Mobile web applications
 * Can you name some web applications?
 * Can you name some mobile web applications
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Work from a past student
+* Wanchaloem Sriwiset developed an alternative NT bus tracker
+* The live bus tracking data has been blocked but you can see the app at [https://www.ntbustracker.com/](https://www.ntbustracker.com/)
+* Mobile web apps don't need a lot of resources
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -183,6 +190,7 @@ https://developers.google.com/web/showcase/2016/flipkart
 ### Using a web view
 * Wraps the web application in an native application wrapper that displays the apps
 
+
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Advantages
 * Put your app in the app stores
@@ -239,14 +247,14 @@ https://developers.google.com/web/showcase/2016/flipkart
 
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 ## Git, GitHub and GitHub Pages
 * Hopefully everyone is familiar with GitHub
 * You *must* use GitHub for this course so we will spend some time getting up to speed
 * You will also need to use GitHub Pages to host your content
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### What's the difference
 * Git is a source control system
 * Github is a public git repository (there are others)
@@ -254,21 +262,21 @@ https://developers.google.com/web/showcase/2016/flipkart
 * They are connected but are not the same
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Git
 * Distributed
 * Source Control
 * Version Control
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Why use git
 * Share code
 * Track changes
 * Allow people to work together without breaking things
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Git functions
 * Clone - Copy a repository to our local machine
 * Add - Stage a file to commit
@@ -282,7 +290,7 @@ Note:
 This are some common git functions. Don't worry, you don't need to learn them all now. You might also hear git pull. This is a shortcut command to fetch and merge
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### WinGit client
 * Lots of clients available
 * Download from [https://git-scm.com/](https://git-scm.com/)
@@ -292,7 +300,7 @@ Note:
 There are a lot of git clients about. For those of you on windows, I'd suggest using Git GUI for windows or the git client built in to Atom
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 #### Clone a repository
 <div class="grid-3">
 ![Git GUI open menu with "Git GUI here" highlighted](images/gitgui-open.png) <!-- .element: class="fragment grid-left-col" data-fragment-index="1" -->
@@ -304,7 +312,7 @@ Note:
 To clone an existing repository to your computer, right click where you want to clone it and select "Git GUI here". Select "Clone existing repository" and enter the git address in "Source Location". Enter the path you want to clone to in "Target directory". Note that the final directory in target directory should not exist as git will create it for you.
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 #### Fetch changes
 ![Git GUI remote menu](images/gitgui-fetch.png) <!-- .element: class="fragment" data-fragment-index="1" -->
 ![Git GUI merge menu](images/gitgui-merge.png) <!-- .element: class="fragment" data-fragment-index="2" -->
@@ -313,7 +321,7 @@ Note:
 To get the latests changes from the server open Git GUI, select "Remote" from the menu, "Fetch from" then "origin". This downloads the latests changes from the server. To mix the changes in with your code select the "Merge" menu then "Local merge". Now your code is up to date.
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Commit and Push
 ![Git GUI buttons with rescan highlighted](images/gitgui-rescan.png) <!-- .element: class="fragment" data-fragment-index="1" -->
 ![Git GUI commit menu with stage selected](images/gitgui-stage.png) <!-- .element: class="fragment" data-fragment-index="2" -->
@@ -324,17 +332,7 @@ Note:
 When you finish you'll need to commit to save your work and push to send them to the server. From Git GUI select "rescan" to search for changed files. You should see a list of modified files appear. Now open the Commit menu and select "Stage to commit". Now your files are staged you can commit them to the repository. Enter a description of what has changed in the "Commit Message" field and click the "commit button". Your changes are now saved". Click the push button to send your changes to the server.
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Activity: Git local repository
-* Clone the project to your local machine
-	* You can get the address from the green clone button on github
-* Copy your html and any required files to the week one directory
-* Add the new files to git
-* Commit the staged files with the comment "Add week one files"
-* Push your code and check it appears on the github website
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Activity: Setup a git repository
 * Register for github
 * Create a new repository for HIT238 with a readme and gitignore file
@@ -344,7 +342,7 @@ When you finish you'll need to commit to save your work and push to send them to
 * Push your changes and check they appear on the github website
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Some tips
 * Fetch from the server before you start writing
 * Push whenever you finish writing
@@ -355,17 +353,15 @@ When you finish you'll need to commit to save your work and push to send them to
 	* Try not to break things
 
 
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 ## GitHub Pages
 * Free webhosting for your github project
 
 
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Activity: Setup GitHub pages on your repository
 * Open your repository on the github website
-* Scroll down to GitHub Pages
+* Go to settings and scroll down to GitHub Pages
 * Ensure the branch is set to master
 * Click select a theme
 * Pick any theme
@@ -374,7 +370,7 @@ When you finish you'll need to commit to save your work and push to send them to
 * [GitHub guide](https://guides.github.com/features/pages/)
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Jekyll
 * When you commit GitHub compiles your markdown files to html
 * The theme is used to decide how to render them
@@ -382,7 +378,7 @@ When you finish you'll need to commit to save your work and push to send them to
 * It can take a short time to update your content
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Adding new content
 * Modify your README.md to include some details about yourself
 * Commit and reload your GitHub pages URL (this may take a moment)

@@ -1,0 +1,9 @@
+Intro: 10min
+
+Quiz: 15min
+	Questions: 5 min
+	Recap: 10min
+
+Mobile Applications:
+	What do you think: 10min
+
