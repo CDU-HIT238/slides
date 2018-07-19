@@ -154,6 +154,10 @@ What makes them "mobile"?
 * How many apps do you have that you needed for one task and never needed again?
 * How many apps require a 40Mb download to do something trivial?
 
+Note:
+You've picked up a guitar and need to tune it. Install an app?
+https://github.com/jbergknoff/guitar-tuner
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Progressive Web Apps (PWAs)
@@ -166,9 +170,10 @@ https://developers.google.com/web/progressive-web-apps/
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Google &#x2764; web apps
-https://developers.google.com/web/showcase/2017/twitter
-https://developers.google.com/web/showcase/2017/olx
-https://developers.google.com/web/showcase/2016/flipkart
+* Read one of the following articles
+	* https://developers.google.com/web/showcase/2017/twitter
+	* https://developers.google.com/web/showcase/2017/olx
+	* https://developers.google.com/web/showcase/2016/flipkart
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -180,6 +185,11 @@ https://developers.google.com/web/showcase/2016/flipkart
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Hybrid Apps
+![Hybrid Car](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/VW_Jetta_Hybrid_WAS_2012_0714.JPG/640px-VW_Jetta_Hybrid_WAS_2012_0714.JPG)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### What are hybrid apps?
 * Typically a thin &quot;app&quot; wrapper around a web app
 * Builds like a web app
 * Installs like a native app
@@ -216,13 +226,18 @@ https://developers.google.com/web/showcase/2016/flipkart
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Cross platform apps
+![Apple Android](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Android_made_out_of_an_Apple.jpg/618px-Android_made_out_of_an_Apple.jpg) <!-- .element class="centre" -->
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### What are cross platform apps
 * Write app in one langage but compile to native code
 * Some platforms like Appcellerator and React Native use web plafroms
 * Other platforms like Unity and Xamarin use different languages
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-“We’ve tried in the past to just build web apps that we could wrap in thin native wrappers, but it doesn’t work. […] Anytime somebody tries to reimplement a native widget using HTML, CSS and JavaScript it always feels like shit.”
+"We've tried in the past to just build web apps that we could wrap in thin native wrappers, but it doesn’t work. [...] Anytime somebody tries to reimplement a native widget using HTML, CSS and JavaScript it always feels like shit."
 - Tom Occhino, React Native, Facebook
 
 

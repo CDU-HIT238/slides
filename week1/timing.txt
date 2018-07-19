@@ -4,6 +4,24 @@ Quiz: 15min
 	Questions: 5 min
 	Recap: 10min
 
-Mobile Applications:
+Mobile Applications: 1h 50 min
 	What do you think: 10min
+	Types: 3min
+	Web Applications: 40 min
+		Name some apps: 5 min
+		Bus tracker demo: 5 min
+		Read about PWAs: 5 min
+		Talk about PWAs: 5min
+		Play with mobile apps: 10 min
+		Slides: 10 min
+	Hybrid Apps: 4 min
+	Cross Platform Apps: 10 min
 
+git: 1h 30min
+	clone repo: 5min
+	fetch/merge: 5 min
+	Create git repo: 20 min
+	Git/GitHub Slides: 15 min
+	Setup github pages: 10 min
+	Personal profile: 30 minutes
+	slides: 5 min
