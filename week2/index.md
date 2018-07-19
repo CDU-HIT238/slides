@@ -4,6 +4,19 @@
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Your websites
+* 10 minutes review your website
+* Install the chrome lighthouse plugin
+* Generate report on your site
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Remember to write quality code
+* Always assume that someone else will read your code
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Some mobile apps
 * What did you find?
 * What did you like about them?
@@ -21,7 +34,6 @@
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Native Apps
-* Build for specific platform
 * Platform specific API
 	* In a platform specific language
 * Need to build a new version for each supported platform
@@ -98,6 +110,10 @@
 	* Technologically savvy
 	* Cost conscious
 * In your tables discuss which platform is the best to use
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Discussion continued
 * Your client has identified a second demographic of elderly people who have trouble with traditional phone booking systems
 	* Does this change your recommendation?
 
@@ -106,6 +122,7 @@
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Mobile Context
 * How is mobile different from other platforms?
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Mobile != Desktop
@@ -125,6 +142,7 @@
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Mobile considerations
 * Mobile is mobile: context keeps changing
 * More distractions
 	* Shorter, simpler interactions
@@ -135,10 +153,10 @@
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Some reading
-[The important differences from desktop](https://www.interaction-design.org/literature/article/mobile-usability-research-the-important-differences-from-the-desktop)
-[ The context of mobile usage](https://www.interaction-design.org/literature/article/the-context-of-mobile-usage-the-big-picture)
-[Designing for mobile: some simple guidelines](https://www.interaction-design.org/literature/article/designing-for-the-mobile-environment-some-simple-guidelines)
-[iPhone app design mistakes](https://www.smashingmagazine.com/2009/11/iphone-apps-design-mistakes-disregard-of-context/)
+* [The important differences from desktop](https://www.interaction-design.org/literature/article/mobile-usability-research-the-important-differences-from-the-desktop)
+* [ The context of mobile usage](https://www.interaction-design.org/literature/article/the-context-of-mobile-usage-the-big-picture)
+* [Designing for mobile: some simple guidelines](https://www.interaction-design.org/literature/article/designing-for-the-mobile-environment-some-simple-guidelines)
+* [iPhone app design mistakes](https://www.smashingmagazine.com/2009/11/iphone-apps-design-mistakes-disregard-of-context/)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -173,7 +191,7 @@
 * Observational vs Experimenal
 * [Lab vs Journal vs Field](https://www.interaction-design.org/literature/article/getting-into-the-mobile-app-user-s-mind-user-research-for-mobile-applications)
 
-Notes:
+Note:
 Overservational looks to identify what happens in the real world while experimental tests a hypothesis
 Lab is conducted in a controlled environment to test a key feature, journal involves a user writing down their thoughts and field involves going out and seeing what happens in the real world. 
 
@@ -204,6 +222,7 @@ Lab is conducted in a controlled environment to test a key feature, journal invo
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 #### 1. Objectives
 * What questions are you trying to answer?
+* What with who, what , where, when, why and how
 	* Who are your users?
 	* What do they want to do?
 	*	What else are they doing?
@@ -215,8 +234,8 @@ Lab is conducted in a controlled environment to test a key feature, journal invo
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 #### 2. Hypothesis
-* Acknowledge your bias
 * What do you think you know?
+* Acknowledge your bias
 * Sketch answers to your objective questions
 
 
@@ -260,6 +279,84 @@ Lab is conducted in a controlled environment to test a key feature, journal invo
 * Schedule
 * Script
 
+From [The UX Research Plan That Stakeholders Love](https://www.smashingmagazine.com/2012/01/ux-research-plan-stakeholders-love/)
+
 Note:
-https://www.smashingmagazine.com/2012/01/ux-research-plan-stakeholders-love/
 https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Create a test plan
+* As a table imagine you have been asked to conduct user testing on LearnLine
+* Your client is concerned that mobile usage is low and is concerned there are problems with the mobile experience
+* Create a test plan to help your client
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Debugging Javascript
+* Before we get in to javascript we need to learn to fix it
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### How do we debug
+* Chrome developer tools provides us with an _inline debugger_
+* We can step through our code, line by line as it actually executes
+* There are two main ways to do this
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### Debugging from the sources tab
+1. Open up dev tools and go to sources to find all your js files
+2. Open the file you want to debug
+3. Find a line just before where you have a problem and click the line number
+4. A blue arrow appears to indicate you have set a *break point*
+5. When the code gets to your break point it will pause
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### Open the debugger
+<video>
+	<source data-src="videos/debug-open.webm" type="video/webm" />
+</video>
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### Breakpoint
+* Clicking on a line number creates a breakpoint
+* When the code at the breakpoint is about to execute the browser will pause and open the deugger
+* Lines with breakpoints are indicated with a blue arrow
+
+![blue breakpoint marker](images/debug-breakpoint.png)
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### Debug controls
+* Play icon resumes normal code execution
+* Step over continues to the next line in the current function
+* Step into pauses on the first line of the function about to be executed
+* Stop out pauses on the next line of the calling (parent) function
+* Can you find out what the last two do?
+
+![Debug control icons](images/debug-controls.png)
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### Checking values
+* You can hover your cursor over a variable to see the value it holds
+* The scope pane shows all variables in the current scope
+* You can add a variable to watch in the watch pane
+
+![Debug scope name](images/debug-scope.png)
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+<video>
+	<source data-src="videos/debug-breakpoint.webm" type="video/webm" />
+</video>
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Your turn
+* Clone the repository at https://github.com/CDU-HIT238/debug-exercises
+* Open [one.html](https://cdu-hit238.github.io/debug-exercises/one.html) in your browser and use dev tools to fix the errors
