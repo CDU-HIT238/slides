@@ -38,43 +38,43 @@ The assignments are structured around an agile model.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* 1. What is semantic HTML?
+* What is semantic HTML?
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* 2. How do you import a stylesheet in to a HTML document?
+* How do you import a stylesheet in to a HTML document?
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* 3. How do you import javascript in to a HTML document
+* How do you import javascript in to a HTML document
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* 4. What meta tag can you use to fix the mobile screen width?
+* What meta tag can you use to fix the mobile screen width?
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* 5. How do you apply CSS only to certain screen sizes?
+* How do you apply CSS only to certain screen sizes?
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* 6. What does mobile first mean when writing CSS?
+* What does mobile first mean when writing CSS?
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* 7. How does a browser decide the order to apply CSS?
+* How does a browser decide the order to apply CSS?
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* 8. Name three javascript best practices.
+* Name three javascript best practices.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* 9. How do you run a javascript function when a button is pressed?
+* How do you run a javascript function when a button is pressed?
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* 10. What is the difference between == and === in javascript?
+* What is the difference between == and === in javascript?
 
 
 
@@ -83,6 +83,9 @@ The assignments are structured around an agile model.
 What do you think of when you think mobile apps?
 
 What makes them "mobile"?
+
+Note:
+Spend 5 minutes thinking about what you think a mobile app is
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -93,6 +96,10 @@ What makes them "mobile"?
 	* smaller attention span
 	* may access sensors
 
+Note:
+A mobile app has some fundamental differences to a traditional application.
+The biggest differences are lagely in the context of use and that mobile applications are often optimised for "mobile" devices
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Types of mobile applications
@@ -100,6 +107,9 @@ What makes them "mobile"?
 * Hybrid applications
 * Cross-platform applications
 * Native applications
+
+Note:
+There are different types of mobile applications depending on how they are developed. They fall into 3 or 4 broad categories depending on how they are developed
 
 
 
@@ -110,11 +120,18 @@ What makes them "mobile"?
 	* Interactive
 	* It *does* something (doesn't just _tell you_ something)
 
+Note:
+A web application is not the same as a web site. For example you go to the CDU homepage to get some information, while you can interact with applications like twitter or facebook. 
+The big difference between a web site like CDU and an application like facebook is interactivity. Facebook will respond to your actions while the CDU homepage will show the same information nomatter what you do. The line between a web side and a web application is not always clear, but as we are looking at applications we will be focusing in interactivity.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Mobile web applications
 * Can you name some web applications?
 * Can you name some mobile web applications
+
+Note:
+Spend 5 minutes to see if you can think of some web applicationst that you use. Are they also mobile applications?
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -129,6 +146,10 @@ What makes them "mobile"?
 * Until recently it was difficult to make web applications work offline
 * Many organisations prefer users to install their app
 * Gmail and facebook messenger push users to install their app on mobile
+
+Note:
+While both Google and Apple originally imagined their mobile systems using web applications, many people did not consider them as compeditive alternatives to appliations installed on the mobile platform. Many organisations feel it is important that their app is installed in order to get exposure. Incedently [research found in 2015 that users spend most of their time in apps the majority of that use is only a couple of apps](https://techcrunch.com/2015/06/22/consumers-spend-85-of-time-on-smartphones-in-apps-but-only-5-apps-see-heavy-use/).
+More recently service worksers and PWA manifests have allowed web applications to work more like native apps with installable menus and offline functionality bridging the gap between web and native.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
