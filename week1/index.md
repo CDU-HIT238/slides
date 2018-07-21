@@ -188,6 +188,11 @@ https://github.com/jbergknoff/guitar-tuner
 
 https://developers.google.com/web/progressive-web-apps/
 
+Note:
+Progressive web applications (PWAs) are a recent category go web application.
+Google defines them as reliable, fast and engaging.
+They should work offline and feel fast and responsive like a native application
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Google &#x2764; web apps
@@ -195,6 +200,11 @@ https://developers.google.com/web/progressive-web-apps/
 	* https://developers.google.com/web/showcase/2017/twitter
 	* https://developers.google.com/web/showcase/2017/olx
 	* https://developers.google.com/web/showcase/2016/flipkart
+
+Note:
+Google have been promoting PWAs as an alternative to native applications.
+Scan the provided articles to see some of the adavantages some users have found with PWAs.
+It is interesting to note that two of the applications come from India where network connections are heavily utalised and have historically suffered from congestion problems. 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -216,10 +226,17 @@ https://developers.google.com/web/progressive-web-apps/
 * Installs like a native app
 * Use a web view to display the web app
 
+Note:
+A hybrid application is a web application that has been bundled into an installable mobile package. They use a web view to display the web application as if it was a native app.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Using a web view
 * Wraps the web application in an native application wrapper that displays the apps
+
+Note:
+A web view is a browser window provided by the mobile platform that can render web pages.
+They are similar to the default browser provided by the OS but may have some limitations.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -255,6 +272,11 @@ https://developers.google.com/web/progressive-web-apps/
 * Write app in one langage but compile to native code
 * Some platforms like Appcellerator and React Native use web plafroms
 * Other platforms like Unity and Xamarin use different languages
+
+Note:
+A cross-platform application is written in a non-native language which a framework compiles into native components.
+They can use a variety of languages including web languages.
+Frameworks using web languages like Appcellerator have been called hybrid apps in the past so the line between cross-platform and hybrid is not always clear.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -303,6 +325,12 @@ https://developers.google.com/web/progressive-web-apps/
 * Distributed
 * Source Control
 * Version Control
+
+Note:
+Git is a distributed, versioned, source control system. 
+It is distributed because it can synchronise many repositories together. You keep a local copy of the repository and synchronise it with a server copy. Other users can do the same allowing everyone to keep their code synchorised.
+It is versioned because it tracks all your changes in commits. Each commit records what changed so you can go back and view any version of the application. You can also use tags and branches to flag major versions.
+It is source control because it holds your source code
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
@@ -434,7 +462,6 @@ When you finish you'll need to commit to save your work and push to send them to
 ### How do we debug
 * Chrome developer tools provides us with an _inline debugger_
 * We can step through our code, line by line as it actually executes
-* There are two main ways to do this
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
