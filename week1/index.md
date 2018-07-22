@@ -449,7 +449,12 @@ When you finish you'll need to commit to save your work and push to send them to
 * Now create an index.html file and create a more detailed personal profile
 	* Commit your changes and see how they appear
 	* The theme is only used to markdown content
+
+
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
+### Adding new content continued...
 * Make your personal profile responsive and mobile first
+* Share a link to your site on the discussion board
 
 
 
