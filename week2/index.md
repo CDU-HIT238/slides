@@ -56,7 +56,6 @@ A native application is developed in a specific language and API/SDK for the pla
 They cannot run on other platforms so you need to write and maintain a seperate code base for each platform you support.
 
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Advantages of native apps
 * Full access to device features through native API
