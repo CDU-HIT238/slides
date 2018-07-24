@@ -14,6 +14,7 @@
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Remember to write quality code
 * Always assume that someone else will read your code
+* Review the [code guidelines](https://hit226.github.io/Assessment-Code-Style-Guide/) from HIT226
 * Do you follow best practices for [HTML](https://www.themelocation.com/best-html5-practices/), [CSS](https://webdesign.tutsplus.com/articles/css-documentation-best-practices--cms-30139)? Are there other best practices you have learned?
 * Look at your code and make some notes about the quality
 	* What did you do well
