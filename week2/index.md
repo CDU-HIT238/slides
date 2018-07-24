@@ -416,3 +416,38 @@ You don't need to test with a lot of people. [Jackob Nielson suggests that it is
 * Your client is concerned that mobile usage is low and is concerned there are problems with the mobile experience
 * Create a test plan to help your client
 * Upload your test plan to the discussion board
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Personas
+* You should have learned about personas in HIT226
+* We will use them as a product of our user research
+* They don't have to be perfect
+	* They should reflect your user research
+	* They should get you thinking about your users
+
+Note:
+You will need to create some personas in the first sprint of your assignments.
+You should have already learned about personas in HIT226
+We won't go into much detail here but they are an important product from your user research
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Why make a persona
+* To give your users a face
+* To help understand your user research
+* To make lessons from your user research easy to reference
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Some reading
+[https://www.uxpin.com/studio/blog/ux-designers-5-minute-guide-lean-personas/](https://www.uxpin.com/studio/blog/ux-designers-5-minute-guide-lean-personas/)
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Assignment 1
+* You should have been thinking about your app ideas
+* Are you ready to go out and get some user feedback?
+* The first sprint is due at the end of week 3
