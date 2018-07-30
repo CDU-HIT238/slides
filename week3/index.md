@@ -258,7 +258,6 @@ fetch(url, {
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Don't overdo pollyfills
-Read### Don't overdo pollyfills
 Read the section "Is there a CSS Grid Pollyfill" in https://www.smashingmagazine.com/2017/11/css-grid-supporting-browsers-without-grid/
 
 Why is a grid pollyfill a bad idea? Does this apply to other features?
@@ -270,3 +269,240 @@ Why is a grid pollyfill a bad idea? Does this apply to other features?
 	* A site should work without newer features
 	* Add functionality as it becomes available
 * Only polyfill what is absolutely necessecary
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Geolocation API
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+* Get the user's current position
+* Watch for changes in the position
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Some caveats
+* The location API is only available on HTTPS connections
+* The user must grant access to geolocation
+* No guarantee that geolocation is available
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Check if geolocation is available
+* Check for navigator.geolocation
+	* If it is truthy than geolocation services are available
+
+```js
+if("geolocation" in navigator) {
+	// location services are available
+} else {
+	// location services are not available
+}
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Getting the current position
+* navigator.geolocation.getCurrentPosition(successFunc, errFunc, options)
+	* Get's the current position and calls a callback function
+	* Calls successFunc when the location is successfully retrieved
+	* successFunc takes a [Position](https://developer.mozilla.org/en-US/docs/Web/API/Position) parameter
+	* Calls the optional errFunc when an error occurs
+	* errFunc takes a [PositionError](https://developer.mozilla.org/en-US/docs/Web/API/PositionError) parameter
+	* The optional [options](https://developer.mozilla.org/en-US/docs/Web/API/PositionOptions) parameter provides configuration 
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Using getCurrentPosition
+```js
+navigator.geolocation.getCurrentPosition(
+	function(position) {
+		console.log('Success', position);
+	},
+	function(err) {
+		console.error('Error', err);
+	}
+);
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Reading the location
+* The position object holds the [coordinates](https://developer.mozilla.org/en-US/docs/Web/API/Coordinates) and a timestamp
+```
+{
+	coords: {
+		accuracy: 30,
+		altitude: null,
+		altitudeAccuracy: null,
+		heading: null,
+		latitude: -12.388257999999999,
+		longitude: 130.872771,
+		speed: null
+	},
+	timestamp: 1532945280233
+}
+
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Coordinates
+* Accuracy - the accuracy of the location in metres
+* Altitude - The altitude from sea level in metres
+* Altitude Accuracy - The accuracy of the altitude in metres
+* Heading - The direction of motion in degrees from true north
+* Latitude - The current latitude in degrees
+* Longitude - The current longitude in degrees
+* Speed - The current velocity in metres per second
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Location accuracy
+* By default getCurrentLocation tries to get a fast low-accuracy location
+	* Usually from network location
+* You can request a high accuracy location
+	* Usually from GPS
+	* Takes longer
+	* May not be available
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+```
+navigator.geolocation.getCurrentPosition(
+	successFunc,
+	errorFunc,
+	{
+		enableHighAccuracy: true
+	}
+);
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity: Add a marker to the map
+* Open the pen [https://codepen.io/elvey/pen/BPJppR](https://codepen.io/elvey/pen/BPJppR)
+* Add a marker at the current location using the addMarker() function
+* Try with both high and low accuracy
+	* Do not notice any difference
+	* Why or why not?
+* Test on a mobile device if you can
+* Save your changes. You'll need them shortly
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Watching the location
+* You can watch the current position for changes with watchPosition()
+* Same input parameters as getCurrentLocation()
+* The success callback gets called each time the position is updated
+* You can stop watching using clearWatch()
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+```js
+var watchID = navigator.geolocation.watchPosition(
+	successFunc,
+	errorFunc
+);
+navigator.geolocation.clearWatch(watchID);
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity: Update the map marker
+* Go back to the code from your last activity
+* Use watchLocation to move the marker when the position changes
+* Use moveMarker() to update the marker position
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Checking permission
+* The geolocation API does not allow you to check if a user has granted permission or not
+* The new [Permissions API](https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API) does
+	* But it [isn't fully supported](https://caniuse.com/#feat=permissions-api)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Using the permissions API
+```
+navigator.permissions.query({
+	name: 'geolocation'
+})
+	.then(function(permissions) {
+		if(permissions.state === 'granted) {
+			// permission granted
+		} else if(permissions.state === 'denied') {
+			// permission was denied
+		} else if(permissions.state === 'prompt') {
+			// we can prompt for permission
+		}
+	});
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Asking for permission
+* It is a good practive to notify users before asking permission
+* It can be confusing when a page unexpectedly asks for your location
+* People are more likely to allow permission if they know why
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Touch Events
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Use event listeners
+* Just like mouse events
+* Four event types
+	* touchstart
+	* touchend
+	* touchmove
+	* touchcancel
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity: try them out
+* Open the pen [https://codepen.io/elvey/pen/ZjvyMw](https://codepen.io/elvey/pen/ZjvyMw) on a touch device
+* Try touching the window area
+	* Can you see the touch events?
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Event properties
+* timeStamp - the timestamp when the event was fired
+* touches - all the current touches
+* changedTouches - all touches that have changed since the last event
+* targetTouches - all touches that triggered this event
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Touch objects
+* Touches are represented as touch objects
+	* identifier: The unique identifier for this touch point
+	* radiusX - The width of this touch
+	* radiusY - the height of this touch
+	* rotationAngle - The degrees this touch has rotated
+	* force - the amount of force applied in this touch
+	* pageX & pageY - coordinate from the edge of the document including scroll offset
+	* screenX & screenY - coordinates from the edge of the screen
+	* clientX & clientY - coordinates from thd edge of the viewport
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity: How would you track movement
+* Discuss in your table how to identify the following gestures
+	* double tap
+	* pan
+	* pinch
+	* twist
+* Write some pseudo code for a gesture
+* Can you implement it in javascript
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Help is available
+* There are libraries like [HammerJS](https://hammerjs.github.io/) to handle gestures for you
