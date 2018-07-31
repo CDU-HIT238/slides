@@ -227,12 +227,12 @@ fetch(url, {
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Polyfill fetch
 * [Fetch is not supported by IE browsers](https://caniuse.com/#search=fetch)
-* We can provide this functionality manually using a [pollyfill](https://github.com/github/fetch)
-* You can find a CDN of this pollyfill at https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.4/fetch.js
+* We can provide this functionality manually using a [polyfill](https://github.com/github/fetch)
+* You can find a CDN of this polyfill at https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.4/fetch.js
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Activity: Implement the fetch pollyfill
+### Activity: Implement the fetch polyfill
 * Include the CDN in your fetch exercise
 * Examine the fetch object in your debugger or console
 * Is it any different?
@@ -240,27 +240,27 @@ fetch(url, {
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Lots of pollyfills
-* [Promises](http://bluebirdjs.com/docs/api-reference.html) (arguably not a true pollyfill)
+### Lots of polyfills
+* [Promises](http://bluebirdjs.com/docs/api-reference.html) (arguably not a true polyfill)
 * [Picture](http://scottjehl.github.io/picturefill/)
 * [ClassList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList#Polyfill)
 * [MathML](https://wet-boew.github.io/wet-boew/demos/mathml/mathml-en.html)
-* [Video](https://www.mediaelementjs.com/) (more of a wrapper than a pollyfill)
+* [Video](https://www.mediaelementjs.com/) (more of a wrapper than a polyfill)
 * Heaps more
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Modernizr
 * [Modernizr](https://github.com/Modernizr/Modernizr) checks what functionality is available
-* Can load pollyfills when required
+* Can load polyfills when required
 * [Simple Syntax](https://modernizr.com/docs/#using-modernizr-with-javascript)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Don't overdo pollyfills
-Read the section "Is there a CSS Grid Pollyfill" in https://www.smashingmagazine.com/2017/11/css-grid-supporting-browsers-without-grid/
+### Don't overdo polyfills
+Read the section "Is there a CSS Grid Polyfill" in https://www.smashingmagazine.com/2017/11/css-grid-supporting-browsers-without-grid/
 
-Why is a grid pollyfill a bad idea? Does this apply to other features?
+Why is a grid polyfill a bad idea? Does this apply to other features?
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
