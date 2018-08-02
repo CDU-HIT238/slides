@@ -1502,3 +1502,6 @@ body {
 
 .reveal .small-margin pre {
   margin: 3px auto; }
+
+.reveal .light-bg {
+  background: rgba(255, 255, 255, 0.8); }

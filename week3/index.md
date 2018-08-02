@@ -37,6 +37,21 @@ catch: Run this code if the function fails
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Instead of callbacks
+```
+asyncFunc(
+	function(err, data) {
+		if(err) {
+			// Handle error
+		} else {
+			// Do stuff
+		}
+	}
+);
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Chain your promises
 ```
 loadJSON()
@@ -52,9 +67,28 @@ loadJSON()
 ```
 
 Note:
-A chain of promises is a much nicer alternative to nested callbacks.
+Promises really shine when we chain them together.  A chain of promises is a much nicer alternative to nested callbacks.
 The catch function will be exected if there is an error anywhere along the chain.
 Be careful though, long promise chains can swallow your errors and make it difficult to debug
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Beats callback hell
+```
+loadJSON(function(err, data) {
+	if(err) {
+		// handle error
+		return;
+	}
+	doAsyncProcessing(data, function(err2, processedData) {
+		if(err2) {
+			// handle second error
+			return;
+		}
+		// Do stuff
+	});
+});
+```
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -85,15 +119,39 @@ Promise.all(arrayOfPromises)
 ```
 
 
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity: Your turn
+* Open the pen [Promises exercise](https://codepen.io/elvey/pen/PBRMBJ)
+* Modify the function delayedUppserCase to
+	* Return a new promise 
+	* If the input is a string
+		* Resolve the promise after 500ms with the input in upper case
+	* If the input is not a string
+		* Reject the promise after 500ms
+
+
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## HTTP Requests
+![HTTP Request](https://upload.wikimedia.org/wikipedia/commons/4/4f/Scheme_dynamic_page_en.svg) <!-- .element class="light-bg" -->
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### What is a HTTP request
+* A HTTP request is what your browser does when you view a web page
+* Request data of the HTTP protocol and receive data in response
+* All web resources are usually loaded over HTTP
+* You can see the requests you browser makes in the developer tools
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### HTTP requests from JS
 * Load data from a server
 * Sometimes called [AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started) (Asynchronous Javascript And XML)
 * Get updated data without reloading the whole page
+	* Less jank
+	* Less network traffic
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -173,11 +231,13 @@ fetch(url, {
 ## CORS
 * Cross Origin Resource Sharing
 
+![Apple cores](//c1.staticflickr.com/5/4047/4319953731_fa8659d820_b.jpg)
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Same Origin Policy
 * Browser restricts HTTP requests to resources within the same origin
-* A domain is
+* An origin is
 	* Some host (subdomains are also excluded)
 	* Same port
 	* Same protocol
@@ -196,6 +256,7 @@ fetch(url, {
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Using CORS
+* Set mode to cors
 * The browser will automatically handle CORS for your requests
 * You get an invalid request error if CORS fails
 * You may need to set credentials to include if authentication is required
@@ -222,6 +283,8 @@ fetch(url, {
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Polyfills
 * Implement newer functionality in older browsers
+
+![Spray insulation](https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WALLTITE_spray_foam_insulation_being_applied.jpg/319px-WALLTITE_spray_foam_insulation_being_applied.jpg)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -276,8 +339,6 @@ Why is a grid polyfill a bad idea? Does this apply to other features?
 ## MVP
 The smallest thing you can build that a customer can use
 
-![Unicycle](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Unicycle.svg/637px-Unicycle.svg.png)
-
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### How not to build an MVP
@@ -289,7 +350,8 @@ The smallest thing you can build that a customer can use
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ![MVP Example](https://public-media.interaction-design.org/images/uploads/9f7f5b30ed9905117b65572ab6949a9f.png)
-Author/Copyright holder: Henrik Kniberg. Copyright terms and licence: All rights reserved
+
+Author/Copyright holder: Henrik Kniberg. Copyright terms and licence: All rights reserved <!-- .element class="attribution" -->
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -302,7 +364,8 @@ Author/Copyright holder: Henrik Kniberg. Copyright terms and licence: All rights
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ![Good MVP as a slice out of the whole development process](https://public-media.interaction-design.org/images/uploads/e110f6dc07d9e8ebe1ea8251eab2a359.png)
-uthor/Copyright holder: Jussi Pasanen. With acknowledgements to Aarron Walter, Ben Tollady, Ben Rowe, Lexi Thorn and Senthil Kugalur. Copyright terms and license: All rights reserved
+
+Author/Copyright holder: Jussi Pasanen. With acknowledgements to Aarron Walter, Ben Tollady, Ben Rowe, Lexi Thorn and Senthil Kugalur. Copyright terms and license: All rights reserved <!-- .element class="attribution" -->
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -334,7 +397,7 @@ uthor/Copyright holder: Jussi Pasanen. With acknowledgements to Aarron Walter, B
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Some steps to develop an MVP
-* Figure Out What Problem You’re Solving, and For Whom
+* Figure Out What Problem You're Solving, and For Whom
 * Analyze Your Competitors
 * Define the User Flow
 * List All Necessary Features and Prioritize Them
@@ -377,6 +440,27 @@ While the MVPs are not explicitly specified this project started developing a sa
 	* The different uses of the term MVP can be confusing
 
 
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity: Design an MVP
+* A restaurant has asked you to develop a mobile app to order take away
+	* Their clientele is mostly 20 - 30 and often use their phones when waiting
+	* Surveys indicate the clients would like to order from home and just pick up their food
+	* Many would like to pay when they order but many also pay cash
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity: Continued
+* Make a list of possible features
+* What would be in an MVP
+* Sketch out the UX flow for an MVP
+* Share your MVP on the discussion board
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Bonus
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jHyU54GhfGs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Touch Events
@@ -416,6 +500,10 @@ While the MVPs are not explicitly specified this project started developing a sa
 	* radiusY - the height of this touch
 	* rotationAngle - The degrees this touch has rotated
 	* force - the amount of force applied in this touch
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Touch objects cont..
 	* pageX & pageY - coordinate from the edge of the document including scroll offset
 	* screenX & screenY - coordinates from the edge of the screen
 	* clientX & clientY - coordinates from thd edge of the viewport
