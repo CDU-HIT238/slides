@@ -273,185 +273,114 @@ Why is a grid polyfill a bad idea? Does this apply to other features?
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Geolocation API
+## MVP
+The smallest thing you can build that a customer can use
+
+![Unicycle](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Unicycle.svg/637px-Unicycle.svg.png)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* Get the user's current position
-* Watch for changes in the position
+### How not to build an MVP
+* Develop for everyone
+* Look at the program functionality
+* What is the first functionality you need to write
+* What is the easiest functionality to write
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Some caveats
-* The location API is only available on HTTPS connections
-* The user must grant access to geolocation
-* No guarantee that geolocation is available
+![MVP Example](https://public-media.interaction-design.org/images/uploads/9f7f5b30ed9905117b65572ab6949a9f.png)
+Author/Copyright holder: Henrik Kniberg. Copyright terms and licence: All rights reserved
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Check if geolocation is available
-* Check for navigator.geolocation
-	* If it is truthy than geolocation services are available
-
-```js
-if("geolocation" in navigator) {
-	// location services are available
-} else {
-	// location services are not available
-}
-```
+### How to build an MVP
+* Develop just for your target audience
+* Look at the user functionality
+* What is the core functionality for the user
+* What is the smallest product the customer can use
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Getting the current position
-* navigator.geolocation.getCurrentPosition(successFunc, errFunc, options)
-	* Get's the current position and calls a callback function
-	* Calls successFunc when the location is successfully retrieved
-	* successFunc takes a [Position](https://developer.mozilla.org/en-US/docs/Web/API/Position) parameter
-	* Calls the optional errFunc when an error occurs
-	* errFunc takes a [PositionError](https://developer.mozilla.org/en-US/docs/Web/API/PositionError) parameter
-	* The optional [options](https://developer.mozilla.org/en-US/docs/Web/API/PositionOptions) parameter provides configuration 
+![Good MVP as a slice out of the whole development process](https://public-media.interaction-design.org/images/uploads/e110f6dc07d9e8ebe1ea8251eab2a359.png)
+uthor/Copyright holder: Jussi Pasanen. With acknowledgements to Aarron Walter, Ben Tollady, Ben Rowe, Lexi Thorn and Senthil Kugalur. Copyright terms and license: All rights reserved
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Using getCurrentPosition
-```js
-navigator.geolocation.getCurrentPosition(
-	function(position) {
-		console.log('Success', position);
-	},
-	function(err) {
-		console.error('Error', err);
-	}
-);
-```
+### Why develop an MVP
+* You can get user feedback throughout the process
+* Test your ideas work with users
+* Assess if users actually want your product
+* Can address problems quickly
+	* Less time wasted building something nobody wants
+	* Less time wasted fixing something nobody likes
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Reading the location
-* The position object holds the [coordinates](https://developer.mozilla.org/en-US/docs/Web/API/Coordinates) and a timestamp
-```
-{
-	coords: {
-		accuracy: 30,
-		altitude: null,
-		altitudeAccuracy: null,
-		heading: null,
-		latitude: -12.388257999999999,
-		longitude: 130.872771,
-		speed: null
-	},
-	timestamp: 1532945280233
-}
-
-```
+### An MVP does not have to be complete
+* Many resources talk about MVP as the smallest product for each release
+	* I disagree
+	* MVP is a great way to release regularaly but an MVP is not a release
+* Your MVP should be _usable_ not necessecary _complete_
+* You don't release your first MVPs to public
+* There should be a number of MVPs for each release
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Coordinates
-* Accuracy - the accuracy of the location in metres
-* Altitude - The altitude from sea level in metres
-* Altitude Accuracy - The accuracy of the altitude in metres
-* Heading - The direction of motion in degrees from true north
-* Latitude - The current latitude in degrees
-* Longitude - The current longitude in degrees
-* Speed - The current velocity in metres per second
+### What needs to be in an MVP
+* Have some key feature(s) to test
+* Have a clear target audience
+* Be complete enough to test the feature(s)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Location accuracy
-* By default getCurrentLocation tries to get a fast low-accuracy location
-	* Usually from network location
-* You can request a high accuracy location
-	* Usually from GPS
-	* Takes longer
-	* May not be available
+### Some steps to develop an MVP
+* Figure Out What Problem You’re Solving, and For Whom
+* Analyze Your Competitors
+* Define the User Flow
+* List All Necessary Features and Prioritize Them
+* Build, Test, and Learn
+
+From [How to Build a Minimum Viable Product](https://rubygarage.org/blog/how-to-build-a-minimum-viable-product)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-```
-navigator.geolocation.getCurrentPosition(
-	successFunc,
-	errorFunc,
-	{
-		enableHighAccuracy: true
-	}
-);
-```
+### How I use MVPs
+* I usually have x number of sprints - then release
+* Spread features across the sprints until release
+* Each sprint has an MVP, development, user testing and a client meeting
+* After user testing and the client meeting, the features for the next sprint are updated
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Activity: Add a marker to the map
-* Open the pen [https://codepen.io/elvey/pen/BPJppR](https://codepen.io/elvey/pen/BPJppR)
-* Add a marker at the current location using the addMarker() function
-* Try with both high and low accuracy
-	* Do not notice any difference
-	* Why or why not?
-* Test on a mobile device if you can
-* Save your changes. You'll need them shortly
+![Sprints from PhyAR exercises](images/physar-sprints.png)
+
+Note:
+While the MVPs are not explicitly specified this project started developing a satellite exercise first as an interactive model, then as a web page. Then after it was developed and tested a plane was model developed and then an AR experience was developed. This was continued for a more complecated diver activity
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Watching the location
-* You can watch the current position for changes with watchPosition()
-* Same input parameters as getCurrentLocation()
-* The success callback gets called each time the position is updated
-* You can stop watching using clearWatch()
+### My steps to build an MVP
+* Make a list of features to build
+* Sort them in to core, important, desirable and unnecessary categories
+* Sort the core category by priority
+* Pick the most important - does it / do they depend on any others
+* Sketch out wireframes and UX flows for those features
+* Cut out anything unecessecary in the designs
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-```js
-var watchID = navigator.geolocation.watchPosition(
-	successFunc,
-	errorFunc
-);
-navigator.geolocation.clearWatch(watchID);
-```
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Activity: Update the map marker
-* Go back to the code from your last activity
-* Use watchLocation to move the marker when the position changes
-* Use moveMarker() to update the marker position
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Checking permission
-* The geolocation API does not allow you to check if a user has granted permission or not
-* The new [Permissions API](https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API) does
-	* But it [isn't fully supported](https://caniuse.com/#feat=permissions-api)
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Using the permissions API
-```
-navigator.permissions.query({
-	name: 'geolocation'
-})
-	.then(function(permissions) {
-		if(permissions.state === 'granted) {
-			// permission granted
-		} else if(permissions.state === 'denied') {
-			// permission was denied
-		} else if(permissions.state === 'prompt') {
-			// we can prompt for permission
-		}
-	});
-```
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Asking for permission
-* It is a good practive to notify users before asking permission
-* It can be confusing when a page unexpectedly asks for your location
-* People are more likely to allow permission if they know why
+### Reading
+* The article [Minimum Viable Product and Design](https://www.interaction-design.org/literature/article/minimum-viable-product-mvp-and-design-balancing-risk-to-gain-reward) is an excellent resource
+* There are lots of other great resources but be careful
+	* Many are advising startups on their release products
+	* They focus on what a user will buy - not how to get user feedback
+	* The different uses of the term MVP can be confusing
 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Touch Events
-
+![U can't touch this](https://upload.wikimedia.org/wikipedia/en/d/d0/Hammer_Touch.jpg)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
