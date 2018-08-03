@@ -180,6 +180,15 @@ fetch('data.json')
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Handle the response
+* Fetch results a [response object](https://developer.mozilla.org/en-US/docs/Web/API/Response)
+* You can check status with response.status
+* You can read the response body as text with response.text()
+* You can read the response body as JSON with resposne.json()
+* You can read file like data with response.blob()
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Exercise: Your turn
 * See if you can load notes from the provided endpoint to the table
 * [HIT238 Fetch Exercise](https://codepen.io/elvey/pen/qyXrMQ?editors=1111#)
@@ -231,7 +240,7 @@ fetch(url, {
 ## CORS
 * Cross Origin Resource Sharing
 
-![Apple cores](//c1.staticflickr.com/5/4047/4319953731_fa8659d820_b.jpg)
+![Apple cores](//c1.staticflickr.com/5/4047/4319953731_fa8659d820_b.jpg) <!-- .element class="centre half-height" -->
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -284,7 +293,7 @@ fetch(url, {
 ## Polyfills
 * Implement newer functionality in older browsers
 
-![Spray insulation](https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WALLTITE_spray_foam_insulation_being_applied.jpg/319px-WALLTITE_spray_foam_insulation_being_applied.jpg)
+![Spray insulation](https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WALLTITE_spray_foam_insulation_being_applied.jpg/319px-WALLTITE_spray_foam_insulation_being_applied.jpg) <!-- .element class="centre half-height" -->
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -464,7 +473,7 @@ While the MVPs are not explicitly specified this project started developing a sa
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Touch Events
-![U can't touch this](https://upload.wikimedia.org/wikipedia/en/d/d0/Hammer_Touch.jpg)
+![U can't touch this](https://upload.wikimedia.org/wikipedia/en/d/d0/Hammer_Touch.jpg) <!-- .element class="centre" -->
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->

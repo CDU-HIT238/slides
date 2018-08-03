@@ -1505,3 +1505,10 @@ body {
 
 .reveal .light-bg {
   background: rgba(255, 255, 255, 0.8); }
+
+.reveal img.centre {
+  margin-left: 50%;
+  transform: translateX(-50%); }
+
+.reveal img.half-height {
+  max-height: 50vh; }
