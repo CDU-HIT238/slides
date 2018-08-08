@@ -1,4 +1,20 @@
 
-Structure: 7m
-Functions: Talk 3 mins - class: 10 minutes
-Arrays: Talk 2 minutes - class 15 minutes
+GeoLocation: 50m
+	Slides: 10m?
+	Activity 1: 20m
+	Activity 2: 20m
+
+Local Storage: 1h
+	Slides: 10m
+	Activity 1: 20m
+	Activity 2: 10m
+	Reading: 20m
+
+Performance: 1h
+	Slides: 10m
+	Reading: 20m
+	Activity: 30m
+
+Trello: 20m
+	Slides: 10m
+	Activity: 10m
