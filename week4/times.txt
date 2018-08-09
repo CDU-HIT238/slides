@@ -1,3 +1,4 @@
+Assignment: 10m
 
 GeoLocation: 50m
 	Slides: 10m?
