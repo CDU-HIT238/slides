@@ -123,6 +123,7 @@ Be sure to structure your personas well and provide some relevant personal infor
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Mobile performance
+![Speed gauge](images/gauge.svg) <!-- .element class="centre half-height no-border" -->
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -210,6 +211,71 @@ The defer flag should be enough to prevent your script from blocking the DOM fro
 ### Prepare for next week
 * Next week we will learn about some tools to make this easier
 * Can you install [node and npm](https://nodejs.org/en/) before next week?
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## User Stories
+![User story](images/user-story.jpg) <!-- .element class="centre" -->
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### User stories are not the same as requirements
+* Requirements are traditionally a list of features
+* User stories are a list of functionality
+	* They identify the user (or persona)
+	* They state the function from the user perspective
+	* They outline why it is important
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+As a &#95; I want to &#95; so that &#95;
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Get into the user perspective
+
+Note:
+Write from the perspective of your users. These are not developer requirements but user requirements. They should be worded like a user would write them, and concequently make sense to everyone, not just the developers.
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Use Personas
+
+Note:
+Now is the time to get our your personas. Who wants this feature? You can list a group of personas but keep them grounded to your personas. If it doesn't match your personas, you probably don't need the feature (or your personas are wrong).
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Keep them simple
+Break stories up if you have to
+
+Note:
+It is common to use user stories with epics in agile. An epic is like a really big user story that takes multiple sprints to develop. They are often broken down into many user stories. There will usually be many user stories in a sprint.
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Examples: Gardener Application
+* As a gardener I want to identify illness in my plants so I can treat them
+* As a beginner I want to know when to plant tomatoes so they grow well
+* As Max I want to know what plants grow well in the tropics
+
+Note:
+Personas can use broad user categories, specific categories or personas. You will find they are better grounded in your user research if you use your personas. 
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Your turn
+* I want an application to remind people when to take their medication
+* In your tables write as many user stories as you can for this application
+* There are personas on the next slide
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+#### Personas
+* Beatrice, a 70 year old woman who has trouble with phones. She has high blood pressure and takes blood thinners. She recently had pneumona and had to take a prolonged course of antibiotics.
+* Kevin, a 45 year old carer for his elderly father. His father is perscribed heart medication his father often forgets to take.
+* Susan, A 12 year old diabetic. She has only recently been diagnosed and doesn't like having to take insular or check or blood sugar as she finds it disrupts her other activities.
 
 
 
@@ -305,8 +371,6 @@ The defer flag should be enough to prevent your script from blocking the DOM fro
 * Register for Trello
 * Create a new board called "Project MVP"
 * Create some labels to sort your features by
-
-
 
 
 
