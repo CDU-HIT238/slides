@@ -122,99 +122,6 @@ Be sure to structure your personas well and provide some relevant personal infor
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Mobile performance
-![Speed gauge](images/gauge.svg) <!-- .element class="centre half-height no-border" -->
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-"The average time it takes to fully load a mobile landing page is 22 seconds, according to a new analysis.  Yet 53% of mobile site visitors leave a page that takes longer than three seconds to load."
-
-From [Mobile page speed new industry benchmarks](https://think.storage.googleapis.com/docs/mobile-page-speed-new-industry-benchmarks.pdf) by Google
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* Load time matters (although maybe not as much as we think)
-* Mobile connections are highly variable
-* Mobile devices are highly variable
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Page Sizes
-* The average page size is over 3mb
-* The average page size [probably doesn't matter much](https://speedcurve.com/blog/web-performance-page-bloat/)
-* So what matters?
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Load time
-* Remember the quote from earlier?
-	* The average load time is 22 seconds according to google
-	* 53% of people leave a page that takes longer to three seconds to load
-* But what is the load time?
-	* Fully loaded includes all resources
-	* What matters is perceived load time or time to an interactive page
-* Recommended target is < 3s
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### So what matters
-* Read [https://speedcurve.com/blog/web-performance-page-bloat/](https://speedcurve.com/blog/web-performance-page-bloat/)
-* What do you think matters?
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* What matters is time until a page feels loaded
-* How long until you can start using the page?
-* Minimise lag and loading time
-* An [Ericsson study found video lag caused more stress than driving in heavy Jakarta traffic](https://www.ericsson.com/id/en/press-releases/7/2017/delay-in-video-streaming-creates-higher-stress-level-than-driving-in-heavy-jakarta-traffic)
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Cost of your page
-* Page size still matters
-* It's just about more than loading time
-* The median page costs [4 cents in Australia](https://whatdoesmysitecost.com/)
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### What to do
-* Reduce percieved loading time
-* Defer loading javascript
-	* Set the defer flag
-	* Put at the end of yor page body
-* Minimise your resources
-* Delay anything you don't need at the time
-* Try not to wait on the server
-* Preload resouces if you have time and are confidant you will need them
-
-Note:
-The defer flag should be enough to prevent your script from blocking the DOM from loading but it is a good idea to still put your scripts at the bottom to also cater to older browsers. 
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Minify your resources
-* You can reduce to size of your CSS and JavaScript by minifying (or uglifying) it
-* Try compresing resources at https://www.minifier.org/
-* Compress your images at http://webresizer.com/resizer/
-* Combine your JavaScript and CSS to reduce the number of files
-	* This is less important with HTTP/2 but is still useful
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Reduce this page
-* Clone the repository https://github.com/CDU-HIT238/HIT238-performance-exercise
-* Can you reduce the perceived loading time of this page?
-* Use [throttling](https://developers.google.com/web/tools/chrome-devtools/network-performance/reference#throttling) in Chrome dev tools to simulate a slower connection
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Prepare for next week
-* Next week we will learn about some tools to make this easier
-* Can you install [node and npm](https://nodejs.org/en/) before next week?
-
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## User Stories
 ![User story](images/user-story.jpg) <!-- .element class="centre" -->
 
@@ -555,6 +462,7 @@ navigator.permissions.query({
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Web Storage
+![Hard Drive](images/hard-drive.jpg)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -726,3 +634,96 @@ localStorage.setItem(key, JSON.stringify(myObject));
 ### Private browsing
 * Read [Private Browsing / Incognito Modes](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API#Private_Browsing_Incognito_modes)
 * How do you think you should handle this?
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Mobile performance
+![Speed gauge](images/gauge.svg) <!-- .element class="centre half-height no-border" -->
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+"The average time it takes to fully load a mobile landing page is 22 seconds, according to a new analysis.  Yet 53% of mobile site visitors leave a page that takes longer than three seconds to load."
+
+From [Mobile page speed new industry benchmarks](https://think.storage.googleapis.com/docs/mobile-page-speed-new-industry-benchmarks.pdf) by Google
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+* Load time matters (although maybe not as much as we think)
+* Mobile connections are highly variable
+* Mobile devices are highly variable
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Page Sizes
+* The average page size is over 3mb
+* The average page size [probably doesn't matter much](https://speedcurve.com/blog/web-performance-page-bloat/)
+* So what matters?
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Load time
+* Remember the quote from earlier?
+	* The average load time is 22 seconds according to google
+	* 53% of people leave a page that takes longer to three seconds to load
+* But what is the load time?
+	* Fully loaded includes all resources
+	* What matters is perceived load time or time to an interactive page
+* Recommended target is < 3s
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### So what matters
+* Read [https://speedcurve.com/blog/web-performance-page-bloat/](https://speedcurve.com/blog/web-performance-page-bloat/)
+* What do you think matters?
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+* What matters is time until a page feels loaded
+* How long until you can start using the page?
+* Minimise lag and loading time
+* An [Ericsson study found video lag caused more stress than driving in heavy Jakarta traffic](https://www.ericsson.com/id/en/press-releases/7/2017/delay-in-video-streaming-creates-higher-stress-level-than-driving-in-heavy-jakarta-traffic)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Cost of your page
+* Page size still matters
+* It's just about more than loading time
+* The median page costs [4 cents in Australia](https://whatdoesmysitecost.com/)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### What to do
+* Reduce percieved loading time
+* Defer loading javascript
+	* Set the defer flag
+	* Put at the end of yor page body
+* Minimise your resources
+* Delay anything you don't need at the time
+* Try not to wait on the server
+* Preload resouces if you have time and are confidant you will need them
+
+Note:
+The defer flag should be enough to prevent your script from blocking the DOM from loading but it is a good idea to still put your scripts at the bottom to also cater to older browsers. 
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Minify your resources
+* You can reduce to size of your CSS and JavaScript by minifying (or uglifying) it
+* Try compresing resources at https://www.minifier.org/
+* Compress your images at http://webresizer.com/resizer/
+* Combine your JavaScript and CSS to reduce the number of files
+	* This is less important with HTTP/2 but is still useful
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Reduce this page
+* Clone the repository https://github.com/CDU-HIT238/HIT238-performance-exercise
+* Can you reduce the perceived loading time of this page?
+* Use [throttling](https://developers.google.com/web/tools/chrome-devtools/network-performance/reference#throttling) in Chrome dev tools to simulate a slower connection
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Prepare for next week
+* Next week we will learn about some tools to make this easier
+* Can you install [node and npm](https://nodejs.org/en/) before next week?
