@@ -134,7 +134,15 @@ gulp.task('default', gulp.series('js'));
 * Install gulp and plugins using npm`
 * Create the directory src/js
 * Add some javascript from a previous week
-* Use gulp to build the javascript
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### A more complex gulpfile
+* You can use gulp to automate lots of things
+       * build and minimise your styles
+       * convert _new_ javascript to work with older browsers
+       * Smarter linking of javascript files using require/import
+* Download the project template from [https://github.com/CDU-HIT238/project-template](https://github.com/CDU-HIT238/project-template) and see if you can get it to build
 
 
 
@@ -191,6 +199,119 @@ function successFunction(mediaStream) {
 ### Your turn
 * Open the pen [https://codepen.io/elvey/pen/RBOjBX](https://codepen.io/elvey/pen/RBOjBX)
 * Write code to show video in the video player
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## WebRTC & Audio
+* You can also capture audio with the WebRTC API
+
+```
+navigator.mediaDevices.getUserMedia({
+		 audio: true
+})
+```
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## MediaRecorder
+* The [Media Stream Recording API](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API) allows you to record
+	* Data from a media stream. e.g. from a WebRTC capture
+	* From a [HTML Media Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement)
+* Capture data at regular intervals or at the end of recording
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Create a media recorder
+```
+var mediaRecorder = new MediaRecorder(stream);
+```
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Capture recorded data
+```
+var chunks = []l
+
+mediaRecorder.addEventListener('dataavailable', function(evt) {
+	chunks.push(evt.data);
+})
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Listen for the end of recording
+```
+var audioSrc = null;
+mediaRecorder.addEventListener('stop', function() {
+	// Convert data to a binary ogg file
+	var blob = new Blob(chunks, { 'type' : 'audio/ogg; codecs=opus' });
+
+	// Reset chunks
+	chunks = [];
+
+	Convert the blog to a data URL
+	audioUrl = window.URL.createObjectURL(blob);
+});
+```
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Start recording
+```
+mediaRecorder.start();
+```
+
+Or specify the data intervals
+
+```
+// Recording interval in ms
+var timeslice = 500;
+mediaRecorder.start(timeslice);
+```
+
+Note:
+The default behaviour of start is to record until a stop signal is recieved. Then the dataavailable event is called with the data from the whole recording. 
+Alternativly you can specify a timeslice recording interval. If you set a timeslice, the data will be split in chunks and dataavailable will be called at each interval. You can use this for streaming or if you want to manage your buffer size.
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Stop recording
+```
+mediaRecorder.stop();
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Use blobs to store binary data
+```
+var blob = new Blob(
+	chunks,
+	{ 'type' : 'audio/ogg; codecs=opus' }
+);
+```
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Binary data can be represented as a data URL
+```
+var audioUrl = window.URL.createObjectURL(blob);
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Data URLs can be used in place of normal URLs
+```
+var audioElem = document.createElement('audio');
+audioElem.controls = true;
+audioElem.src = audioUrl;
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity: Record audio
+* Open the pen [https://codepen.io/elvey/pen/xJoEga](https://codepen.io/elvey/pen/xJoEga)
+* Can you record audio clips when Start/Stop is pressed?
+* Add code at the _Code:_ comments
+* Add a new audio element for each audio clip recorded
+
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -435,3 +556,16 @@ But what if you don't know the ID?
 * Is it slow to update the list when you save?
 	* Why? How can you speed it up?
 * Can you add a delete button to the table?
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Camera App: putting it all together
+* Spent the rest of the class building a camera app
+* Use WebRTC to [take a still photo](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Taking_still_photos)
+* Save photos in IndexedDB
+* Allow users to load and delete their photos
+* If you finish early
+	* Can you add filters using [CSS filters](https://developer.mozilla.org/en-US/docs/Web/CSS/filter)
+	* How about [adding text](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text)
+
