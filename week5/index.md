@@ -79,6 +79,13 @@ gulp
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Global is not the best
+* Lots of guides suggest installing globally
+* But it has problems
+	* What if you have different projects with different versions of gulp?
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Install Gulp for your project
 ```
 npm install --save-dev gulp-cli
