@@ -5,6 +5,7 @@
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Build Tools
+![Under Construction Sign](images/under-construction.jpg) <!-- .element class="half-height centre no-border" -->
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -232,10 +233,11 @@ navigator.mediaDevices.getUserMedia({
 var mediaRecorder = new MediaRecorder(stream);
 ```
 
+
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Capture recorded data
 ```
-var chunks = []l
+var chunks = [];
 
 mediaRecorder.addEventListener('dataavailable', function(evt) {
 	chunks.push(evt.data);
@@ -258,6 +260,7 @@ mediaRecorder.addEventListener('stop', function() {
 	audioUrl = window.URL.createObjectURL(blob);
 });
 ```
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Start recording
@@ -294,6 +297,7 @@ var blob = new Blob(
 );
 ```
 
+
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Binary data can be represented as a data URL
 ```
@@ -316,12 +320,6 @@ audioElem.src = audioUrl;
 * Can you record audio clips when Start/Stop is pressed?
 * Add code at the _Code:_ comments
 * Add a new audio element for each audio clip recorded
-
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Activity: Work through the codelab
-[WebRTC Codelab](https://codelabs.developers.google.com/codelabs/webrtc-web/#0)
 
 
 
