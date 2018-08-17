@@ -1,5 +1,11 @@
 Assignment: 10m
 
+
+Trello: 20m
+	Slides: 10m
+	Activity: 10m
+
+
 GeoLocation: 50m
 	Slides: 10m?
 	Activity 1: 20m
@@ -15,7 +21,3 @@ Performance: 1h
 	Slides: 10m
 	Reading: 20m
 	Activity: 30m
-
-Trello: 20m
-	Slides: 10m
-	Activity: 10m
