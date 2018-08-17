@@ -366,7 +366,7 @@ audioElem.src = audioUrl;
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* Storage API for large amounts of data
+* Storage API for [large amounts of data](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Browser_storage_limits_and_eviction_criteria)
 * NoSQL Database
 * Can storage complex data
 * Can store files (as blogs)
