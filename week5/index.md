@@ -407,7 +407,7 @@ var connReq = indexedDB.open(
 var conn = indexedDB.open('test-db', 3);
 
 conn.addEventListener('success', function(evt) {
-  var db = evt.result.target;
+  var db = evt.target.result;
   console.log('connected event', evt);
 });
 
