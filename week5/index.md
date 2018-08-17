@@ -81,7 +81,7 @@ gulp
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Install Gulp for your project
 ```
-npm install 
+npm install --save-dev gulp-cli
 npm install --save-dev gulp@next
 ```
 
