@@ -143,7 +143,38 @@ gulp.task('default', gulp.series('js'));
        * build and minimise your styles
        * convert _new_ javascript to work with older browsers
        * Smarter linking of javascript files using require/import
+* This includes some extra tools
 * Download the project template from [https://github.com/CDU-HIT238/project-template](https://github.com/CDU-HIT238/project-template) and see if you can get it to build
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+#### Babel
+* Use next generation javascript
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+#### Browserify
+* Import javascript modules
+
+#### Babel
+* Use next generation javascript
+
+```
+import myModule from './path/to/file';
+import externalModule from 'npm-name';
+
+export default myFunctionToExport;
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+#### SaSS
+* CSS preprocessor
+* Adds
+	* Imports
+	* Variables
+	* Nesting
+	* Mixins
 
 
 
