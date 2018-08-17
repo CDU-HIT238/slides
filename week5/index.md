@@ -212,6 +212,11 @@ navigator.mediaDevices.getUserMedia({
 ```
 
 
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Cool Examples
+* [MDN Voice Change-o-matic](https://mdn.github.io/voice-change-o-matic/)
+
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## MediaRecorder
