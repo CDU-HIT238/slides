@@ -4,6 +4,163 @@
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Using the git command line
+* Every git GUI client is different
+* Git has a consistant UI on every system
+* Most instructions use the command prompt
+* Open your terminals or Git Bash command prompts and follow along
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### The terminal
+* don't worry, it's not as scary as it looks
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Clone a repository
+```
+git clone git@github.com:CDU-HIT238/project-template.git
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Fetch and merge the current branch
+```
+git pull
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Commit changes
+```
+git add ./path/to/changes
+git commit -m "comment comment"
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Push your changes to the server
+```
+git push
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Show changes
+```
+git status
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Show the difference in files
+```
+git diff /path/to/files
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### It's easy to walk back in time
+Just checkout the commit hash (You can find the hash in your commit history)
+
+```
+git checkout 17df004
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Rollback a specific file
+You can even rollback a specific file from a previous commit
+
+```
+git checkout 17df004 -- /path/to/file/to/restore
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity
+* Clone your projects using the command line
+* Make changes to your readme
+* Commit and push the changes to the server
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Git Branches
+* Save your work without affecting other code on the server
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### What is a branch
+* A chain of commits
+* Can have many branches
+	* master branch is created automatically
+* Can merge with other branches
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Create a new branch
+```
+git checkout -b branch-name
+git branch --set-upstream branch-name origin/branch-name
+```
+
+Note:
+You can see a bit about how git works here. When you create a new branch, you are only creating it locally. You can use your local branch just the same until you want to push changes to the server. In order to push changes you need to link it to the server (or origin). We do this with set-upstream and link our local branch to one on the origin.
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Set upstream branch
+* Instead of calling set-upstream you can push with -u and tell it where to go
+```
+git push -u origin branch-name
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### List your branches
+```
+git branch
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Switch local branches
+```
+git checkout branch-name
+```
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Merge your changes
+* Copy the changes from one branch to another
+	* Checkout your target branch
+	* Merge from the source branch
+```
+git checkout master
+git pull
+git merge branch-name
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Your turn
+* Create a new branch
+* Commit and push some changes to the readme
+* Merge your changes back in to master
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Best practices
+Intead of merging into master your should raise a pull request
+* Navigate to your GitHub repository
+* Click the Pull Requests tab
+* Click New pull request
+* Select master in the base dropdown
+* Select your branch in the compare dropdown
+* Click create pull request
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Service Workers
 
 
@@ -350,3 +507,14 @@ self.addEventListener('activate', function(event) {
 * Add the apple tags to your app
 * Deploy to github pages
 * See if someone with iOS 11.3 can install your app
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Activity: Make a shopping list
+* Create a new git repository
+* Create a form to save shopping items and quantity
+* Save them to IndexedDB
+* Show items in a list
+* Checkoff items
+* Add a serviceworker and manifest to work offline
