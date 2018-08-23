@@ -218,7 +218,7 @@ Intead of merging into master your should raise a pull request
 * Can talk to the page with postMessage()
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->S
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Offline Web Apps
 * Can save data in cache
 * Can intercept requests and load data from cache when offline
@@ -230,7 +230,7 @@ Intead of merging into master your should raise a pull request
 * Install
 * Activate
 
-Notes:
+Note:
 * A service worker is downloaded the first time is is found for a page and at regular intervals
 * A service worker is installed in the background. If there is an existing service worker it will remain active. This is a good time to prepare caches
 * Once there is no work remaining for the old service worker the new one is activated. This is a good time to clean up old caches
@@ -303,9 +303,21 @@ Saves the provided files in the cache
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<video>
+	<source data-src="videos/devtools-serviceworker.webm" type="video/webm" />
+</video>
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Check your cache
 * You can check the contents of your cache using chrome dev tools.
 * Check the applications tab -> cache storage -> cache name
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<video>
+	<source data-src="videos/devtools-cache.webm" type="video/webm" />
+</video>
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -314,7 +326,6 @@ Saves the provided files in the cache
 * Add a service worker
 * Identify files to cache form the network tab
 * Load the page and check your cache in dev tools
-
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -350,6 +361,22 @@ self.addEventListener('fetch', function(event) {
 	* Resolve a [Response](https://developer.mozilla.org/en-US/docs/Web/API/Response) for the first matching Request in the cache
 	* Takes a request as an argument
 	* If there is no match the promise resolves undefined
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Now your page works offline
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<video>
+	<source data-src="videos/serviceworker-network-tab.webm" type="video/webm" />
+</video>
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<video>
+	<source data-src="videos/serviceworker-offline.webm" type="video/webm" />
+</video>
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -490,6 +517,11 @@ self.addEventListener('activate', function(event) {
 ```
 <link rel="manifest" href="manifest.json">
 ```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Now it installs
+![PWA install prompt](images/pwa-screenshot.png) <!-- .element class="centre no-border half-height" -->
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
