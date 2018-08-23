@@ -24,6 +24,12 @@ git clone git@github.com:CDU-HIT238/project-template.git
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<video>
+	<source data-src="videos/git-clone.webm" type="video/webm" />
+</video>
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Fetch and merge the current branch
 ```
 git pull
@@ -60,6 +66,12 @@ git diff /path/to/files
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<video>
+	<source data-src="videos/git-commit.webm" type="video/webm" />
+</video>
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### It's easy to walk back in time
 Just checkout the commit hash (You can find the hash in your commit history)
 
@@ -82,6 +94,7 @@ git checkout 17df004 -- /path/to/file/to/restore
 * Clone your projects using the command line
 * Make changes to your readme
 * Commit and push the changes to the server
+
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -109,11 +122,23 @@ You can see a bit about how git works here. When you create a new branch, you ar
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<video>
+	<source data-src="videos/git-add-branch.webm" type="video/webm" />
+</video>
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Set upstream branch
 * Instead of calling set-upstream you can push with -u and tell it where to go
 ```
 git push -u origin branch-name
 ```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<video>
+	<source data-src="videos/git-branch-firstpush.webm" type="video/webm" />
+</video>
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -129,6 +154,13 @@ git branch
 git checkout branch-name
 ```
 
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<video>
+	<source data-src="videos/git-switching-branches.webm" type="video/webm" />
+</video>
+
+
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Merge your changes
 * Copy the changes from one branch to another
@@ -139,6 +171,12 @@ git checkout master
 git pull
 git merge branch-name
 ```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<video>
+	<source data-src="videos/git-merge-branch.webm" type="video/webm" />
+</video>
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
