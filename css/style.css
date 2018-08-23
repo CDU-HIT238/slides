@@ -1512,3 +1512,13 @@ body {
 
 .reveal img.half-height {
   max-height: 50vh; }
+
+.reveal .no-border {
+  border: 0; }
+
+.reveal img.bg-white {
+  background: white; }
+
+.reveal .caption {
+  font-size: 0.7em;
+  font-style: italic; }

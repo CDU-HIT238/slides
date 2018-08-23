@@ -10,10 +10,16 @@
 * Most instructions use the command prompt
 * Open your terminals or Git Bash command prompts and follow along
 
+Note:
+So far we have used GUI git tools. Unfortunately the different platforms people use can be quite different. However everyone has access to the git command prompt. You're still welcome to use your git tools but it is good to have some exposure to the command prompt.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### The terminal
 * don't worry, it's not as scary as it looks
+
+Note:
+When we think of command prompts we often think aobut super nerd hackers from the movies with walls of scrolling green text. Don't worry, it's much easier than that. With just a few basic commands you can unlock the power of git.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -21,6 +27,9 @@
 ```
 git clone git@github.com:CDU-HIT238/project-template.git
 ```
+
+Note:
+Use the git clone command to clone a repository from the server to your computer. GitHub actually provides you with the commands when setting up a new git repository.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -35,6 +44,9 @@ git clone git@github.com:CDU-HIT238/project-template.git
 git pull
 ```
 
+Note:
+In the windows Git GUI we leared, you had to fetch and then merge. The command line has an easy shortcut. Git pull will fetch changes from the server and merge them in to your current branch.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Commit changes
@@ -43,12 +55,18 @@ git add ./path/to/changes
 git commit -m "comment comment"
 ```
 
+Note:
+Just like from the GUI, you need to stage changed files before commiting them. You stage files with the git add command and provide the path to the files you want to stage. You then commit staged files with the git commit command. We use the m flag to provide a commit comment which is important to see what's changed.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Push your changes to the server
 ```
 git push
 ```
+
+Note:
+You upload your files to the server by running git push. It might prompt for your username and password if you are not already authenticated.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -57,12 +75,18 @@ git push
 git status
 ```
 
+Note:
+You can see all the files that have changed using git status.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Show the difference in files
 ```
 git diff /path/to/files
 ```
+
+Note:
+You can look at what has changed in the files with git diff. Provide a path to the files you want to see. You can see all changes by passing the path . but it is often easier to read with less files at a time.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -79,6 +103,9 @@ Just checkout the commit hash (You can find the hash in your commit history)
 git checkout 17df004
 ```
 
+Note:
+The command prompt also makes it easy to go back to an earlier commit. This is useful if you've lost a file or are looking for a solution that has since been removed.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Rollback a specific file
@@ -87,6 +114,9 @@ You can even rollback a specific file from a previous commit
 ```
 git checkout 17df004 -- /path/to/file/to/restore
 ```
+
+Note:
+You can also grab just one file from a previous commit. I often do this when fixing merge conflicts but it is also useful when a recent commit has broken something and you just want to switch back one file.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -101,6 +131,9 @@ git checkout 17df004 -- /path/to/file/to/restore
 ## Git Branches
 * Save your work without affecting other code on the server
 
+Note:
+Git branches provide us way a way to keep working code isolated from the main code base. We usually do this to avoid breaking things while we are working.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### What is a branch
@@ -108,6 +141,17 @@ git checkout 17df004 -- /path/to/file/to/restore
 * Can have many branches
 	* master branch is created automatically
 * Can merge with other branches
+
+Note:
+If you think of your repository as a chain, with each commit linked to the commit before and after it, a branch is like a seperate chain. It's called a branch because it branches off from another commit. 
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+![Git Branches](images/git-branches.svg) <!-- .element class="bg-white centre" -->
+<figcaption class="caption">"Git Branches" by Atlassian under CC BY 2.5 Australia; dimension attributes added, from Atlassian</figcaption>
+
+Note:
+You can see multiple branches drawn here. Develop branches off from master and two feature branches branch off develop
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -134,11 +178,17 @@ You can see a bit about how git works here. When you create a new branch, you ar
 git push -u origin branch-name
 ```
 
+Note:
+Instead of calling set upstream when you create a branch you can tell git the destination the first time you push. -u tells git to remember the branch you use and you can omit the branch details for subsequent pushes.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 <video>
 	<source data-src="videos/git-branch-firstpush.webm" type="video/webm" />
 </video>
+
+Note:
+You can see here what happens if you try to push without setting an upstream branch. If you forget git tells you the command to use.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -147,12 +197,18 @@ git push -u origin branch-name
 git branch
 ```
 
+Note:
+You can get a list of all your local branches using git status. Note these are only local branches. To get branches on the server as well use git branch --all
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Switch local branches
 ```
 git checkout branch-name
 ```
+
+Note:
+Use checkout to switch to a local branch. If a remote branch exists this will be linked to that
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -171,6 +227,9 @@ git checkout master
 git pull
 git merge branch-name
 ```
+
+Note:
+When you finish with a branch you need to bring your changes over to the master branch. You can use merge to copy the changes across. Merge is like a smart copy and will not overwrite anybodies work
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -201,6 +260,9 @@ Intead of merging into master your should raise a pull request
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Service Workers
 
+Note:
+Service workers are a special type of web worker that can act as a proxy for offline caching. It can also perform background sync and push notifications like other web workers.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Web Workers
@@ -210,6 +272,9 @@ Intead of merging into master your should raise a pull request
 * Cannot access DOM
 * Can access [a lot of other functions](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers)
 
+Note:
+Until now we've learned that javascript is asynchronous because it runs in the same thread. Web workers however let us run some scripts in an independant thread. This means they do not have access to the same window object (although they can access some window functions) and have no access to the DOM.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Service Workers
@@ -217,11 +282,18 @@ Intead of merging into master your should raise a pull request
 * Can act as a network proxy
 * Can talk to the page with postMessage()
 
+Note:
+A service worker is a special type of web worker. They have access to cache and can act like a network proxy. This means they can sit in between the HTTP requests your browser makes and decide how to handle them. The cache lets them store some requests for later so they can respond to a HTTP request without loading data from a server.
+If you need to communicate between a service worker and your regular javascript you can use postmessage.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Offline Web Apps
 * Can save data in cache
 * Can intercept requests and load data from cache when offline
+
+Note:
+Because a service worker can save HTTP data and respond with it later, this means, once your page has been loaded in cache it can work without an internet connection.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -231,9 +303,7 @@ Intead of merging into master your should raise a pull request
 * Activate
 
 Note:
-* A service worker is downloaded the first time is is found for a page and at regular intervals
-* A service worker is installed in the background. If there is an existing service worker it will remain active. This is a good time to prepare caches
-* Once there is no work remaining for the old service worker the new one is activated. This is a good time to clean up old caches
+Before we get too deep into implementation specifics it is worth having a quick look at the service worker lifecycle. When a new service worker is found it is first downloaded. After the download is completed it gets installed, this is when it can perform any setup it needs like preparing the cache. It then sits there waiting for any existing service workers to finish. As long as an old service worker has work to complete, a new one will not be activated. It will generally be activated after waiting a while, but sometimes it might take a refresh. You would usually clear out old caches after the service worker has activated as you know the old service worker has finished.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -252,6 +322,10 @@ if ('serviceWorker' in navigator) {
 }
 ```
 
+Note:
+To load a service worker you need to tell the browser to load it. The service worker must be in a seperate script which we direct the browser to load.
+Here we can see we check if service workers are supported and wait for the page to finish loading. We then register the service worker using the function navigator.serviceWorker.register which returns a promise
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Service worker scope
@@ -259,6 +333,9 @@ if ('serviceWorker' in navigator) {
 	* `/sw.js` can access anything from the root
 	* `/pages/sw.js` can access anything after /pages
 	* `./sw.js` can access anything under the current path
+
+Note:
+As service workers can act as a proxy we need to be clear on their active scope. They can only intercept requests from their current path onwards. They cannot get requests from their parent directory. So be careful, if you place your service worker in a scripts directory you will only be able to intercept your scripts.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -284,6 +361,10 @@ self.addEventListener('install', function(event) {
   );
 });
 ```
+
+Note:
+The follow code will create a service worker. It will need to be saved in the file you referenced from navigator.serviceWorker.register(). In the example above this would be sw.js.
+We'll break down the key functions in the following slides
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -322,7 +403,8 @@ Saves the provided files in the cache
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Your turn
-* Clone the dictaphone repository
+* Clone one of your repositories
+	* You can use git@github.com:melvey/darwin-street-food.git if none are suitable
 * Add a service worker
 * Identify files to cache form the network tab
 * Load the page and check your cache in dev tools
@@ -345,6 +427,9 @@ self.addEventListener('fetch', function(event) {
   );
 });
 ```
+
+Note:
+To load data from the cache you need to catch HTTP requests. Each HTTP request fires a fetch event that we can listen for.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
