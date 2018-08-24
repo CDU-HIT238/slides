@@ -343,7 +343,7 @@ As service workers can act as a proxy we need to be clear on their active scope.
 ```
 var CACHE_TITLE = 'my-site-cache';
 var CACHE_VERSION = 'v1';
-var CACHE_NAME = CACHE_TITLE + '-' + 'CACHE_VERSION';
+var CACHE_NAME = CACHE_TITLE + '-' + CACHE_VERSION;
 var urlsToCache = [
   '/',
   '/styles/main.css',
