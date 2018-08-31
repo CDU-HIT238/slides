@@ -25,7 +25,7 @@ When we think of command prompts we often think aobut super nerd hackers from th
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Clone a repository
 ```
-git clone git@github.com:CDU-HIT238/project-template.git
+git clone https://github.com/CDU-HIT238/project-template.git
 ```
 
 Note:
