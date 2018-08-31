@@ -1,0 +1,16 @@
+
+Build tools:
+	slides: 10m
+	activity: 20m
+	second activity: 20m
+
+WebRTC
+	slides: 10m
+	activity: 20m
+	activity: 20m
+
+IndexedDB:
+	slides: 20m
+	activity: 30m
+
+Final activity: 1h
