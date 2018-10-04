@@ -12,6 +12,7 @@
 	* If you know the functions, tools and technologies you can lookup the syntax
 
 
+
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Section 1: Understanding different devices
 * 21 Marks
