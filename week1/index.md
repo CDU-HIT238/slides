@@ -269,8 +269,8 @@ They are similar to the default browser provided by the OS but may have some lim
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### What are cross platform apps
-* Write app in one langage but compile to native code
-* Some platforms like Appcellerator and React Native use web plafroms
+* Write app in one language but compile to native code
+* Some platforms like Appcellerator and React Native use web platforms
 * Other platforms like Unity and Xamarin use different languages
 
 Note:
