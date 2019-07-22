@@ -135,13 +135,6 @@ Spend 5 minutes to see if you can think of some web applicationst that you use. 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Work from a past student
-* Wanchaloem Sriwiset developed an alternative NT bus tracker
-* The live bus tracking data has been blocked but you can see the app at [https://www.ntbustracker.com/](https://www.ntbustracker.com/)
-* Mobile web apps don't need a lot of resources
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Mobile web applications
 * Until recently it was difficult to make web applications work offline
 * Many organisations prefer users to install their app
