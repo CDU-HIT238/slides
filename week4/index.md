@@ -571,42 +571,42 @@ for(var i = 0; i < sessionStorage.length; i++) {
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Set data
 ```
-sessionStorage.setItem(key, value);
+localStorage.setItem(key, value);
 ```
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Get data
 ```
-var value = sessionStorage.getItem(key);
+var value = localStorage.getItem(key);
 ```
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Remove a key
 ```
-sessionStorage.remove(key);
+localStorage.remove(key);
 ```
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Clear all data
 ```
-sessionStorage.clear();
+localStorage.clear();
 ```
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Count keys
 ```
-var count = sessionStorage.length;
+var count = localStorage.length;
 ```
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Read key
 ```
-var key = sessionStorage.key(index);
+var key = localStorage.key(index);
 ```
 
 
