@@ -348,7 +348,7 @@ This are some common git functions. Don't worry, you don't need to learn them al
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
-### WinGit client
+### Sourcetree GUI client
 * Lots of clients available
 * Install git and sourcetree following instructions from [https://www.atlassian.com/git/tutorials/install-git](https://www.atlassian.com/git/tutorials/install-git)
 * GUI with sourcetree and command prompt with Git Bash
