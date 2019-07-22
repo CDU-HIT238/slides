@@ -394,6 +394,13 @@ navigator.notification.alert('Hello');
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Notifications
+* Create OS level notifications
+
+[cordova-plugin-local-notifications](https://github.com/katzer/cordova-plugin-local-notifications)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### ServiceWorkers
 * Service workers only work from a secure domain (no HTTP or File domains)
 * Be default service workers cannot work from Cordova
