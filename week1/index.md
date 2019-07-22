@@ -357,43 +357,33 @@ This are some common git functions. Don't worry, you don't need to learn them al
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### WinGit client
 * Lots of clients available
-* Download from [https://git-scm.com/](https://git-scm.com/)
-* GUI with Git GUI and command prompt with Git Bash
+* Install git and sourcetree following instructions from [https://www.atlassian.com/git/tutorials/install-git](https://www.atlassian.com/git/tutorials/install-git)
+* GUI with sourcetree and command prompt with Git Bash
+* You will need to create an atlassian account to use sourcetree
 
 Note:
-There are a lot of git clients about. For those of you on windows, I'd suggest using Git GUI for windows or the git client built in to Atom
+There are a lot of git clients about. Most online instructions use git bash but sourcetree is a simple GUI tool that works on Windows, Mac and Linux
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
 #### Clone a repository
-<div class="grid-3">
-![Git GUI open menu with "Git GUI here" highlighted](images/gitgui-open.png) <!-- .element: class="fragment grid-left-col" data-fragment-index="1" -->
-![Git GUI new repoitory and clone options](images/gitgui-menu-new.png) <!-- .element: class="fragment grid-start-middle-top grid__col-span-2" data-fragment-index="2" -->
-![Git GUI clone menu](images/gitgui-menu-clone.png) <!-- .element: class="fragment grid-start-middle-bottom grid__col-span-2" data-fragment-index="3" -->
-</div>
+[Sourcetree instructions to clone a repository](https://confluence.atlassian.com/sourcetreekb/clone-a-repository-into-sourcetree-780870050.html)
+
+* Use method #1 to clone from github. 
+* Use HTTP unless you are already familiar with SSH
+* You can also [connect your github account](https://confluence.atlassian.com/get-started-with-sourcetree/connect-your-bitbucket-or-github-account-847359096.html)
 
 Note:
-To clone an existing repository to your computer, right click where you want to clone it and select "Git GUI here". Select "Clone existing repository" and enter the git address in "Source Location". Enter the path you want to clone to in "Target directory". Note that the final directory in target directory should not exist as git will create it for you.
+Sourcetree provide instructions to clone a remote repository. When using github you will need to copy the HTTP URL into the repository URL dialog. You should remember how to fetch the URL from HIT226.
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
-#### Fetch changes
-![Git GUI remote menu](images/gitgui-fetch.png) <!-- .element: class="fragment" data-fragment-index="1" -->
-![Git GUI merge menu](images/gitgui-merge.png) <!-- .element: class="fragment" data-fragment-index="2" -->
+### Commit, Push and Pull
+[Commit, fetch and pull a repository on sourcetree](https://confluence.atlassian.com/sourcetreekb/commit-push-and-pull-a-repository-on-sourcetree-785616067.html)
 
 Note:
-To get the latests changes from the server open Git GUI, select "Remote" from the menu, "Fetch from" then "origin". This downloads the latests changes from the server. To mix the changes in with your code select the "Merge" menu then "Local merge". Now your code is up to date.
-
-
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
-### Commit and Push
-![Git GUI buttons with rescan highlighted](images/gitgui-rescan.png) <!-- .element: class="fragment" data-fragment-index="1" -->
-![Git GUI commit menu with stage selected](images/gitgui-stage.png) <!-- .element: class="fragment" data-fragment-index="2" -->
-![Git GUI buttons with commit selected](images/gitgui-commit.png) <!-- .element: class="fragment" data-fragment-index="3" -->
-![Git GUI buttons with push selected](images/gitgui-push.png) <!-- .element: class="fragment" data-fragment-index="4" -->
-
-Note:
-When you finish you'll need to commit to save your work and push to send them to the server. From Git GUI select "rescan" to search for changed files. You should see a list of modified files appear. Now open the Commit menu and select "Stage to commit". Now your files are staged you can commit them to the repository. Enter a description of what has changed in the "Commit Message" field and click the "commit button". Your changes are now saved". Click the push button to send your changes to the server.
+When you finish you'll need to commit to save your work and push to send them to the server. To do this you will need to save your changes in a "commit". Once your changes are comitted you will then need to send them to the server by pushing them. Remember, I can't see any work that you haven't pushed.
+Finally you can pull other changes from the server. A pull is the same as doing a fetch and a merge.
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
