@@ -506,6 +506,7 @@ We won't go into much detail here but they are an important product from your us
 * Comma must be used between array elements but a hanging comma is not permitted
 * Write objects with {} and arrays with []
 * Any valid value is also a valid JSON string
+* A [linter](https://jsonlint.com/) is useful to finding errors
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
