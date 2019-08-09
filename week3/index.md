@@ -10,7 +10,7 @@
 * Sometimes called syntastic sugar
 	* They don't give new functionality - just make the code nicer
 * Added with ECMAScript 2015 (ES6)
-* [Largely supported](https://caniuse.com/#search=promises)
+* [Supported everywhere expect IE](https://caniuse.com/#search=promises)
 
 Note:
 Promises are a semi-recent addition to javascript.
@@ -20,6 +20,8 @@ They don't actually allow you do do anything new but they can be chained to avoi
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Do this then that
+With promises
+
 ```
 asyncFunc()
 	.then(function(response) {
@@ -38,6 +40,8 @@ catch: Run this code if the function fails
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Instead of callbacks
+Without promises
+
 ```
 asyncFunc(
 	function(err, data) {
@@ -100,6 +104,8 @@ function timeoutPromise(time) {
 	});
 }
 ```
+
+You rarely need to do this as you usually use existing promises
 
 Note:
 You usually consume existing promises.
@@ -184,7 +190,7 @@ fetch('data.json')
 * Fetch results a [response object](https://developer.mozilla.org/en-US/docs/Web/API/Response)
 * You can check status with response.status
 * You can read the response body as text with response.text()
-* You can read the response body as JSON with resposne.json()
+* You can read the response body as JSON with response.json()
 * You can read file like data with response.blob()
 
 
@@ -330,7 +336,7 @@ fetch(url, {
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Don't overdo polyfills
-Read the section "Is there a CSS Grid Polyfill" in https://www.smashingmagazine.com/2017/11/css-grid-supporting-browsers-without-grid/
+Read the section "Is there a CSS Grid Polyfill" in [https://www.smashingmagazine.com/2017/11/css-grid-supporting-browsers-without-grid/](https://www.smashingmagazine.com/2017/11/css-grid-supporting-browsers-without-grid/#a-id-is-there-a-css-grid-polyfill-40-a-is-there-a-css-grid-polyfill)
 
 Why is a grid polyfill a bad idea? Does this apply to other features?
 
