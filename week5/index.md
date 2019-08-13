@@ -4,6 +4,70 @@
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Touch Events
+![U can't touch this](https://upload.wikimedia.org/wikipedia/en/d/d0/Hammer_Touch.jpg) <!-- .element class="centre" -->
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Use event listeners
+* Just like mouse events
+* Four event types
+	* touchstart
+	* touchend
+	* touchmove
+	* touchcancel
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity: try them out
+* Open the pen [https://codepen.io/elvey/pen/ZjvyMw](https://codepen.io/elvey/pen/ZjvyMw) on a touch device
+* Try touching the window area
+	* Can you see the touch events?
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Event properties
+* timeStamp - the timestamp when the event was fired
+* touches - all the current touches
+* changedTouches - all touches that have changed since the last event
+* targetTouches - all touches that triggered this event
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Touch objects
+* Touches are represented as touch objects
+	* identifier: The unique identifier for this touch point
+	* radiusX - The width of this touch
+	* radiusY - the height of this touch
+	* rotationAngle - The degrees this touch has rotated
+	* force - the amount of force applied in this touch
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Touch objects cont..
+	* pageX & pageY - coordinate from the edge of the document including scroll offset
+	* screenX & screenY - coordinates from the edge of the screen
+	* clientX & clientY - coordinates from thd edge of the viewport
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity: How would you track movement
+* Discuss in your table how to identify the following gestures
+	* double tap
+	* pan
+	* pinch
+	* twist
+* Write some pseudo code for a gesture
+* Can you implement it in javascript
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Help is available
+* There are libraries like [HammerJS](https://hammerjs.github.io/) to handle gestures for you
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Build Tools
 ![Under Construction Sign](images/under-construction.jpg) <!-- .element class="half-height centre no-border" -->
 

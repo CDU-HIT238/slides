@@ -6,12 +6,10 @@
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Design Sprint 1 Recap
 * Some fantastic data gathered
-* Before late penalties most grades between 51% and 80%
 
 ![Grade box plot](images/boxplot.png)
 
 Note:
-I hope everyone did well in the first design sprint. There is some fantastic data in there and some really valuable information that will help you design your application. Before late penalties the grades are spread quite broadly with most falling between 51% and 81%. There seems to have been a bit of confusion with the assignment and your individual feedback should address your work more specifically but as there was some confusion about what to do I'll provide an overall review here. 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
