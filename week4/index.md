@@ -7,7 +7,6 @@
 ## Design Sprint 1 Recap
 * Some fantastic data gathered
 
-![Grade box plot](images/boxplot.png)
 
 Note:
 
@@ -53,11 +52,12 @@ Sometimes we get very attached to a particular application idea, which is not ac
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Research Objectives
 * Generally done really well
-* What you want to find out from the users
+* What you want to find out by doing the research
 * First research to find out about your users
 	* What is their experience of your problem?
 	* What solutions have their tried
 	* What are their frustrations?
+* Try not to have too many questions, what is most important
 * Information to use for personas
 * Information to inform the initial concept and MVP designs
 
@@ -80,6 +80,7 @@ These are the answers you expect to the questions from your objectives. The purp
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Research Methods
 * Overall well done
+* You only need one method - you don't have time to do everything
 * Could be more specific
 	* How do you want to conduct the research?
 	* What are your survey questions?
@@ -100,7 +101,7 @@ It is also important to outline how you are recruiting your participants. This c
 * More than if the hypothesis is confirmed
 * What did you learn?
 * Are there any new research questions?
-* Data is great but nothing personally identifying
+* Data is great but don't include anything private (e.g. personally identifying)
 
 Note:
 This is where you outline the results from your research. Data is great to include but be careful not to include anything that can identify your participants. It is valuable to discuss how the results relate to your hypothesis but look at more than just if it support or contradicts your hypothesis. Are there any interesting observations? Are there any new questions your research has raised? Remember this information is the basis for your personas.
@@ -108,9 +109,10 @@ This is where you outline the results from your research. Data is great to inclu
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Personas
-* Don't just make up a person
+* Don't _just_ make up a person
 	* _Use the data from your research_
 	* _Fit them in your target audience_
+* Do their goals refelct your research data?
 * Use a template
 * Flesh them out, make them feel relatable
 
