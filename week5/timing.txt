@@ -1,0 +1,23 @@
+1:00 Assignment talk
+1:10 Touch events + try it
+1:15 Touch pseudo code - do as class
+
+1:25 Build tools
+1:30 Setup gulp
+1:45 Advanced gulp (Links?)
+
+1:50 WebRTC
+1:55 Actiity
+
+2:15 Media recorder
+2:20 Media recorder activity
+
+2:40 Break
+
+3pm - Code fair talk
+
+3:15 IndexedDB
+3:25 Activity
+3:45 Camera App
+
+4:30 Kahoot

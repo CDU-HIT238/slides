@@ -62,6 +62,13 @@
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Help is coming
+* This will soon be superceded by [Pointer Events](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events)
+* Combines all input including mouse and touch
+* Just waiting for [Safari](https://caniuse.com/#feat=pointer)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Help is available
 * There are libraries like [HammerJS](https://hammerjs.github.io/) to handle gestures for you
 
@@ -102,16 +109,6 @@
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-#### A caveat on Gulp
-* Gulp 3 does not work with Node 10
-* Gulp 4 is not fully released
-* We will use Gulp 4 with the @latest tag
-	* This is not best practice with most packages
-* Most gulp documentation is for Gulp 3
-	* This will be outdated in the next few months
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Node / NPM
 * A javascript runtime environment
 * Based on Chrome's V8 JS engine
@@ -130,7 +127,7 @@ npm init
 ### Install Gulp globally
 ```
 npm install -g gulp-cli
-npm install -g gulp@next
+npm install -g gulp
 ```
 
 
@@ -226,6 +223,18 @@ gulp.task('default', gulp.series('js'));
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 #### Browserify
 * Import javascript modules
+* Smarter than concatanate
+
+```
+const importedFunction = require('./myFunc.js');
+
+function newFunction() {
+...
+}
+
+module.exports = newFunction;
+```
+
 
 #### Babel
 * Use next generation javascript
@@ -246,6 +255,13 @@ export default myFunctionToExport;
 	* Variables
 	* Nesting
 	* Mixins
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+#### Let me know if you want a gulpfile to do something else
+* I'm happy to help address a specific task
+* I'll share one in the discussion board if you want it
+* You don't have to use one, but it may help structure your code
 
 
 
@@ -318,6 +334,13 @@ navigator.mediaDevices.getUserMedia({
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Cool Examples
 * [MDN Voice Change-o-matic](https://mdn.github.io/voice-change-o-matic/)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Media streaming
+* You can also use WebRTC to [stream between different devices](https://www.html5rocks.com/en/tutorials/webrtc/basics/#simpleRTCPeerConnectionExample)
+* It is a bit more advanced but you could build a video/audio group chat
+* I won't cover it in this unit but can help you if you want to learn how
 
 
 
@@ -433,7 +456,7 @@ audioElem.src = audioUrl;
 * Storage API for [large amounts of data](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Browser_storage_limits_and_eviction_criteria)
 * NoSQL Database
 * Can storage complex data
-* Can store files (as blogs)
+* Can store files (as blobs)
 * Is low level and complicated
 	* Lots of libraries available to make it more user friendly
 
