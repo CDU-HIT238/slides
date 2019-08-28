@@ -626,7 +626,7 @@ self.addEventListener('activate', function(event) {
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### But what about IOS
+### But what about iOS
 * [PWAs Are Now Available for Apple Devices with iOS 11.3](https://www.monterail.com/blog/pwa-for-apple-ios)
 * [Progressive Web Apps on iOS are here](https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a7)
 
@@ -637,6 +637,9 @@ self.addEventListener('activate', function(event) {
 * App gets cleared out if not used
 * No background sync or push notifications
 * No notification to install the app
+
+* [What is the service worker cache storage limit](https://love2dev.com/blog/what-is-the-service-worker-cache-storage-limit/)
+* [PWAs on iOS 12.2 beta](https://medium.com/@firt/pwas-on-ios-12-2-beta-the-good-the-bad-and-the-not-sure-yet-if-good-a37b6fa6afbf)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -661,7 +664,7 @@ self.addEventListener('activate', function(event) {
 ### Your turn
 * Add the apple tags to your app
 * Deploy to github pages
-* See if someone with iOS 11.3 can install your app
+* See if someone with iOS >= 11.3 can install your app
 
 
 
@@ -669,7 +672,7 @@ self.addEventListener('activate', function(event) {
 ## Activity: Make a shopping list
 * Create a new git repository
 * Create a form to save shopping items and quantity
-* Save them to IndexedDB
+* Save them to IndexedDB or LocalStorage
 * Show items in a list
 * Checkoff items
 * Add a serviceworker and manifest to work offline

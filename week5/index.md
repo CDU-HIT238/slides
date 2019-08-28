@@ -150,7 +150,7 @@ gulp
 ### Install Gulp for your project
 ```
 npm install --save-dev gulp-cli
-npm install --save-dev gulp@next
+npm install --save-dev gulp
 ```
 
 
