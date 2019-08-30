@@ -246,6 +246,21 @@ When you finish with a branch you need to bring your changes over to the master 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Don't use folders to isolate changes
+* I often see people copy their whole project folder to work on something new
+	* This is hard to keep track off
+	* This is hard to integrate with a different copy of the folder
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Use branches to isolate changes
+* If you start work on something and don't want to keep it you still have the original branch
+* If you want to resume working on it later it is easy to update with latest changes
+* Great for avoiding conficts in teams
+* Used heavily in the workplace
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Best practices
 Intead of merging into master your should raise a pull request
 * Navigate to your GitHub repository
@@ -404,7 +419,7 @@ Saves the provided files in the cache
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Your turn
 * Clone one of your repositories
-	* You can use git@github.com:melvey/darwin-street-food.git if none are suitable
+	* You can use https://github.com/melvey/camera-pwa if none are suitable
 * Add a service worker
 * Identify files to cache form the network tab
 * Load the page and check your cache in dev tools
@@ -501,7 +516,7 @@ self.addEventListener('activate', function(event) {
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Your turn
 * Add the activate listener
-* Increase the promise version number
+* Increase the cache version number
 * Reload and examine the cache in chrome dev tools
 
 
@@ -620,7 +635,7 @@ self.addEventListener('activate', function(event) {
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Progressive Web Apps
-* You have now build a progressive web app
+* You have now built a progressive web app
 	* works offline
 	* Can install to android
 

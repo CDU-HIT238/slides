@@ -1,16 +1,23 @@
 
-Build tools:
-	slides: 10m
-	activity: 20m
-	second activity: 20m
+1:00 Sprint 2 recap
+1:10: Git cmd
+1:20 Git exercise
+1:30 Git branches
+1:40 Git branch activity
 
-WebRTC
-	slides: 10m
-	activity: 20m
-	activity: 20m
+2:00 Service workers
+2:10 Create a service worker
+2:40 Updating the cache
+2:50 Update your cache activity
 
-IndexedDB:
-	slides: 20m
-	activity: 30m
+3:05 Break
 
-Final activity: 1h
+3:20 Manifest
+3:30 Manifest activity
+3:50 Insalling on iOS
+4:00 Install on iOS activity
+
+4:10 Make a shopping list
+
+4:40 Kahoot
+
