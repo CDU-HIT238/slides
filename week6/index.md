@@ -2,6 +2,31 @@
 # HIT238 The mobile paradigm
 
 
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Sprint 2 feedback
+### Submit correctly
+* Single document following template
+* Give me access!!
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Cover all the sections
+* Lots missing UX Flow, Wireframes or Prototype
+* You're just throwing away marks
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### UX flow should focus on goals
+* Use goals from user stories
+* Should focus on user actions not page navigation
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Prototype is not a wireframe
+* The paper prototype should be a physical, interactive simulation
+* Use to test with users
+
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Using the git command line
