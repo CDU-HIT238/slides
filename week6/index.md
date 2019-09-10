@@ -264,10 +264,9 @@ When you finish with a branch you need to bring your changes over to the master 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Your turn
-* Create a new branch
-* Commit and push some changes to the readme
-* Merge your changes back in to master
+### Your turnA
+* Navigate to [Learn git branching](https://learngitbranching.js.org/)
+* See how far you can get in 15 minutes
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
