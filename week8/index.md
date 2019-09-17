@@ -40,8 +40,8 @@ From [Archetectual overview of Cordova platform](https://cordova.apache.org/docs
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Requirements
-* Oracle 8 JDK
-* Android SDK
+* OpenJDK (included with Android Studio)
+* Android SDK (included with Android Studio)
 * Android Studio (optional but easier)
 
 
@@ -67,6 +67,7 @@ These are bash commands. To follow along use git bash
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 #### Set JAVA_HOME and ANDROIDHOME
+* You can get the Java and Android home from `File -> Other Settings -> Default Project Structure`
 * Check JAVA_HOME is correct
 
 ```
@@ -82,7 +83,7 @@ $ export ANDROID_HOME=$ANDROID_SDK_PATH/Sdk
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 #### Ensure gradle and ANDROID SDK are in your path
-* Gradle should be installed by Android Studio
+* Gradle should be installed by Android Studio but you may need to install it yourself
 
 ```
 export PATH=$PATH:$ANDROID_STUDIO_PATH/gradle/gradle-4.4/bin/
@@ -187,6 +188,7 @@ You need to have a virtual device setup to do this
 ```
 cordova emulate android
 ```
+You may need to start the virtual device before running this
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
