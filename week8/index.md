@@ -101,7 +101,7 @@ export PATH=$PATH:$GRADLE_PATH
 ```
 sdkmanager --update
 sdkmanager --list
-sdkmanager "build-tools;26.0.2" "platforms;android-27"
+sdkmanager "build-tools;29.0.2" "platforms;android-28"
 sdkmanager --licenses
 ```
 
