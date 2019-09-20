@@ -89,6 +89,7 @@ $ export ANDROID_HOME=$ANDROID_SDK_PATH/Sdk
 #### Ensure gradle and ANDROID SDK are in your path
 ```
 export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/emulator
 ```
 * Gradle may be bundled with Android Studio but if you cannot find it you will need to [install](https://gradle.org/install/) it and add it to your path
 ```
