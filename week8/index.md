@@ -14,15 +14,18 @@
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### WebView
 * Shows web content in app
-* A special browser window that looks like an app
+* A special browser window that is embedded in an app
 * May not have the same feature set as a standard browser
 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Apached Cordova
+## Apache Cordova
 * Open source hybrid framework
 * Previously Adobe PhoneGap
+	* Adobe now provides a cloud service
+* Runs on Node.js
+* Used by frameworks like Ionic
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -36,6 +39,7 @@ From [Archetectual overview of Cordova platform](https://cordova.apache.org/docs
 ## Cordova for Android
 * Android SDK is free and cross platform
 * You can build for iOS but need XCode on an OSX machine
+* You can also build for iOS on Adobe Cloud
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
