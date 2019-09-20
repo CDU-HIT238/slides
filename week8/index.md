@@ -83,11 +83,12 @@ $ export ANDROID_HOME=$ANDROID_SDK_PATH/Sdk
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 #### Ensure gradle and ANDROID SDK are in your path
-* Gradle should be installed by Android Studio but you may need to install it yourself
-
 ```
-export PATH=$PATH:$ANDROID_STUDIO_PATH/gradle/gradle-4.4/bin/
 export PATH=$PATH:$ANDROID_HOME/tools/bin
+```
+* Gradle may be bundled with Android Studio but if you cannot find it you will need to [install](https://gradle.org/install/) it and add it to your path
+```
+export PATH=$PATH:$GRADLE_PATH
 ```
 
 
