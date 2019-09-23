@@ -113,3 +113,17 @@
 	font-size: 0.7em;
 	font-style: italic;
 }
+
+.reveal .hide-fragments .fragment.visible {
+
+	&:not(.current-fragment) {
+		display: none;
+		height:0px;
+		line-height: 0px;
+		font-size: 0px;
+	}
+
+	img {
+		display: block;
+	}
+}

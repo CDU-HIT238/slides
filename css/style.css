@@ -219,7 +219,7 @@ body {
     visibility: hidden;
     opacity: 0;
     -webkit-appearance: none;
-    -webkit-tap-highlight-color: transparent; }
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
   .reveal .controls .controls-arrow:before,
   .reveal .controls .controls-arrow:after {
     content: '';
@@ -887,7 +887,7 @@ body {
   opacity: 0;
   visibility: hidden;
   overflow: hidden;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1264,7 +1264,7 @@ body {
   z-index: 30;
   cursor: pointer;
   transition: all 400ms ease;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 .reveal.overview .playback {
   opacity: 0;
@@ -1522,3 +1522,12 @@ body {
 .reveal .caption {
   font-size: 0.7em;
   font-style: italic; }
+
+.reveal .hide-fragments .fragment.visible:not(.current-fragment) {
+  display: none;
+  height: 0px;
+  line-height: 0px;
+  font-size: 0px; }
+
+.reveal .hide-fragments .fragment.visible img {
+  display: block; }

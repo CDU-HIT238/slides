@@ -65,8 +65,60 @@ Instructions for installing Android Studio are available at [https://developer.a
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Set Paths
-These are bash commands. To follow along use git bash
+### Set Paths: Get data
+<ul class="hide-fragments">
+	<li>
+		You can get the Java and Android home from `File -> Other Settings -> Default Project Structure`
+	</li>
+	<li class="fragment" data-fragment-index="2">
+		<img src="images/step5-settings.png" alt="File menu" />
+	</li>
+	<li class="fragment" data-fragment-index="3">
+		<img src="images/step5-settings2.png" alt="Settings menu">
+	<li>
+</ul>
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Set Paths (Windows)
+<ul class="hide-fragments">
+	<li class="fragment" data-fragment-index="1">
+		To open environment variables right click on _My Computer_ and select _properties_
+		<img src="images/step1.png" alt="properties menu" />
+	</li>
+	<li class="fragment" data-fragment-index="2">
+		Select advanced system settings
+		<img src="images/step2.png" alt="System settings" />
+	</li>
+	<li class="fragment" data-fragment-index="3">
+		Click _Environment Variables_
+		<img src="images/step3.png" alt="environment variable button">
+	</li>
+	<li class="fragment" data-fragment-index="4">
+		This opens your environment variables menu. Select new to create a new variable
+		<img src="images/step4.png" alt="System variables menu">
+	<li>
+	<li class="fragment" data-fragment-index="5">
+		Enter ANDROID_HOME for the key and paste your SDK path in the value
+		<img src="images/step5-Android.png" alt="Add ANDROID_HOME">
+	<li>
+	<li class="fragment" data-fragment-index="6">
+		To add the SDK to your path select path -> edit
+		<img src="images/step6.png" alt="Select PATH">
+	<li>
+	<li class="fragment" data-fragment-index="7">
+		Click new and paste your SDK path followed by /tools/bin
+		<img src="images/step7.png" alt="SDK tools path">
+	<li>
+	<li class="fragment" data-fragment-index="8">
+		Click OK to save the changes
+	</li>
+</ul>
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Set Paths (OSX & Linux)
+These are bash commands. To follow along use the terminal
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
