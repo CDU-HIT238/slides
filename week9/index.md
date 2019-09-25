@@ -18,6 +18,7 @@
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Major Cross Platform Environments
+* Flutter
 * Xamarin
 * React Native
 * Unity
@@ -40,7 +41,7 @@ Unlike hybrid apps, react native is closer to a native app than a web app. React
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### The state of things
-* Earlier this year Airbnb and Udacity stopped using React Native
+* Last year Airbnb and Udacity stopped using React Native
 	* Udacity wrote up [a retrospective](https://engineering.udacity.com/react-native-a-retrospective-from-the-mobile-engineering-team-at-udacity-89975d6a8102) on their experience
 	* Airbnb wrote a [five part blog on their experience](https://medium.com/airbnb-engineering/react-native-at-airbnb-f95aa460be1c)
 	* They have different reasons but both found they were spending too much time on native development
@@ -117,25 +118,6 @@ import {someData} from './data';
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Classes
-* ES6 introduced a new class syntax
-* Alternative way to writing class prototypes
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-```
-class Circle {
-  constructor(radius) {
-    this.radius = radius
-  }
-  computeArea() { return Math.PI * this.radius * this.radius }
-}
-var c = new Circle(4)
-c.computeArea()
-```
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## JSX
 * Facebook introduced JSX for React
 * Syntax extension to JavaScript
@@ -164,9 +146,9 @@ const heading = <Text>{text}</Text>;
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ```jsx
-class Heading extends React.Component {
+export default function Heading(props){
   render() {
-    return <Text>{this.props.text}</Text>;
+    return <Text>{props.text}</Text>;
   }
 }
 ```
@@ -197,7 +179,7 @@ const heading = <Heading text="Welcome to HIT238" />;
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Render Function
-* Each component needs a render function
+* Each component should return (or define) a render function
 * Called when React _renders_ a component
 	* When a component is first drawn
 	* When props change
@@ -222,9 +204,9 @@ const heading = <Heading text="Welcome to HIT238" />;
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ```jsx
-class Heading extends React.Component {
+export default function Heading(props){
   render() {
-    return <Text>{this.props.text}</Text>;
+    return <Text>{props.text}</Text>;
   }
 }
 ```
