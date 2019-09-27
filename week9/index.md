@@ -217,6 +217,8 @@ const heading = <Heading text="Welcome to HIT238" />;
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Activity
 * Modify your app to display some basic information about yourself
+* Open App.js to edit your app
+* Run `npm start` to start the expo service
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
