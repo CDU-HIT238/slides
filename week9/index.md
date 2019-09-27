@@ -56,6 +56,14 @@ Unlike hybrid apps, react native is closer to a native app than a web app. React
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Setup Expo
+```
+npm install -g expo-cli
+expo init MyProject
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### The state of things
 * Last year Airbnb and Udacity stopped using React Native
 	* Udacity wrote up [a retrospective](https://engineering.udacity.com/react-native-a-retrospective-from-the-mobile-engineering-team-at-udacity-89975d6a8102) on their experience
