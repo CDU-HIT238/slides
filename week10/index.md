@@ -9,6 +9,54 @@
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## State
+* Tracks the internal state of your component
+* Only visible to the current component
+* Stored in this.state
+* Should be initialized in the constructor
+* Updated with this.setState
+	* NEVER update the state object directly
+* Component is re-rendered when state changes
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+```jsx
+import React, { Component } from 'react';
+import { AppRegistry, Text, View } from 'react-native';
+
+class ToggleText extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {isShowingText: false};
+
+		this.buttonPressed.bind(this);	// enusre this is available
+
+  }
+
+	buttonPressed() {
+		this.setState(previousState => {
+			return { isShowingText: !previousState.isShowingText };
+		});
+	}
+
+  render() {
+    let display = this.state.isShowingText ? this.props.text : ' ';
+    return (
+      <Text>{display}</Text>
+			<Button onPress={this.buttonPressed}>Toggle</Toggle>
+    );
+  }
+}
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Global State
+* State is limited to just your component
+* External libraries like [redux](https://redux.js.org/) can provide global state
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Input
 ```
 	<TextInput
