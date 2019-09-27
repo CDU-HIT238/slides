@@ -10,10 +10,17 @@
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Advantages of Cross Platform
+### Advantages of Cross Platform
 * Faster than web and hybrid apps
 * Supports multiple platforms with a single codebase
 * UI is consistant with native apps
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Disadvances of Cross Platform
+* Limited _native_ components
+* May need to mix with native code
+* Unique platforms - tied to a vendor
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -40,6 +47,15 @@ Unlike hybrid apps, react native is closer to a native app than a web app. React
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Expo
+* A platform to build react native apps
+* Much easier to setup than Android SDK
+* Provides some great libraries to help development
+* You can develop React Native apps without it and use the Android SDK directly
+	* But we won't because expo is easier to setup
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### The state of things
 * Last year Airbnb and Udacity stopped using React Native
 	* Udacity wrote up [a retrospective](https://engineering.udacity.com/react-native-a-retrospective-from-the-mobile-engineering-team-at-udacity-89975d6a8102) on their experience
@@ -59,6 +75,7 @@ Unlike hybrid apps, react native is closer to a native app than a web app. React
 * Follow the guide at [https://facebook.github.io/react-native/docs/getting-started.html](https://facebook.github.io/react-native/docs/getting-started.html)
 * Connect your phone to wifi, Install Expo and test your app
 * Start your Android emulator and run `npm run android`
+* You may need to allow access in your firewall
 
 
 
@@ -72,10 +89,11 @@ Note: React Native uses some new javascript features and some non-standard javas
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## ECMAScript6 (ES6)
-* Version 6 of ECMAScript (JavaScript)a
+* Version 6 of ECMAScript (JavaScript) released in 2015
 * [Lots of new features](http://www.reactnativeexpress.com/es6)
 * Backwards compatable with ES5
 * Used in React Native Development
+* [Supported by modern broswers](https://caniuse.com/#feat=es6)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -94,7 +112,7 @@ export default data;
 ```
 
 * Import
-	* External modules have no path
+	* External modules (from NPM) have no path
 	* Local modules must use a relative path
 ```
 import React from 'react';
@@ -198,7 +216,8 @@ const heading = <Heading text="Welcome to HIT238" />;
 * Parameters for components
 * Makes components more versitile and reusable
 * Passed like html properties
-* Access using this.props
+* Access from variable passed to constructor
+	* Often saved in this.props
 * Your component is re-rendered whenever props change
 
 
@@ -256,5 +275,18 @@ Height and Flex
 * Move some sections to resuable components
 
 
-https://facebook.github.io/react-native/docs/getting-started.html
-https://facebook.github.io/react-native/docs/tutorial
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Summary
+* React Native is a powerful platform
+* It is _very_ popular
+	* Lots of support documnetation
+	* Lots of employers want React Native skills
+* It is a new skillset but is very similar to existing web skills
+* React has a very specific style that may not translate to other platforms
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Some more resources
+* https://facebook.github.io/react-native/docs/getting-started.html
+* https://facebook.github.io/react-native/docs/tutorial
