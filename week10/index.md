@@ -9,6 +9,52 @@
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## ES6 Classes
+* ES6 introduced a new class syntax
+* Alternative way to writing class prototypes
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+```
+class Circle {
+  constructor(radius) {
+    this.radius = radius
+  }
+  computeArea() { return Math.PI * this.radius * this.radius }
+}
+var c = new Circle(4)
+c.computeArea()
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### We can write components using classes
+```jsx
+import React, { Component } from 'react';
+import { AppRegistry, Text, View } from 'react-native';
+
+class BodyText extends Component {
+  constructor(props) {
+    super(props);
+
+  }
+
+  render() {
+    return (
+      <Text>{this.props.text}</Text>
+    );
+  }
+}
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Why use classes?
+Classes are useful if we need to keep track of data in the component
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## State
 * Tracks the internal state of your component
 * Only visible to the current component
@@ -50,10 +96,12 @@ class ToggleText extends Component {
 ```
 
 
+
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Global State
-* State is limited to just your component
-* External libraries like [redux](https://redux.js.org/) can provide global state
+## User input
+* Input components take callback functions
+	* Callback is called when the event fires
+* Just like event listeners
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -62,7 +110,7 @@ class ToggleText extends Component {
 	<TextInput
 		style={{height: 80}}
 		onChangeText={(text) => this.setState({text})}
-		multiline="true"
+		multiline={true}
 	/>
 ```
 
@@ -81,6 +129,23 @@ Note: Text input takes an onChangeText event that is fired whenever the user mod
 ```
 
 Note: React Native provides a button for basic input touch events. There are also a number of [touchable](https://facebook.github.io/react-native/docs/handling-touches) components that you can use to construct buttons with different feedback. You can build more complex gestures using the [gesture responder system](https://facebook.github.io/react-native/docs/gesture-responder-system)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity
+* Make an application to write secret messages
+* User enters text and the encoded text appears below their input
+* Use the [rot-13](https://www.npmjs.com/package/rot-13) package to encode
+	* From the command line run `npm install rot-13`
+	* In your component load the module with `import rot13 from 'rot-13';`
+	* Then you can encode text with `this.state.ciphertext = rot13(this.state.plaintext)`
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Other Functionality
+* A lot of the Web API functionality is available in react native
+* Additional packages provide more functionality
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
