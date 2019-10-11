@@ -166,17 +166,17 @@
 ## Next Week: Presentations
 * 5 Minutes each
 * 20 marks
-	* 10 marks for your app
-	* 10 marks for your presentation
-* You may have slides - but I want to see your live app
+	* Marked on both your application and presentation
+* This is a product pitch
+	* Focus on your app
+	* Do not focus on your processes (sprints, testing, etc...)
+* You need to demonstrate your live app
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Presentation marks
-* 5 Marks: UX - clear and consistant
-* 5 marks: Functionality - useful and relevant (tell me how it is relevant? user research/testing?)
-* 5 marks: Presentation - clear, concise, well structured, well paced
-* 5 marks: Timing - keep it short and sweet
+* [Marking criteria]( 	
+https://online.cdu.edu.au/bbcswebdav/pid-2841918-dt-content-rid-13341885_2/xid-13341885_2)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
