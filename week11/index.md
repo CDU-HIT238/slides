@@ -110,7 +110,7 @@
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Touch Events
-[Week 4: Touch Events](https://cdu-hit238.github.io/slides/week3/#/6)
+[Week 4: Touch Events](https://cdu-hit238.github.io/slides/week5/#/1)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -121,17 +121,17 @@
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Web Storage
 [Week 4: Web Storage](https://cdu-hit238.github.io/slides/week4/#/5)
-[Week 5: IndexedDB](https://cdu-hit238.github.io/slides/week5/#/4)
+[Week 5: IndexedDB](https://cdu-hit238.github.io/slides/week5/#/5)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Build Tools
-[Week 5: Build tools](https://cdu-hit238.github.io/slides/week5/#/1)
+[Week 5: Build tools](https://cdu-hit238.github.io/slides/week5/#/2)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### WebRTC
-[Week 5: WebRTC](https://cdu-hit238.github.io/slides/week5/#/2)
+[Week 5: WebRTC](https://cdu-hit238.github.io/slides/week5/#/3)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -146,7 +146,7 @@
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Notifications
-[Week 7: Notifications](https://cdu-hit238.github.io/slides/week7/#/3)
+[Week 7: Notifications](https://cdu-hit238.github.io/slides/week7/#/1)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
