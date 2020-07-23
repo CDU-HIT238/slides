@@ -5,10 +5,19 @@
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Unit Overview
-* 4 hour lecture/tutorial every friday
-	* Expected to attend
-	* Will arrange regular contact with remote students
+* 3 hour lecture/tutorial every friday
+	* Internal students are expected to attend
+	* External students should <a href="mailto:matthew.elvey@cdu.edu.au">email me</a> after catching up
+* 1 hour online session after lecture
+	* Internal students are expected to attend
+	* External students are encouraged to attend if possible
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Exepected knowledge
 * You will need to already know basic HTML, CSS and Javascript
+* You should be familiar with Git
+* You should know design steps from HIT226 (testing, personas, etc...)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -249,9 +258,11 @@ They are similar to the default browser provided by the OS but may have some lim
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Something to look forward to
-* We will learn more about hyrbid apps in week 8
-* You will learn how to make a hybrid app using cordova
+### Do you want to learn hybrid apps
+* I am currently reviewing the role hybrid apps play in this unit
+* Their role has been largely replaced by Progressive Web Apps
+* They are an easier step from PWAs to the native build tools
+* Please let me know your thoughts
 
 
 
@@ -293,8 +304,11 @@ Frameworks using web languages like Appcellerator have been called hybrid apps i
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### More to come
-* We will talk more about cross-platform apps at the end of the course
+### Do you want to learn cross-platform applications
+* We have previously touched on React Native at the end of this unit
+* I am looking at only including hybrid apps _or_ cross-platform applications
+* This is a bigger step than hybrid apps but has more real-world applications
+* Let me know your thoughts
 
 
 
@@ -313,8 +327,16 @@ Frameworks using web languages like Appcellerator have been called hybrid apps i
 * They are connected but are not the same
 
 
+
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Git
+![Git]( https://imgs.xkcd.com/comics/git.png)
+
+[xkcd](https://imgs.xkcd.com/comics/git.png)
+
+
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
+## What is Git?
 * Distributed
 * Source Control
 * Version Control
@@ -348,8 +370,15 @@ This are some common git functions. Don't worry, you don't need to learn them al
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
+### Git command line
+* Most sources recommend learning Git with the command prompt
+* Available on [Windows](https://imgs.xkcd.com/comics/git.png), [macOS](https://imgs.xkcd.com/comics/git.png) and Linux
+* [Lots of great resources available](https://learngitbranching.js.org/)
+
+
+<!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Sourcetree GUI client
-* Lots of clients available
+* Lots of GUI clients available but not many with good instructions
 * Install git and sourcetree following instructions from [https://www.atlassian.com/git/tutorials/install-git](https://www.atlassian.com/git/tutorials/install-git)
 * GUI with sourcetree and command prompt with Git Bash
 * You will need to create an atlassian account to use sourcetree
@@ -402,7 +431,8 @@ Finally you can pull other changes from the server. A pull is the same as doing 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
 ## GitHub Pages
-* Free webhosting for your github project
+* Free webhosting for your github projectS
+* Used for lots of static websites (including these slides)
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
