@@ -1,4 +1,4 @@
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/unit-into.ogg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/unit-intro.ogg" -->
 # HIT238 The mobile paradigm
 
 
@@ -13,14 +13,14 @@
 	* External students are encouraged to attend if possible
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/expected-knowledge.ogg" -->
 ## Exepected knowledge
 * You will need to already know basic HTML, CSS and Javascript
 * You should be familiar with Git
 * You should know design steps from HIT226 (testing, personas, etc...)
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/unit-assignments.ogg" -->
 ## Assignments
 You will each develop your own application over the unit.
 
@@ -29,7 +29,7 @@ You will each develop your own application over the unit.
 	* Assignment 2 - The Development Phase. 30%
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/unit-assignments-agile.ogg" -->
 ### Agile development
 The assignments are structured around an agile model.
 
@@ -40,11 +40,15 @@ The assignments are structured around an agile model.
 
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/recap-questions.ogg" -->
 ## Web Development Recap
 * What can you remember?
 * Grab a sheet of paper and see if you can answer these questions
 * Save your answers, you will need them when you make a website later
+
+Note:
+How well do you remember web technologies like HTML, CSS, Javascript, etc...
+Over the next few slides are some questions, have a go at answering them to the best of your knowledge. Make sure you write your answers down as you'll need them when you make a website later. Don't worry if you get stuck, it's ok to look them up if you need a refresher.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -88,7 +92,7 @@ The assignments are structured around an agile model.
 
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/mobile-applications.ogg" -->
 ## Mobile Applications
 What do you think of when you think mobile apps?
 
@@ -99,7 +103,7 @@ Spend 5 minutes thinking about what you think a mobile app is
 How are they different from a website? How are they different from desktop apps?
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/mobile-applications2.ogg" -->
 ### What is a mobile app?
 * Can be accessed anywhere
 * optimised for mobile devices
@@ -109,10 +113,10 @@ How are they different from a website? How are they different from desktop apps?
 
 Note:
 A mobile app has some fundamental differences to a traditional application.
-The biggest differences are lagely in the context of use and that mobile applications are often optimised for "mobile" devices. This means smaller screens, people may buse them in different locations and may be busy with other tasks. Mobile devices can also utilise the sensors available in mobile phones.
+The biggest differences are largely in the context of use and the types of devices they run on. The devices might mean smaller screens and access to sensors like GPS, cameras, etc... The context of use might mean that people are in different locations when they use them and their attention might be divided between different tasks when they use them. If i'm sitting in the passenger seat of car trying to navigate, I really need my application to be mobile but it means I am also trying to talk to a driver who is frustrated when they don't know where to go. Or I might be watching plumbing videos but not paying full attention because I'm getting sprayed with water from a leaky tap.
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/types-of-apps.ogg" -->
 ## Types of mobile applications
 * Web applications
 * Hybrid applications
@@ -124,7 +128,7 @@ There are different types of mobile applications depending on how they are devel
 
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/web-applications.ogg" -->
 ## Web Applications
 * What is a web application?
 * More than a web site
