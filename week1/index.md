@@ -96,6 +96,7 @@ What makes them "mobile"?
 
 Note:
 Spend 5 minutes thinking about what you think a mobile app is
+How are they different from a website? How are they different from desktop apps?
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -108,7 +109,7 @@ Spend 5 minutes thinking about what you think a mobile app is
 
 Note:
 A mobile app has some fundamental differences to a traditional application.
-The biggest differences are lagely in the context of use and that mobile applications are often optimised for "mobile" devices
+The biggest differences are lagely in the context of use and that mobile applications are often optimised for "mobile" devices. This means smaller screens, people may buse them in different locations and may be busy with other tasks. Mobile devices can also utilise the sensors available in mobile phones.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -119,7 +120,7 @@ The biggest differences are lagely in the context of use and that mobile applica
 * Native applications
 
 Note:
-There are different types of mobile applications depending on how they are developed. They fall into 3 or 4 broad categories depending on how they are developed
+There are different types of mobile applications depending on how they are developed. They fall into 3 or 4 broad categories depending on how they are developed. We'll look at each of these one by one.
 
 
 
@@ -146,9 +147,9 @@ Spend 5 minutes to see if you can think of some web applicationst that you use. 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Mobile web applications
-* Until recently it was difficult to make web applications work offline
+* Until a few years ago it was difficult to make web applications work offline
 * Many organisations prefer users to install their app
-* Gmail and facebook messenger push users to install their app on mobile
+* Google docs and facebook messenger push users to install their app on mobile
 
 Note:
 While both Google and Apple originally imagined their mobile systems using web applications, many people did not consider them as compeditive alternatives to appliations installed on the mobile platform. Many organisations feel it is important that their app is installed in order to get exposure. Incedently [research found in 2015 that users spend most of their time in apps the majority of that use is only a couple of apps](https://techcrunch.com/2015/06/22/consumers-spend-85-of-time-on-smartphones-in-apps-but-only-5-apps-see-heavy-use/).
@@ -164,13 +165,22 @@ More recently service worksers and PWA manifests have allowed web applications t
 * Typically cheaper to develop
 * no app store registration or review
 
+Note:
+Mobile web applications are very popular. This is because they can be build with the same tools as their existing web platforms and work on all devices with a web browser. As a result they are much cheaper to develop since the skills are more common and there is not need to build a seperate app for each platform. They also do not need to be installed to run which means they automatically update so everyone is running the same version of the app which makes it very easy to prototype or try an idea out quickly. Further nobody controls a web application marketplace so there is no registration or review process required to publish a web application.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Disadvantages of mobile web applications
 * Not as fast as native code
 * Less access to device sensors
-* Less exposure?
 * Different browsers may provide different experiences
+* No app store?
+
+Note:
+While web application performance has improved significantly in recent years they do not have access to the hardware optimisations that native applications do and as a result as not as performant. This is changing all the time but for the time being it is very difficult to compete with native performance.
+Due to privacy and security concerns web applications do not have the same access to sensors as native applications. A web application has limited access to the filesystem and your location for good reasons. An improved permissions systems and emerging APIs are closing this gap but installed applications still have greater access to device sensors and hardware.
+With Microsoft Edge moving to the Chromium engine there are now three major browser engines and a huge range of different browsers. As a result a single web application may appear slightly different in different browsers. This is the trade-off for the portability that web applications provide.
+There is still a perception that it is important to have an application in the app stores. With the huge number of low quality applications in the stores now I do not believe there is much more exposure or prestige in having an app appear in the store. Further, Google now allow progressive web apps into the play store. In the past I have spent quite a lot of time convincing clients that this is not a reason to make an app.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -181,6 +191,8 @@ More recently service worksers and PWA manifests have allowed web applications t
 Note:
 You've picked up a guitar and need to tune it. Install an app?
 https://github.com/jbergknoff/guitar-tuner
+You want to quickly convert pounds in an American recipe to grams. Do you need to install an app?
+Installing apps that you use very rarely (or even just once) takes time and space on your phone and are better suited to web applications.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -192,7 +204,7 @@ https://github.com/jbergknoff/guitar-tuner
 https://developers.google.com/web/progressive-web-apps/
 
 Note:
-Progressive web applications (PWAs) are a recent category go web application.
+Progressive web applications (PWAs) have been around for a while now and don't appear to be going anywhere
 Google defines them as reliable, fast and engaging.
 They should work offline and feel fast and responsive like a native application
 
