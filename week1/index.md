@@ -1,9 +1,9 @@
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/unit-into.ogg" -->
 # HIT238 The mobile paradigm
 
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/unit-overview.ogg" -->
 ## Unit Overview
 * 3 hour lecture/tutorial every friday
 	* Internal students are expected to attend
@@ -44,6 +44,7 @@ The assignments are structured around an agile model.
 ## Web Development Recap
 * What can you remember?
 * Grab a sheet of paper and see if you can answer these questions
+* Save your answers, you will need them when you make a website later
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -467,6 +468,7 @@ Finally you can pull other changes from the server. A pull is the same as doing 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Adding new content continued...
 * Make your personal profile responsive and mobile first
+* Add a page with your answers to the quiz earlier
 * Share a link to your site on the discussion board
 
 
