@@ -140,7 +140,7 @@ A web application is not the same as a web site. For example you go to the CDU h
 The big difference between a web site like CDU and an application like facebook is interactivity. Facebook will respond to your actions while the CDU homepage will show the same information nomatter what you do. The line between a web side and a web application is not always clear, but as we are looking at applications we will be focusing in interactivity.
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/mobile-web-applications1.ogg" -->
 ### Mobile web applications
 * Can you name some web applications?
 * Can you name some mobile web applications
@@ -149,18 +149,18 @@ Note:
 Spend 5 minutes to see if you can think of some web applicationst that you use. Are they also mobile applications?
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/mobile-web-applications2.ogg" -->
 ### Mobile web applications
 * Until a few years ago it was difficult to make web applications work offline
 * Many organisations prefer users to install their app
 * Google docs and facebook messenger push users to install their app on mobile
 
 Note:
-While both Google and Apple originally imagined their mobile systems using web applications, many people did not consider them as compeditive alternatives to appliations installed on the mobile platform. Many organisations feel it is important that their app is installed in order to get exposure. Incedently [research found in 2015 that users spend most of their time in apps the majority of that use is only a couple of apps](https://techcrunch.com/2015/06/22/consumers-spend-85-of-time-on-smartphones-in-apps-but-only-5-apps-see-heavy-use/).
-More recently service worksers and PWA manifests have allowed web applications to work more like native apps with installable menus and offline functionality bridging the gap between web and native.
+While both Google and Apple originally imagined their mobile systems using web applications, for a long time many people did not consider them as compeditive alternatives to appliations installed on the mobile platform. Many organisations still feel it is important that their app is insSalled in order to get exposure. Incedently [research found in 2015 that users spend most of their time in only a couple of apps](https://techcrunch.com/2015/06/22/consumers-spend-85-of-time-on-smartphones-in-apps-but-only-5-apps-see-heavy-use/) so just having an "app" doesn't mean it will get used.
+More recently service worksers and PWA manifests have allowed web applications to work more like native apps with installable menus and offline functionality bridging the gap between web and native. It is now even possible to install progressive web applications through the Google Play Store
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/web-app-advantages.ogg" -->
 ### Why make mobile web applications
 * Knowledge of web technologies is enough to build an app
 * No installation required
@@ -170,10 +170,10 @@ More recently service worksers and PWA manifests have allowed web applications t
 * no app store registration or review
 
 Note:
-Mobile web applications are very popular. This is because they can be build with the same tools as their existing web platforms and work on all devices with a web browser. As a result they are much cheaper to develop since the skills are more common and there is not need to build a seperate app for each platform. They also do not need to be installed to run which means they automatically update so everyone is running the same version of the app which makes it very easy to prototype or try an idea out quickly. Further nobody controls a web application marketplace so there is no registration or review process required to publish a web application.
+Mobile web applications are very popular. This is because they can be build with the same tools as for existing web platforms and work on all devices with a web browser. As a result they are much cheaper to develop since the skills are more common and there is not need to build a seperate app for each platform. They also do not need to be installed to run which means they automatically update so everyone is running the same version of the app which makes it very easy to prototype or try an idea out quickly. Further nobody controls a web application marketplace so there is no registration or review process required to publish a web application.
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/web-app-disadvantages.ogg" -->
 ### Disadvantages of mobile web applications
 * Not as fast as native code
 * Less access to device sensors
@@ -187,7 +187,7 @@ With Microsoft Edge moving to the Chromium engine there are now three major brow
 There is still a perception that it is important to have an application in the app stores. With the huge number of low quality applications in the stores now I do not believe there is much more exposure or prestige in having an app appear in the store. Further, Google now allow progressive web apps into the play store. In the past I have spent quite a lot of time convincing clients that this is not a reason to make an app.
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/i-love-webapps.ogg" -->
 ### I &#x2764; web apps
 * How many apps do you have that you needed for one task and never needed again?
 * How many apps require a 40Mb download to do something trivial?
@@ -196,10 +196,10 @@ Note:
 You've picked up a guitar and need to tune it. Install an app?
 https://github.com/jbergknoff/guitar-tuner
 You want to quickly convert pounds in an American recipe to grams. Do you need to install an app?
-Installing apps that you use very rarely (or even just once) takes time and space on your phone and are better suited to web applications.
+A native application seems excessive for these tasks. Installing apps that you use very rarely (or even just once) takes time and space on your phone and are better suited to web applications.
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/pwas.ogg" -->
 ## Progressive Web Apps (PWAs)
 * Reliable - work offline
 * Fast - No jank
@@ -213,7 +213,7 @@ Google defines them as reliable, fast and engaging.
 They should work offline and feel fast and responsive like a native application
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/googlelovespwas.ogg" -->
 ### Google &#x2764; web apps
 * Read one of the following articles
 	* https://developers.google.com/web/showcase/2017/twitter
