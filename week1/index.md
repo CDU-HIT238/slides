@@ -238,7 +238,7 @@ It is interesting to note that two of the applications come from India where net
 ![Hybrid Car](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/VW_Jetta_Hybrid_WAS_2012_0714.JPG/640px-VW_Jetta_Hybrid_WAS_2012_0714.JPG)
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/what-are-hybrid-apps.ogg" -->
 ### What are hybrid apps?
 * Typically a thin &quot;app&quot; wrapper around a web app
 * Builds like a web app
@@ -247,11 +247,11 @@ It is interesting to note that two of the applications come from India where net
 
 Note:
 A hybrid application is a web application that has been bundled into an installable mobile package. They use a web view to display the web application as if it was a native app.
-In practice they use a "web view" which is basically a web browser in an app to display your web application. Think of it as a thin native wrapper aound a web application.
+Think of it as a thin native wrapper aound a web application.
 This means that you can use the same tools as you use when building a web application but users install it like a native application.
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/what-is-webview.ogg" -->
 ### Using a web view
 * Wraps the web application in an native application wrapper that displays the apps
 
@@ -260,7 +260,7 @@ A web view is a browser window provided by the mobile platform that can render w
 They are similar to the default browser provided by the OS but may have some limitations.
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/hybrid-advantages.ogg" -->
 ### Advantages
 * Put your app in the app stores
 * Easy to develop with existing web technologies
@@ -270,7 +270,7 @@ They are similar to the default browser provided by the OS but may have some lim
 Note:
 Much like progressive web applications, Hybrid apps allow you to use common web technologies to develop an app and can target multiple platforms with a single code base. They also provide better hardware access than a web application and allow you to submit your application to all common application stores.
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/hybrid-advantages.ogg" -->
 ### Disadvantages
 * Can be slower
 * Installs like a native app but may not feel native
@@ -281,7 +281,7 @@ Note:
 Because they use a web-view, they have performance like a web application and can be slower than a native app. They also do you have access to native UI components so often do not look or feel like a native app. There are many plugins to provide access to native functionality but you are limited to what the plugins provide, unless you want to write your own native plugins. Finally, because the app-store does always automatically update, some users may be using an older version.
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg"data-audio-src="audio/hybrid-today.ogg" -->
 ### Hybrid web applications today
 * Very popular in the past
 * Less popular today
@@ -292,7 +292,7 @@ Hybrid web applications have been historically popular because they worked offli
 Hybrid frameworks like Cordova and Ionic still see some popularity but these days progressive web applications have got much better offline functionality and hardware access which makes hybrid apps less appealing. Further, cross-platform application frameworks like React Native and Flutter have made cross-platform applications easier and more powerful which have taken the place of hybrid applications.
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/hybrid-in-class.ogg" -->
 ### Do you want to learn hybrid apps
 * I am currently reviewing the role hybrid apps play in this unit
 * Their role has been largely replaced by Progressive Web Apps
