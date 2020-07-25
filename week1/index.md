@@ -309,7 +309,7 @@ Previously we have covered both hybrid applications with Cordova and cross-platf
 ![Apple Android](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Android_made_out_of_an_Apple.jpg/618px-Android_made_out_of_an_Apple.jpg) <!-- .element class="centre" -->
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/what-are-cross-platform.ogg" -->
 ### What are cross platform apps
 * Write app in one language but compile to native code
 * Some platforms like Appcellerator and React Native use web platforms
@@ -326,7 +326,7 @@ Frameworks using web languages like Appcellerator have been called hybrid apps i
 - Tom Occhino, React Native, Facebook
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/cross-platform-advantages.ogg" -->
 ### Advantages
 * Target multiple platforms with a single code base
 * Get performance benefits of native code
@@ -337,7 +337,7 @@ Note:
 Cross platforms apps allow you to write in a single language and build your code for multiple platforms. Because they build into native code you get many native-like performance increases. Alike hybrid applications, plugins or modules allow you to access the hardware which may give you more functionality than a progressive web application. They also use native UI components giving your applications a much more native look and feel.
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/cross-platform-disadvantages.ogg" -->
 ### Disadvantages
 * May not be as performant as native apps
 * Hardware access is restricted to the framework or plugins
