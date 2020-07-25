@@ -247,6 +247,8 @@ It is interesting to note that two of the applications come from India where net
 
 Note:
 A hybrid application is a web application that has been bundled into an installable mobile package. They use a web view to display the web application as if it was a native app.
+In practice they use a "web view" which is basically a web browser in an app to display your web application. Think of it as a thin native wrapper aound a web application.
+This means that you can use the same tools as you use when building a web application but users install it like a native application.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -265,6 +267,8 @@ They are similar to the default browser provided by the OS but may have some lim
 * Single code base works on multiple platforms
 * Better access to sensor and other devices features
 
+Note:
+Much like progressive web applications, Hybrid apps allow you to use common web technologies to develop an app and can target multiple platforms with a single code base. They also provide better hardware access than a web application and allow you to submit your application to all common application stores.
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Disadvantages
@@ -273,6 +277,20 @@ They are similar to the default browser provided by the OS but may have some lim
 * Cannot access all native functionality
 * Users may be out of date if they have to update through the app store
 
+Note:
+Because they use a web-view, they have performance like a web application and can be slower than a native app. They also do you have access to native UI components so often do not look or feel like a native app. There are many plugins to provide access to native functionality but you are limited to what the plugins provide, unless you want to write your own native plugins. Finally, because the app-store does always automatically update, some users may be using an older version.
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Hybrid web applications today
+* Very popular in the past
+* Less popular today
+* Largely replaced by PWAs and Cross-Platform apps
+
+Note:
+Hybrid web applications have been historically popular because they worked offline, provided more access to the hardware than a web application could and could be installed in the app store. They were also simpler to develop than native applications because they use common web technologies and a single code base could target multiple platforms.
+Hybrid frameworks like Cordova and Ionic still see some popularity but these days progressive web applications have got much better offline functionality and hardware access which makes hybrid apps less appealing. Further, cross-platform application frameworks like React Native and Flutter have made cross-platform applications easier and more powerful which have taken the place of hybrid applications.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Do you want to learn hybrid apps
@@ -280,6 +298,9 @@ They are similar to the default browser provided by the OS but may have some lim
 * Their role has been largely replaced by Progressive Web Apps
 * They are an easier step from PWAs to the native build tools
 * Please let me know your thoughts
+
+Note:
+Previously we have covered both hybrid applications with Cordova and cross-platform applications with React Native. I have however received some feedback that we moved too quickly so I am considering dropping one of these. Students have found hybrid applications an easy stepping stone from progressive web applications, but the skills are not in much demand in the workplace these days. I'd like to know what you want to study.
 
 
 
@@ -312,12 +333,18 @@ Frameworks using web languages like Appcellerator have been called hybrid apps i
 * Better access to sensors and device API
 * Often a more native interface
 
+Note:
+Cross platforms apps allow you to write in a single language and build your code for multiple platforms. Because they build into native code you get many native-like performance increases. Alike hybrid applications, plugins or modules allow you to access the hardware which may give you more functionality than a progressive web application. They also use native UI components giving your applications a much more native look and feel.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Disadvantages
 * May not be as performant as native apps
-* Some platforms may not create a native-like experience
+* Hardware access is restricted to the framework or plugins
 * Need to be installed and updated through the app store
+
+Note:
+Because your logic must be interpreted or converted to native code, it may not be as preformant as a native application. You are also bound by the functionality that your platform provides which may not suit all your needs. It is often possible to write your own native plugins or components to increase your access but then you must manage native code for each platform you support. Users also need to install your application through the app store which can result in much larger download sizes than a web application.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -326,6 +353,9 @@ Frameworks using web languages like Appcellerator have been called hybrid apps i
 * I am looking at only including hybrid apps _or_ cross-platform applications
 * This is a bigger step than hybrid apps but has more real-world applications
 * Let me know your thoughts
+
+Note:
+As I've previously mentioned, I am looking at reducing the amount of content in this unit to give you more time. React Native is a very popular cross-platform application framework and uses Javascript (with some special HTML-like extensions) and CSS-like stylesheets. This is a great tool to learn but does have a bit more of a learning curve than the Hybrid platform Cordova. Please let me know what your preference is.
 
 
 
