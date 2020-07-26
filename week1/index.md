@@ -359,7 +359,7 @@ As I've previously mentioned, I am looking at reducing the amount of content in 
 
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/git-intro.ogg" -->
 ## Git, GitHub and GitHub Pages
 * Hopefully everyone is familiar with GitHub
 * You *must* use GitHub for this course so we will spend some time getting up to speed
@@ -369,7 +369,7 @@ Note:
 You will have covered Git in HIT226. It is important you use Git for this unit. Your assignments should be submitted through the GitHub repository and we will look at your commit history when marking. Your first assignment will also need to be hosted on GitHub Pages.
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/git-differences.ogg" -->
 ### What's the difference
 * Git is a source control system
 * Github is a public git repository (there are others)
@@ -381,7 +381,7 @@ There is often some confusion between Git, GitHub and GitHub Pages. Git is a sys
 
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/git-concepts.ogg" -->
 ### Git
 ![Git]( https://imgs.xkcd.com/comics/git.png)
 
@@ -391,7 +391,7 @@ Note:
 Git is often intimidating to learn. But don't worry, once you get your head around the basic concepts it's not too hard to use.
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/git-overview.ogg" -->
 ## What is Git?
 * Distributed
 * Source Control
@@ -404,7 +404,7 @@ It is versioned because it tracks all your changes in commits. Each commit recor
 It is source control because it holds your source code
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/git-why.ogg" -->
 ### Why use git
 * Share code
 * Track changes
@@ -414,7 +414,7 @@ Note:
 We use Git as a place to keep our source code. It has a number of advantages over keeping a folder of your code. Primarily, it is easy to share our code with other people and it can keep track of what we change so we can go back to an earlier version if we break something. Because it tracks the changes it is also really good to combining different people's work together so it makes it much easier to work together with other people. As a result, Git is used heavily in the workplace. I don't know any professional programmers that do not use Git.
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/git-functions.ogg" -->
 ### Git functions
 * Clone - Copy a repository to our local machine
 * Add - Stage a file to commit
@@ -428,7 +428,7 @@ Note:
 These are some common git functions. Don't worry, you don't need to learn them all now. You might also hear git pull. This is a shortcut command to fetch and merge
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/git-cli.ogg" -->
 ### Git command line
 * Most sources recommend learning Git with the command prompt
 * Available on [Windows](https://imgs.xkcd.com/comics/git.png), [macOS](https://imgs.xkcd.com/comics/git.png) and Linux
@@ -438,7 +438,7 @@ Note:
 Most sources suggest learning Git from the command prompt. I am guessing most people here are probably not comfortable using the command prompt. That's OK, but I encourage all of you to spend some time getting comfortable with the linux/unix command prompt (also on MacOS and the Linux Subsystem for Windows) as it is used in almost every field of Computing. LearnGitBranching.js.org is an excellent resouce to get familiar with the Git command prompt.
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/git-gui.ogg" -->
 ### Sourcetree GUI client
 * Lots of GUI clients available but not many with good instructions
 * Install git and sourcetree following instructions from [https://www.atlassian.com/git/tutorials/install-git](https://www.atlassian.com/git/tutorials/install-git)
@@ -449,7 +449,7 @@ Note:
 There are a lot of Git GUI clients about. Most online instructions use the command prompt but sourcetree is a simple GUI tool with excellent instructions that works on Windows, Mac and Linux. Most IDEs like Atom also have Git integration.
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg"data-audio-src="audio/git-clone.ogg"  -->
 #### Clone a repository
 [Sourcetree instructions to clone a repository](https://confluence.atlassian.com/sourcetreekb/clone-a-repository-into-sourcetree-780870050.html)
 
@@ -461,7 +461,7 @@ Note:
 Sourcetree provide instructions to clone a remote repository. When using github you will need to copy the HTTP URL into the repository URL dialog. You should remember how to fetch the URL from HIT226.
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/git-commit.ogg" -->
 ### Commit, Push and Pull
 [Commit, fetch and pull a repository on sourcetree](https://confluence.atlassian.com/sourcetreekb/commit-push-and-pull-a-repository-on-sourcetree-785616067.html)
 
@@ -470,7 +470,7 @@ When you finish you'll need to commit to save your work and push to send them to
 Finally you can pull other changes from the server. A pull is the same as doing a fetch and a merge.
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/git-activity1.ogg" -->
 ### Activity: Setup a git repository
 * Register for github
 * Create a new repository for HIT238 week 1 with a readme and gitignore file
@@ -483,7 +483,7 @@ Note:
 If you do not already have a GitHub account, register one now. Then create a new repository for HIT239 week one. Be sure to initialize your repository with a README. Then open your Git client and clone the repository to your computer, edit the README.md file and create a new commit and push your changes back to the server. Once you've done this refresh the repository on the GitHub website to check that your changes appear.
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/git-tips.ogg" -->
 ### Some tips
 * Fetch from the server before you start writing
 * Push whenever you finish writing
@@ -494,7 +494,7 @@ If you do not already have a GitHub account, register one now. Then create a new
 	* Try not to break things
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/github-pages.ogg" -->
 ## GitHub Pages
 * Free webhosting for your github projectS
 * Used for lots of static websites (including these slides)
@@ -503,7 +503,7 @@ Note:
 GitHub pages provides free web hosting for the files in your Git Repository. It is a great service that is used for lost of programming projects web pages. Even these slides are hosted on GitHub Pages. You will use GitHub pages to host your assigments.
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/github-pages-activity.ogg" -->
 ### Activity: Setup GitHub pages on your repository
 * Open your repository on the github website
 * Go to settings and scroll down to GitHub Pages
@@ -515,7 +515,7 @@ GitHub pages provides free web hosting for the files in your Git Repository. It 
 * [GitHub guide](https://guides.github.com/features/pages/)
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/github-pages-jekyll.ogg" -->
 ### Jekyll
 * When you commit GitHub compiles your markdown files to html
 * The theme is used to decide how to render them
@@ -526,7 +526,7 @@ Note:
 GitHub pages will show your index.html file by default. If you do not have an index.html file it will convert your markdown files to HTML using a platform called Jekyll. It can take a short time to update and is a useful tool. 
 
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/git-content-activity.ogg" -->
 ### Adding new content
 * Modify your README.md to include some details about yourself
 * Commit and reload your GitHub pages URL (this may take a moment)
@@ -537,7 +537,7 @@ GitHub pages will show your index.html file by default. If you do not have an in
 Note:
 Remember that your file needs to be called index.html and is case sensitive. Most web servers are case sensitive and so you need to use only lowercase characters in your index.html filename.
 
-<!-- .slide: data-background-image="images/git-bg.jpg" -->
+<!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/git-content-activity2.ogg" -->
 ### Adding new content continued...
 * Make your personal profile responsive and mobile first
 * Add a page with your answers to the quiz earlier
@@ -545,7 +545,7 @@ Remember that your file needs to be called index.html and is case sensitive. Mos
 
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/next-week.ogg" -->
 ### Get ready for next week
 * Have a look at some mobile applications and think about what you would like to make
 * Post three application ideas on the class discussion board
