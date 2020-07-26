@@ -365,6 +365,9 @@ As I've previously mentioned, I am looking at reducing the amount of content in 
 * You *must* use GitHub for this course so we will spend some time getting up to speed
 * You will also need to use GitHub Pages to host your content
 
+Note:
+You will have covered Git in HIT226. It is important you use Git for this unit. Your assignments should be submitted through the GitHub repository and we will look at your commit history when marking. Your first assignment will also need to be hosted on GitHub Pages.
+
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### What's the difference
@@ -373,6 +376,9 @@ As I've previously mentioned, I am looking at reducing the amount of content in 
 * GitHub pages is a hosting platform like spinetail
 * They are connected but are not the same
 
+Note:
+There is often some confusion between Git, GitHub and GitHub Pages. Git is a system for managing your source code. GitHub is a public Git service, other public services include GitLab and BitBucket. GitHub Pages is a platform to host a webpage... like what you have used Spinetail for in the past.
+
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
@@ -380,6 +386,9 @@ As I've previously mentioned, I am looking at reducing the amount of content in 
 ![Git]( https://imgs.xkcd.com/comics/git.png)
 
 [xkcd](https://imgs.xkcd.com/comics/git.png)
+
+Note:
+Git is often intimidating to learn. But don't worry, once you get your head around the basic concepts it's not too hard to use.
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
@@ -401,6 +410,9 @@ It is source control because it holds your source code
 * Track changes
 * Allow people to work together without breaking things
 
+Note:
+We use Git as a place to keep our source code. It has a number of advantages over keeping a folder of your code. Primarily, it is easy to share our code with other people and it can keep track of what we change so we can go back to an earlier version if we break something. Because it tracks the changes it is also really good to combining different people's work together so it makes it much easier to work together with other people. As a result, Git is used heavily in the workplace. I don't know any professional programmers that do not use Git.
+
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Git functions
@@ -413,7 +425,7 @@ It is source control because it holds your source code
 * Rebase - Like merge but different
 
 Note:
-This are some common git functions. Don't worry, you don't need to learn them all now. You might also hear git pull. This is a shortcut command to fetch and merge
+These are some common git functions. Don't worry, you don't need to learn them all now. You might also hear git pull. This is a shortcut command to fetch and merge
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
@@ -421,6 +433,9 @@ This are some common git functions. Don't worry, you don't need to learn them al
 * Most sources recommend learning Git with the command prompt
 * Available on [Windows](https://imgs.xkcd.com/comics/git.png), [macOS](https://imgs.xkcd.com/comics/git.png) and Linux
 * [Lots of great resources available](https://learngitbranching.js.org/)
+
+Note:
+Most sources suggest learning Git from the command prompt. I am guessing most people here are probably not comfortable using the command prompt. That's OK, but I encourage all of you to spend some time getting comfortable with the linux/unix command prompt (also on MacOS and the Linux Subsystem for Windows) as it is used in almost every field of Computing. LearnGitBranching.js.org is an excellent resouce to get familiar with the Git command prompt.
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
@@ -431,7 +446,7 @@ This are some common git functions. Don't worry, you don't need to learn them al
 * You will need to create an atlassian account to use sourcetree
 
 Note:
-There are a lot of git clients about. Most online instructions use git bash but sourcetree is a simple GUI tool that works on Windows, Mac and Linux
+There are a lot of Git GUI clients about. Most online instructions use the command prompt but sourcetree is a simple GUI tool with excellent instructions that works on Windows, Mac and Linux. Most IDEs like Atom also have Git integration.
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
@@ -458,11 +473,14 @@ Finally you can pull other changes from the server. A pull is the same as doing 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Activity: Setup a git repository
 * Register for github
-* Create a new repository for HIT238 with a readme and gitignore file
+* Create a new repository for HIT238 week 1 with a readme and gitignore file
 * Clone the repository to your local machine
 * edit README.md to add a description of the repository
 * Commit and push your changes
 * Push your changes and check they appear on the github website
+
+Note:
+If you do not already have a GitHub account, register one now. Then create a new repository for HIT239 week one. Be sure to initialize your repository with a README. Then open your Git client and clone the repository to your computer, edit the README.md file and create a new commit and push your changes back to the server. Once you've done this refresh the repository on the GitHub website to check that your changes appear.
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
@@ -480,6 +498,9 @@ Finally you can pull other changes from the server. A pull is the same as doing 
 ## GitHub Pages
 * Free webhosting for your github projectS
 * Used for lots of static websites (including these slides)
+
+Note:
+GitHub pages provides free web hosting for the files in your Git Repository. It is a great service that is used for lost of programming projects web pages. Even these slides are hosted on GitHub Pages. You will use GitHub pages to host your assigments.
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
@@ -501,6 +522,9 @@ Finally you can pull other changes from the server. A pull is the same as doing 
 * If you don't have an index.html or index.md README.md will create your index page
 * It can take a short time to update your content
 
+Note:
+GitHub pages will show your index.html file by default. If you do not have an index.html file it will convert your markdown files to HTML using a platform called Jekyll. It can take a short time to update and is a useful tool. 
+
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Adding new content
@@ -510,6 +534,8 @@ Finally you can pull other changes from the server. A pull is the same as doing 
 	* Commit your changes and see how they appear
 	* The theme is only used to markdown content
 
+Note:
+Remember that your file needs to be called index.html and is case sensitive. Most web servers are case sensitive and so you need to use only lowercase characters in your index.html filename.
 
 <!-- .slide: data-background-image="images/git-bg.jpg" -->
 ### Adding new content continued...
