@@ -62,6 +62,7 @@ They cannot run on other platforms so you need to write and maintain a seperate 
 * Full access to device features through native API
 * Faster because they are optimised for the platform
 * Fully installed before use - interet connection is not required
+* More consistant UX
 
 Note:
 Native applications are fully optimised for the targeted platform.
@@ -90,7 +91,7 @@ Making changes are more costly when they need to be made in multiple code bases.
 ### Android
 * Developed by google but many different vendors
 * The most popular mobile operating system
-	* [88.7% of mobile devices run android](https://www.mobiloud.com/blog/native-web-or-hybrid-apps/)
+	* [~88% of mobile devices run android](https://www.mobiloud.com/blog/native-web-or-hybrid-apps/)
 * Many vendors and price points means many different devices to support
 * [Many old versions still on the market](https://www.statista.com/statistics/385001/smartphone-worldwide-installed-base-operating-systems/)
 	* How many do you need to support?
@@ -98,7 +99,7 @@ Making changes are more costly when they need to be made in multiple code bases.
 	* More competition but many are low quality
 
 Note:
-Android is the most popular mobile operating system and is available on a huge range of devices.
+Android is the most popular mobile operating system and is available on a huge range of devices. This link is a bit older but newer stats suggest similar numbers (but are behind a paywall)
 There are also many versions available, new applications do not always run on old versions.
 This makes it hard to support all the different devices and versions available.
 Android has a reputation for having more apps but of a lower quality
@@ -144,14 +145,11 @@ Apple provide the XCode IDE to assist developers to write and build IOS applicat
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Android vs IOS
-* End of 2017
-	* 2696 million android installs
-	* 612 million IOS installs
-	* 8 million other installs
+* 2019 numbers
+	* [2.5 billion android installs](https://www.theverge.com/2019/5/7/18528297/google-io-2019-android-devices-play-store-total-number-statistic-keynote)
+	* [1.4 billion IOS installs][https://www.theverge.com/2019/1/29/18202736/apple-devices-ios-earnings-q1-2019]
 * Many more android apps but lower standard
 * Different demographics
-
-[OS install base](https://www.statista.com/statistics/385001/smartphone-worldwide-installed-base-operating-systems/)
 
 [IOS vs Android](https://theappsolutions.com/blog/development/ios-vs-android/)
 
