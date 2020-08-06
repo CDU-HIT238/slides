@@ -4,6 +4,133 @@
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## MVP
+The smallest thing you can build that a customer can use
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### How not to build an MVP
+* Develop for everyone
+* Look at the program functionality
+* What is the first functionality you need to write
+* What is the easiest functionality to write
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+![MVP Example](https://public-media.interaction-design.org/images/uploads/9f7f5b30ed9905117b65572ab6949a9f.png)
+
+Author/Copyright holder: Henrik Kniberg. Copyright terms and licence: All rights reserved <!-- .element class="attribution" -->
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### How to build an MVP
+* Develop just for your target audience
+* Look at the user functionality
+* What is the core functionality for the user
+* What is the smallest product the customer can use
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+![Good MVP as a slice out of the whole development process](https://public-media.interaction-design.org/images/uploads/e110f6dc07d9e8ebe1ea8251eab2a359.png)
+
+Author/Copyright holder: Jussi Pasanen. With acknowledgements to Aarron Walter, Ben Tollady, Ben Rowe, Lexi Thorn and Senthil Kugalur. Copyright terms and license: All rights reserved <!-- .element class="attribution" -->
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Why develop an MVP
+* You can get user feedback throughout the process
+* Test your ideas work with users
+* Assess if users actually want your product
+* Can address problems quickly
+	* Less time wasted building something nobody wants
+	* Less time wasted fixing something nobody likes
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### An MVP does not have to be complete
+* Many resources talk about MVP as the smallest product for each release
+	* I disagree
+	* MVP is a great way to release regularaly but an MVP is not a release
+* Your MVP should be _usable_ not necessecary _complete_
+* You don't release your first MVPs to public
+* There should be a number of MVPs for each release
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### What needs to be in an MVP
+* Have some key feature(s) to test
+* Have a clear target audience
+* Be complete enough to test the feature(s)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Some steps to develop an MVP
+* Figure Out What Problem You're Solving, and For Whom
+* Analyze Your Competitors
+* Define the User Flow
+* List All Necessary Features and Prioritize Them
+* Build, Test, and Learn
+
+From [How to Build a Minimum Viable Product](https://rubygarage.org/blog/how-to-build-a-minimum-viable-product)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### How I use MVPs
+* I usually have x number of sprints - then release
+* Spread features across the sprints until release
+* Each sprint has an MVP, development, user testing and a client meeting
+* After user testing and the client meeting, the features for the next sprint are updated
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+![Sprints from PhyAR exercises](images/physar-sprints.png)
+
+Note:
+While the MVPs are not explicitly specified this project started developing a satellite exercise first as an interactive model, then as a web page. Then after it was developed and tested a plane was model developed and then an AR experience was developed. This was continued for a more complecated diver activity
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### My steps to build an MVP
+* Make a list of features to build
+* Sort them in to core, important, desirable and unnecessary categories
+* Sort the core category by priority
+* Pick the most important - does it / do they depend on any others
+* Sketch out wireframes and UX flows for those features
+* Cut out anything unecessecary in the designs
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Reading
+* The article [Minimum Viable Product and Design](https://www.interaction-design.org/literature/article/minimum-viable-product-mvp-and-design-balancing-risk-to-gain-reward) is an excellent resource
+* There are lots of other great resources but be careful
+	* Many are advising startups on their release products
+	* They focus on what a user will buy - not how to get user feedback
+	* The different uses of the term MVP can be confusing
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity: Design an MVP
+* A restaurant has asked you to develop a mobile app to order take away
+	* Their clientele is mostly 20 - 30 and often use their phones when waiting
+	* Surveys indicate the clients would like to order from home and just pick up their food
+	* Many would like to pay when they order but many also pay cash
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity: Continued
+* Make a list of possible features
+* What would be in an MVP
+* Sketch out the UX flow for an MVP
+* Share your MVP on the discussion board
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Bonus
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jHyU54GhfGs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Promises
 * Alternative to callbacks
 * Handle completion (or failure) of an asynchronous operation
@@ -347,130 +474,3 @@ Why is a grid polyfill a bad idea? Does this apply to other features?
 	* A site should work without newer features
 	* Add functionality as it becomes available
 * Only polyfill what is absolutely necessecary
-
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## MVP
-The smallest thing you can build that a customer can use
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### How not to build an MVP
-* Develop for everyone
-* Look at the program functionality
-* What is the first functionality you need to write
-* What is the easiest functionality to write
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-![MVP Example](https://public-media.interaction-design.org/images/uploads/9f7f5b30ed9905117b65572ab6949a9f.png)
-
-Author/Copyright holder: Henrik Kniberg. Copyright terms and licence: All rights reserved <!-- .element class="attribution" -->
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### How to build an MVP
-* Develop just for your target audience
-* Look at the user functionality
-* What is the core functionality for the user
-* What is the smallest product the customer can use
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-![Good MVP as a slice out of the whole development process](https://public-media.interaction-design.org/images/uploads/e110f6dc07d9e8ebe1ea8251eab2a359.png)
-
-Author/Copyright holder: Jussi Pasanen. With acknowledgements to Aarron Walter, Ben Tollady, Ben Rowe, Lexi Thorn and Senthil Kugalur. Copyright terms and license: All rights reserved <!-- .element class="attribution" -->
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Why develop an MVP
-* You can get user feedback throughout the process
-* Test your ideas work with users
-* Assess if users actually want your product
-* Can address problems quickly
-	* Less time wasted building something nobody wants
-	* Less time wasted fixing something nobody likes
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### An MVP does not have to be complete
-* Many resources talk about MVP as the smallest product for each release
-	* I disagree
-	* MVP is a great way to release regularaly but an MVP is not a release
-* Your MVP should be _usable_ not necessecary _complete_
-* You don't release your first MVPs to public
-* There should be a number of MVPs for each release
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### What needs to be in an MVP
-* Have some key feature(s) to test
-* Have a clear target audience
-* Be complete enough to test the feature(s)
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Some steps to develop an MVP
-* Figure Out What Problem You're Solving, and For Whom
-* Analyze Your Competitors
-* Define the User Flow
-* List All Necessary Features and Prioritize Them
-* Build, Test, and Learn
-
-From [How to Build a Minimum Viable Product](https://rubygarage.org/blog/how-to-build-a-minimum-viable-product)
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### How I use MVPs
-* I usually have x number of sprints - then release
-* Spread features across the sprints until release
-* Each sprint has an MVP, development, user testing and a client meeting
-* After user testing and the client meeting, the features for the next sprint are updated
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-![Sprints from PhyAR exercises](images/physar-sprints.png)
-
-Note:
-While the MVPs are not explicitly specified this project started developing a satellite exercise first as an interactive model, then as a web page. Then after it was developed and tested a plane was model developed and then an AR experience was developed. This was continued for a more complecated diver activity
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### My steps to build an MVP
-* Make a list of features to build
-* Sort them in to core, important, desirable and unnecessary categories
-* Sort the core category by priority
-* Pick the most important - does it / do they depend on any others
-* Sketch out wireframes and UX flows for those features
-* Cut out anything unecessecary in the designs
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Reading
-* The article [Minimum Viable Product and Design](https://www.interaction-design.org/literature/article/minimum-viable-product-mvp-and-design-balancing-risk-to-gain-reward) is an excellent resource
-* There are lots of other great resources but be careful
-	* Many are advising startups on their release products
-	* They focus on what a user will buy - not how to get user feedback
-	* The different uses of the term MVP can be confusing
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Activity: Design an MVP
-* A restaurant has asked you to develop a mobile app to order take away
-	* Their clientele is mostly 20 - 30 and often use their phones when waiting
-	* Surveys indicate the clients would like to order from home and just pick up their food
-	* Many would like to pay when they order but many also pay cash
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Activity: Continued
-* Make a list of possible features
-* What would be in an MVP
-* Sketch out the UX flow for an MVP
-* Share your MVP on the discussion board
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Bonus
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jHyU54GhfGs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
