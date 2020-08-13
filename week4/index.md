@@ -5,8 +5,7 @@
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Design Sprint 1 Recap
-* Some fantastic data gathered
-
+* Some great app ideas and fantastic data gathered
 
 Note:
 
@@ -26,11 +25,8 @@ If you are running out of time and need an extension please let me know before t
 ### Submission
 * Please follow the sumibssion guidelines
 	* Link to google document
-	* Follow the template
-	* Caption images
-* Make it readable
-	* Images right way up
-	* Lay things out clearly
+	* Make document it public
+	* Use a spell checker
 
 Note:
 Can you please submit your assignments as google documents (or through google drive)? I appreciate attaching a word document but it makes my job much easier if there is a link to your google doc and shows that you have read the assignment guidelines. Please also base your document off the provided template. If you haven't looked at the template please be sure to use it in your next submission.
@@ -39,10 +35,7 @@ If you are attaching images, please make sure they fit on the page and are the r
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Problem Statement:
-* Step back from your application idea and look at what it sets out to achieve
-* Outline the user problems to solve
-* Application functionality can come later
-	* Just focus on the core problems
+* These were really good. Most provided a little bit of context for the problem and what they are trying to solve.
 
 Note:
 The problem statement should outline the user problems you want to solve. This is not the place to explain what your application will do, instead we want to look at the overall goal of our applications before we commit to a particular application idea.
@@ -51,15 +44,12 @@ Sometimes we get very attached to a particular application idea, which is not ac
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Research Objectives
-* Generally done really well
-* What you want to find out by doing the research
-* First research to find out about your users
+* A lot done really well
+* Remember this are the goals for your *research* not your app or project
+* What do you want to find out about your users
 	* What is their experience of your problem?
 	* What solutions have their tried
 	* What are their frustrations?
-* Try not to have too many questions, what is most important
-* Information to use for personas
-* Information to inform the initial concept and MVP designs
 
 Note:
 Your objectives should be the questions you want to find out from your users in order to design your application. Who are they, what is their experience of your target problem, what are thir frustrations and what has worked fro them. This information will be used to build your personas and to reframe your application concept to ensure it is relevant to your users. The "5Ws and an H" questions are a great place to start, you can take these further by tailoring them to your application and reducing them to a couple of broader core questions you want to know about your users.
@@ -67,11 +57,10 @@ Your objectives should be the questions you want to find out from your users in 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Research Hypotheis
-* Your guess at answers to your objective questions
-* Acknowledge your bias
-	* Prevent bias influencing your research
-* Identify when your hypothesis is far off
-	* Do you need more research?
+* Again generally well done
+* These are _your_ answers to the questions from your _objectives_
+* A tool to help you critically evaluate your knowledge and results
+* some went a little off topic
 
 Note:
 These are the answers you expect to the questions from your objectives. The purporse of this is to acknowledge your bias to prevent it from influencing your researc results, to better clarify how well you know your users and potentially identify area that may need more research. You are not looking to confirm your hypothesis but rather learn beyond it.
@@ -80,14 +69,10 @@ These are the answers you expect to the questions from your objectives. The purp
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Research Methods
 * Overall well done
-* You only need one method - you don't have time to do everything
+* COVID-19 makes things difficult
 * Could be more specific
-	* How do you want to conduct the research?
-	* What are your survey questions?
-	* What cards are people sorting and how will they sort them?
-* Define your participants
-	* Where will you recruit participants
-	* How many particpants do you want
+	* Make sure to include your actual questions
+	* Include how you will find/select participants
 
 Note:
 The methods were generally done well. These are the actual research methods you want to apply. You should be quite specific about what you are doing though. If you are doing a survey, the survey questions should be listed. If you are doing a card sort what cards are you asking people to sort and what criteria are they sorting them into? It is a bit premature for prototyping but if you prototype, what is the prototype you are showing participants and what are you asking them to do on it?
@@ -98,10 +83,9 @@ It is also important to outline how you are recruiting your participants. This c
 ### Research Notes
 * Some great data collected
 * Outline the results of your research
-* More than if the hypothesis is confirmed
-* What did you learn?
-* Are there any new research questions?
-* Data is great but don't include anything private (e.g. personally identifying)
+* Don't just confirm that your app is a good idea
+	* What did you learn that is a surprise
+	* Does it raise any new questions (further research)
 
 Note:
 This is where you outline the results from your research. Data is great to include but be careful not to include anything that can identify your participants. It is valuable to discuss how the results relate to your hypothesis but look at more than just if it support or contradicts your hypothesis. Are there any interesting observations? Are there any new questions your research has raised? Remember this information is the basis for your personas.
@@ -109,12 +93,11 @@ This is where you outline the results from your research. Data is great to inclu
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Personas
+* Don't use a real person
 * Don't _just_ make up a person
 	* _Use the data from your research_
 	* _Fit them in your target audience_
 * Do their goals refelct your research data?
-* Use a template
-* Flesh them out, make them feel relatable
 
 Note:
 Be sure to structure your personas well and provide some relevant personal information to make them more relatable. The big thing I wanted to see was the process of using personas to represent your user research. There is no value in just making up a user if it isn't grounded in some real user data. Personas are a great way to turn the lessons from your user research in to hypothetical users that you can reference throughout development. If your data is limited than you need to make some assumptions but try to capture as much of your research data as possible. You personas also need to reflect your target audience.
@@ -217,6 +200,93 @@ Be sure to structure your personas well and provide some relevant personal infor
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Mobile performance
+![Speed gauge](images/gauge.svg) <!-- .element class="centre half-height no-border" -->
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+"The average time it takes to fully load a mobile landing page is 22 seconds, according to a new analysis.  Yet 53% of mobile site visitors leave a page that takes longer than three seconds to load."
+
+From [Mobile page speed new industry benchmarks](https://think.storage.googleapis.com/docs/mobile-page-speed-new-industry-benchmarks.pdf) by Google
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+* Load time matters (although maybe not as much as we think)
+* Mobile connections are highly variable
+* Mobile devices are highly variable
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Page Sizes
+* The average page size is over 3mb
+* The average page size [probably doesn't matter much](https://speedcurve.com/blog/web-performance-page-bloat/)
+* So what matters?
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Load time
+* Remember the quote from earlier?
+	* The average load time is 22 seconds according to google
+	* 53% of people leave a page that takes longer to three seconds to load
+* But what is the load time?
+	* Fully loaded includes all resources
+	* What matters is perceived load time or time to an interactive page
+* Recommended target is < 3s
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### So what matters
+* Read [https://speedcurve.com/blog/web-performance-page-bloat/](https://speedcurve.com/blog/web-performance-page-bloat/)
+* What do you think matters?
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+* What matters is time until a page feels loaded
+* How long until you can start using the page?
+* Minimise lag and loading time
+* An [Ericsson study found video lag caused more stress than driving in heavy Jakarta traffic](https://www.ericsson.com/id/en/press-releases/7/2017/delay-in-video-streaming-creates-higher-stress-level-than-driving-in-heavy-jakarta-traffic)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Cost of your page
+* Page size still matters
+* It's just about more than loading time
+* The median page costs [4 cents in Australia](https://whatdoesmysitecost.com/)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### What to do
+* Reduce percieved loading time
+* Defer loading javascript
+	* Set the defer flag
+	* Put at the end of yor page body
+* Minimise your resources
+* Delay anything you don't need at the time
+* Try not to wait on the server
+* Preload resouces if you have time and are confidant you will need them
+
+Note:
+The defer flag should be enough to prevent your script from blocking the DOM from loading but it is a good idea to still put your scripts at the bottom to also cater to older browsers. 
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Minify your resources
+* You can reduce to size of your CSS and JavaScript by minifying (or uglifying) it
+* Try compresing resources at https://www.minifier.org/
+* Compress your images at http://webresizer.com/resizer/
+* Combine your JavaScript and CSS to reduce the number of files
+	* This is less important with HTTP/2 but is still useful
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Reduce this page
+* Clone the repository https://github.com/CDU-HIT238/HIT238-performance-exercise
+* Can you reduce the perceived loading time of this page?
+* Use [throttling](https://developers.google.com/web/tools/chrome-devtools/network-performance/reference#throttling) in Chrome dev tools to simulate a slower connection
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Geolocation API
 
 
@@ -227,7 +297,7 @@ Be sure to structure your personas well and provide some relevant personal infor
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Some caveats
-* The location API is only available on HTTPS connections
+* The location API is only available on secure (HTTPS) connections
 * The user must grant access to geolocation
 * No guarantee that geolocation is available
 
@@ -573,89 +643,12 @@ localStorage.setItem(key, JSON.stringify(myObject));
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Mobile performance
-![Speed gauge](images/gauge.svg) <!-- .element class="centre half-height no-border" -->
+## Activity: Make a shopping list
+* Make a simple page that lets you store a list of items
+* Enter an item in a text field
+* Show all saved items in an unordered list
+* Can you remove an item once it has been added
 
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-"The average time it takes to fully load a mobile landing page is 22 seconds, according to a new analysis.  Yet 53% of mobile site visitors leave a page that takes longer than three seconds to load."
-
-From [Mobile page speed new industry benchmarks](https://think.storage.googleapis.com/docs/mobile-page-speed-new-industry-benchmarks.pdf) by Google
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* Load time matters (although maybe not as much as we think)
-* Mobile connections are highly variable
-* Mobile devices are highly variable
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Page Sizes
-* The average page size is over 3mb
-* The average page size [probably doesn't matter much](https://speedcurve.com/blog/web-performance-page-bloat/)
-* So what matters?
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Load time
-* Remember the quote from earlier?
-	* The average load time is 22 seconds according to google
-	* 53% of people leave a page that takes longer to three seconds to load
-* But what is the load time?
-	* Fully loaded includes all resources
-	* What matters is perceived load time or time to an interactive page
-* Recommended target is < 3s
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### So what matters
-* Read [https://speedcurve.com/blog/web-performance-page-bloat/](https://speedcurve.com/blog/web-performance-page-bloat/)
-* What do you think matters?
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* What matters is time until a page feels loaded
-* How long until you can start using the page?
-* Minimise lag and loading time
-* An [Ericsson study found video lag caused more stress than driving in heavy Jakarta traffic](https://www.ericsson.com/id/en/press-releases/7/2017/delay-in-video-streaming-creates-higher-stress-level-than-driving-in-heavy-jakarta-traffic)
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Cost of your page
-* Page size still matters
-* It's just about more than loading time
-* The median page costs [4 cents in Australia](https://whatdoesmysitecost.com/)
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### What to do
-* Reduce percieved loading time
-* Defer loading javascript
-	* Set the defer flag
-	* Put at the end of yor page body
-* Minimise your resources
-* Delay anything you don't need at the time
-* Try not to wait on the server
-* Preload resouces if you have time and are confidant you will need them
-
-Note:
-The defer flag should be enough to prevent your script from blocking the DOM from loading but it is a good idea to still put your scripts at the bottom to also cater to older browsers. 
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Minify your resources
-* You can reduce to size of your CSS and JavaScript by minifying (or uglifying) it
-* Try compresing resources at https://www.minifier.org/
-* Compress your images at http://webresizer.com/resizer/
-* Combine your JavaScript and CSS to reduce the number of files
-	* This is less important with HTTP/2 but is still useful
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Reduce this page
-* Clone the repository https://github.com/CDU-HIT238/HIT238-performance-exercise
-* Can you reduce the perceived loading time of this page?
-* Use [throttling](https://developers.google.com/web/tools/chrome-devtools/network-performance/reference#throttling) in Chrome dev tools to simulate a slower connection
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
