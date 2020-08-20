@@ -75,8 +75,8 @@
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## WebRTC
-Web Real Time Communication
+## Media API
+Access media devices
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -130,8 +130,8 @@ function successFunction(mediaStream) {
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## WebRTC & Audio
-* You can also capture audio with the WebRTC API
+## Audio
+* You can also capture audio with the media API
 
 ```
 navigator.mediaDevices.getUserMedia({
