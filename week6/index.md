@@ -24,8 +24,8 @@
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Many build toolkits
-* Gulp
 * Grunt
+* Parcel
 * Webpack
 
 
@@ -33,6 +33,7 @@
 ### Gulp
 * Easy
 * Clean
+* Mature
 * Well Supported
 * Uses node
 
@@ -43,6 +44,9 @@
 * Based on Chrome's V8 JS engine
 * Runs on the server (or your computer)
 * Includes Node Package Manager (NPM)
+
+Note:
+You can use yarn instead of NPM but for this course we're going to use NPM
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -84,7 +88,15 @@ npm install --save-dev gulp
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-If you install gulp for your project you will need to add the following to package.json
+To run a locally installed gulp you can use the gulp command
+
+```
+npx gulp
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+You can also setup a build script for your project by adding the following to package.json
 ```
 "scripts": {
 	"build": "gulp"
@@ -114,15 +126,15 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var sourcemaps = require('gulp-sourcemaps');
 
-gulp.task('js', function(){
+function js() {
   return gulp.src('src/js/*.js')
     .pipe(sourcemaps.init())
     .pipe(concat('app.min.js'))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('build/js'))
-});
+}
 
-gulp.task('default', gulp.series('js'));
+export.default = js;
 ```
 
 
