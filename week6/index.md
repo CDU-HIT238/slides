@@ -142,6 +142,7 @@ export.default = js;
 ### Activity
 * Use the gulpfile from the previous slide
 * Install gulp and plugins using npm`
+	* npm install --save-dec gulp gulp-cli gulp-concat gulp-sourcemaps
 * Create the directory src/js
 * Add some javascript from a previous week
 
