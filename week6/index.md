@@ -134,7 +134,7 @@ function js() {
     .pipe(gulp.dest('build/js'))
 }
 
-export.default = js;
+exports.default = js;
 ```
 
 
