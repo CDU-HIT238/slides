@@ -174,7 +174,7 @@ function newFunction() {
 ...
 }
 
-module.exports = newFunction;
+modules.exports = newFunction;
 ```
 
 
