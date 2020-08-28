@@ -128,6 +128,150 @@ You can also grab just one file from a previous commit. I often do this when fix
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Git Branches
+* Save your work without affecting other code on the server
+
+Note:
+Git branches provide us way a way to keep working code isolated from the main code base. We usually do this to avoid breaking things while we are working.
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### What is a branch
+* A chain of commits
+* Can have many branches
+	* master branch is created automatically
+* Can merge with other branches
+
+Note:
+If you think of your repository as a chain, with each commit linked to the commit before and after it, a branch is like a seperate chain. It's called a branch because it branches off from another commit. 
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+![Git Branches](images/git-branches.svg) <!-- .element class="bg-white centre" -->
+<figcaption class="caption">"Git Branches" by Atlassian under CC BY 2.5 Australia; dimension attributes added, from Atlassian</figcaption>
+
+Note:
+You can see multiple branches drawn here. Develop branches off from master and two feature branches branch off develop
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Create a new branch
+```
+git checkout -b branch-name
+git branch --set-upstream branch-name origin/branch-name
+```
+
+Note:
+You can see a bit about how git works here. When you create a new branch, you are only creating it locally. You can use your local branch just the same until you want to push changes to the server. In order to push changes you need to link it to the server (or origin). We do this with set-upstream and link our local branch to one on the origin.
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<video>
+	<source data-src="videos/git-add-branch.webm" type="video/webm" />
+</video>
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Set upstream branch
+* Instead of calling set-upstream you can push with -u and tell it where to go
+```
+git push -u origin branch-name
+```
+
+Note:
+Instead of calling set upstream when you create a branch you can tell git the destination the first time you push. -u tells git to remember the branch you use and you can omit the branch details for subsequent pushes.
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<video>
+	<source data-src="videos/git-branch-firstpush.webm" type="video/webm" />
+</video>
+
+Note:
+You can see here what happens if you try to push without setting an upstream branch. If you forget git tells you the command to use.
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### List your branches
+```
+git branch
+```
+
+Note:
+You can get a list of all your local branches using git status. Note these are only local branches. To get branches on the server as well use git branch --all
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Switch local branches
+```
+git checkout branch-name
+```
+
+Note:
+Use checkout to switch to a local branch. If a remote branch exists this will be linked to that
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<video>
+	<source data-src="videos/git-switching-branches.webm" type="video/webm" />
+</video>
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Merge your changes
+* Copy the changes from one branch to another
+	* Checkout your target branch
+	* Merge from the source branch
+```
+git checkout master
+git pull
+git merge branch-name
+```
+
+Note:
+When you finish with a branch you need to bring your changes over to the master branch. You can use merge to copy the changes across. Merge is like a smart copy and will not overwrite anybodies work
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<video>
+	<source data-src="videos/git-merge-branch.webm" type="video/webm" />
+</video>
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Your turnA
+* Navigate to [Learn git branching](https://learngitbranching.js.org/)
+* See how far you can get in 15 minutes
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Don't use folders to isolate changes
+* I often see people copy their whole project folder to work on something new
+	* This is hard to keep track off
+	* This is hard to integrate with a different copy of the folder
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Use branches to isolate changes
+* If you start work on something and don't want to keep it you still have the original branch
+* If you want to resume working on it later it is easy to update with latest changes
+* Great for avoiding conficts in teams
+* Used heavily in the workplace
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Best practices
+Intead of merging into master your should raise a pull request
+* Navigate to your GitHub repository
+* Click the Pull Requests tab
+* Click New pull request
+* Select master in the base dropdown
+* Select your branch in the compare dropdown
+* Click create pull request
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Notifications
 "The Notifications API lets a web page or app send notifications that are displayed outside the page at the system level; this lets web apps send information to a user even if the application is idle or in the background. This article looks at the basics of using this API in your own apps."
 - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API)
