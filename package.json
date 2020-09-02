@@ -1,0 +1,22 @@
+{
+  "name": "slides",
+  "version": "1.0.0",
+  "description": "## Resources * Mobile phone background image from https://pxhere.com/en/photo/662971",
+  "main": "sw.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CDU-HIT238/slides.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/CDU-HIT238/slides/issues"
+  },
+  "homepage": "https://github.com/CDU-HIT238/slides#readme"
+}
