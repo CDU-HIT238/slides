@@ -4,478 +4,269 @@
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Hybrid Apps
-* A web app inside a native app
-* Uses same tools we've already learned
-* Bundled into an app installer
-* Uses a web view to show web content like a native app
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### WebView
-* Shows web content in app
-* A special browser window that is embedded in an app
-* May not have the same feature set as a standard browser
+## React Native Continued
 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Apache Cordova
-* Open source hybrid framework
-* Previously Adobe PhoneGap
-	* Adobe now provides a cloud service
-* Runs on Node.js
-* Used by frameworks like Ionic
+## ES6 Classes
+* ES6 introduced a new class syntax
+* Alternative way to writing class prototypes
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-![Cordova Architecture](https://cordova.apache.org/static/img/guide/cordovaapparchitecture.png)
-From [Archetectual overview of Cordova platform](https://cordova.apache.org/docs/en/latest/guide/overview/)
-
-
-
-	
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Cordova for Android
-* Android SDK is free and cross platform
-* You can build for iOS but need XCode on an OSX machine
-* You can also build for iOS on Adobe Cloud
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Requirements
-* OpenJDK (included with Android Studio)
-* Android SDK (included with Android Studio)
-* Android Studio (optional but easier)
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Android Studio
-Instructions for installing Android Studio are available at [https://developer.android.com/studio/install](https://developer.android.com/studio/install)
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Setup a virtual device
-* Open the device manager in Android Studio (search for device manager)
-* Select "Create Virtual Device"
-* Select "Phone" and device you want to clone then click next
-* Select system image. You can download one if you need. Then click "Next"
-* Enter device name and click "Finish"
-* Try launching the new device
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Set Paths: Get data
-<ul class="hide-fragments">
-	<li>
-		You can get the Java and Android home from `File -> Other Settings -> Default Project Structure`
-	</li>
-	<li class="fragment" data-fragment-index="2">
-		<img src="images/step5-settings.png" alt="File menu" />
-	</li>
-	<li class="fragment" data-fragment-index="3">
-		<img src="images/step5-settings2.png" alt="Settings menu">
-	<li>
-</ul>
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Set Paths (Windows)
-<ul class="hide-fragments">
-	<li class="fragment" data-fragment-index="1">
-		To open environment variables right click on _My Computer_ and select _properties_
-		<img src="images/step1.png" alt="properties menu" />
-	</li>
-	<li class="fragment" data-fragment-index="2">
-		Select advanced system settings
-		<img src="images/step2.png" alt="System settings" />
-	</li>
-	<li class="fragment" data-fragment-index="3">
-		Click _Environment Variables_
-		<img src="images/step3.png" alt="environment variable button">
-	</li>
-	<li class="fragment" data-fragment-index="4">
-		This opens your environment variables menu. Select new to create a new variable
-		<img src="images/step4.png" alt="System variables menu">
-	<li>
-	<li class="fragment" data-fragment-index="5">
-		Enter ANDROID_HOME for the key and paste your SDK path in the value
-		<img src="images/step5-Android.png" alt="Add ANDROID_HOME">
-	<li>
-	<li class="fragment" data-fragment-index="6">
-		To add the SDK to your path select path -> edit
-		<img src="images/step6.png" alt="Select PATH">
-	<li>
-	<li class="fragment" data-fragment-index="7">
-		Click new and paste your SDK path followed by /tools/bin
-		<img src="images/step7.png" alt="SDK tools path">
-	<li>
-	<li class="fragment" data-fragment-index="8">
-		Click OK to save the changes
-	</li>
-</ul>
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Set Paths (OSX & Linux)
-These are bash commands. To follow along use the terminal
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-#### Set JAVA_HOME and ANDROIDHOME
-* You can get the Java and Android home from `File -> Other Settings -> Default Project Structure`
-* Check JAVA_HOME is correct
-
 ```
-$ echo $JAVA_HOME
-```
-
-* Set ANDROID_HOME environment variable (You will need to use the path you installed the Android SDK to)
-
-```
-$ export ANDROID_HOME=$ANDROID_SDK_PATH/Sdk
+class Circle {
+  constructor(radius) {
+    this.radius = radius
+  }
+  computeArea() { return Math.PI * this.radius * this.radius }
+}
+var c = new Circle(4)
+c.computeArea()
 ```
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-#### Ensure gradle and ANDROID SDK are in your path
-```
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/emulator
-```
-* Gradle may be bundled with Android Studio but if you cannot find it you will need to [install](https://gradle.org/install/) it and add it to your path
-```
-export PATH=$PATH:$GRADLE_PATH
-```
+### We can write components using classes
+```jsx
+import React, { Component } from 'react';
+import { AppRegistry, Text, View } from 'react-native';
 
+class BodyText extends Component {
+  constructor(props) {
+    super(props);
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* Setup your SDK
-```
-sdkmanager --update
-sdkmanager --list
-sdkmanager "build-tools;29.0.2" "platforms;android-28"
-sdkmanager --licenses
-```
+  }
 
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Now you're ready to go
-* Create a virtual device
-* Run the device and explore android
-
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Cordova
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Cordova Project
-* Managed through cordova command
-* Uses npm
-* Project settings in config.xml
-* Exposes contents of www directory
-* Launches index.html
-* No serviceworkers
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Install Cordova
-```
-npm install -g cordova
+  render() {
+    return (
+      <Text>{this.props.text}</Text>
+    );
+  }
+}
 ```
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Create a cordova project
-```
-$ cordova create hello com.example.hello HelloWorld
-```
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-<video>
-	<source data-src="videos/cordova-create.webm" type="video/webm" />
-</video>
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Install a platform
-```
-$ cordova platform add android
-$ cordova platform ls
-```
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-<video>
-	<source data-src="videos/cordova-platform.webm" type="video/webm" />
-</video>
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Check the requirements
-```
-$ cordova requirements
-```
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-<video>
-	<source data-src="videos/cordova-requirements.webm" type="video/webm" />
-</video>
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Build your app
-```
-$ cordova build android
-```
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-<video>
-	<source data-src="videos/cordova-build.webm" type="video/webm" />
-</video>
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Run your app on an emulator
-You need to have a virtual device setup to do this
-```
-cordova emulate android
-```
-You may need to start the virtual device before running this
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-<video>
-	<source data-src="videos/cordova-emulate-android.webm" type="video/webm" />
-</video>
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Run on your device
-If your devices is [setup to connect from adb](https://developer.android.com/studio/run/device) you can run directly on your device
-```
-cordova run
-```
-
-It can be tricky to get your device working. You will need to disable MTP and can list available devices using the following commands
-```
-$ cordova run --list
-$ adb devices
-```
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Activity
-* Create a new cordova project for your app
-* Copy the build code to the www directory in the cordova project
-* Examine config.xml
-* Build your app and emulate it on an android device
+### Why use classes?
+Classes are useful if we need to keep track of data in the component
 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Cordova Plugins
-* Access sensors using plugins
-* You should explain what you need sensors for in your privacy policy
-* There are a number of [core sensors](https://cordova.apache.org/docs/en/latest/guide/support/index.html#core-plugin-apis)
-* Many more [external plugins](https://cordova.apache.org/plugins/)
+## State
+* Tracks the internal state of your component
+* Only visible to the current component
+* Stored in this.state
+* Should be initialized in the constructor
+* Updated with this.setState
+	* NEVER update the state object directly
+* Component is re-rendered when state changes
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Installing a plugin
-```
-cordova plugin install [plugin-name]
-```
+```jsx
+import React, { Component } from 'react';
+import { AppRegistry, Text, View } from 'react-native';
 
+class ToggleText extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {isShowingText: false};
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-<video>
-	<source data-src="videos/cordova-plugin-install.webm" type="video/webm" />
-</video>
+		this.buttonPressed.bind(this);	// enusre this is available
 
+  }
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### List installed plugins
-```
-cordova plugin ls
-```
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-<video>
-	<source data-src="videos/cordova-plugin-ls.webm" type="video/webm" />
-</video>
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Core Plugins
-* Camera
-* Media
-* Battery
-* Notification
-* File
-* Storage
-* Vibration
-* Geolocation
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-#### Camera
-[cordova-plugin-camera](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-camera/)
-* Take a picture or load an image from device
-* Exposes a navigator.camera object
-
-```
-navigator.camera.getPicture(
-	(image) => {
-		// Got image
-	},
-	(error) => {
-		// Failed
-	},
-	options
-);
-```
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-#### Media Capture
-[cordova-plugin-media-capture](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-media-capture/)
-* Capture audio, video or an image
-* Exposes navigator.device.capture
-
-```
-navigator.device.capture.captureAudio(
-	(mediaFiles) => {
-		// Got an array of media files
-	},
-	(error) => {
-		// Failed to get audio
-	),
-	options
-};
-```
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-#### Battery
-[cordova-plugin-battery-status](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-battery-status/)
-* Events and objects describing battery status
-* Adds `batterystatus`, `batterycritical` and `batterylow` events to `window`
-* Events trigger with a status object with a `level` and `isPlugged` properties.
-
-```
-window.addEventListener(
-	'batterystatus',
-	(status) => {
-		var statusString = "Level: " + status.level + " isPlugged: " + status.isPlugged;
+	buttonPressed() {
+		this.setState(previousState => {
+			return { isShowingText: !previousState.isShowingText };
+		});
 	}
-);
+
+  render() {
+    let display = this.state.isShowingText ? this.props.text : ' ';
+    return (
+      <Text>{display}</Text>
+			<Button onPress={this.buttonPressed}>Toggle</Toggle>
+    );
+  }
+}
 ```
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-#### Notification
-[cordova-plugin-dialogs](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-dialogs/)
-* Expose native UI dialogs
-* Exposes navigator.notification
-* Provides the following functions
-	* alert
-	* confirm
-	* prompt
-	* beep
+### Access state without a class
+* You don't need a class to access the component state
+* [React Hooks](https://reactjs.org/docs/hooks-intro.html) may be simpler to use
 
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## User input
+* Input components take callback functions
+	* Callback is called when the event fires
+* Just like event listeners
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Input
 ```
-navigator.notification.alert('Hello');
+	<TextInput
+		style={{height: 80}}
+		onChangeText={(text) => this.setState({text})}
+		multiline={true}
+	/>
 ```
 
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-#### Storage
-[Storage APIs](https://cordova.apache.org/docs/en/latest/cordova/storage/storage.html)
-* Existing web storage is exposed
-	* WebSQL (deprecated)
-	* LocalStorage
-	* IndexedDB
+Note: Text input takes an onChangeText event that is fired whenever the user modifies the inputted text. You can also listen of onSubmitEditing to wait until the user submits the text. onSubmitEditing listens for the go button on the android soft keyboard and does not fire on multiline inputs
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-#### GeoLocation
-[cordova-plugin-geolocation](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-geolocation/)
-* Exposes existing web geolocation API
-* Location is potentially sensitive data
-	* Should address in privacy policy
-	* Must include plist entries for IOS
+### Touches
+```
+<Button
+  onPress={() => {
+    Alert.alert('You tapped the button!');
+  }}
+  title="Press Me"
+/>
+```
+
+Note: React Native provides a button for basic input touch events. There are also a number of [touchable](https://facebook.github.io/react-native/docs/handling-touches) components that you can use to construct buttons with different feedback. You can build more complex gestures using the [gesture responder system](https://facebook.github.io/react-native/docs/gesture-responder-system)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-#### Vibration
-[cordova-plugin-vibration](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-vibration/)
-* Vibrate the device
-* Exposes navigator.vibrate
-* Same API as web [vibration API](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API)
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Install a core plugin
-* Select a core plugin and enable it in your app
-
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Third Party Plugins
-* There are a lot of external third party plugins available
-* You can search them at [https://cordova.apache.org/plugins/](https://cordova.apache.org/plugins/)
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### SQLite
-* IndexedDB and LocalStorage have data limits
-* SQLite has no storage limit
-* Exposes an internal SQLite database
-* Many use the now deprecated WebSQL specification
-
-[Cordova-sqlite-storate](https://github.com/litehelpers/Cordova-sqlite-storage)
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Native GeoLocation
-* Only retreive accurate GPS locations
-* Can provide better accuracy information
-* Can run in the background
-
-[cordova-plugin-gpslocation](https://www.npmjs.com/package/cordova-plugin-gpslocation)
-[cordova-background-location-services](https://www.npmjs.com/package/cordova-background-location-services)
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Notifications
-* Create OS level notifications
-
-[cordova-plugin-local-notifications](https://github.com/katzer/cordova-plugin-local-notifications)
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### ServiceWorkers
-* Service workers only work from a secure domain (no HTTP or File domains)
-* Be default service workers cannot work from Cordova
-* Plugins can help (although may be a bit hacky)\
-
-[phonegap-plugin-service-worker](https://github.com/phonegap/phonegap-plugin-service-worker)
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Push Notifications
-* Without proper serviceworker support push notifications should be handled natively
-
-[cordova-plugin-push-notification](https://www.npmjs.com/package/cordova-plugin-push-notification)
-[goooal-cordova-plugin-firebase](https://www.npmjs.com/package/goooal-cordova-plugin-firebase)
-
-
 ### Activity
-* Discuss why you would or would not choose to use an SQLite plugin for your application
+* Make an application to write secret messages
+* User enters text and the encoded text appears below their input
+* Use the [rot-13](https://www.npmjs.com/package/rot-13) package to encode
+	* From the command line run `npm install rot-13`
+	* In your component load the module with `import rot13 from 'rot-13';`
+	* Then you can encode text with `this.state.ciphertext = rot13(this.state.plaintext)`
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Javascript Template
+* We can use templates to reuse HTML
+* Easier to use from JavaScript
+* Less duplication
+* Easier to maintain 
+	* change/fix only one place
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Native JavaScript Templates
+We can use backticks for quotes to create template strings
+
+```
+var myString = `This string was created with backticks`
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+#### Interpolation in template strings
+* We can easily interpolate (inject) values using ${}
+
+```
+var title = "My page";
+var headingHTML = `<h1>${title}</h1>`
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+#### Formatting in template strings
+* Template strings can also have new line characters
+
+```
+var title = "My page";
+var headingHTML = `<header>
+	<h1>${title}</h1>
+</header>`;
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+#### Putting it together
+* So now we can create complex HTML using javascript variables
+* If we put the templates in a function we can reuse them
+
+```
+function createNotification(message) {
+	return `<div class="notification">
+		<span class="notification__msg">${message}</span>
+		<button class="notification__close">Close</button>
+	</div>`
+}
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+#### Shorthand
+* Small templates can be written using lambda function shorthand
+
+```
+const menuItem(item) => `<a class="menu__item" href="${item.href}">${item.text}</a>`;
+```
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Using template libraries
+* There are lots of templating libraries around
+	* [ejs](https://ejs.co/)
+	* pug
+	* handlebars
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+#### EJS
+* EJS is nice because it is very similar to HTML syntax
+* It also allows you to include JavaScript logic
+* You can write EJS as a string in JavaScript
+* We can also load EJS template files using [browserify](https://github.com/hughsk/ejsify) in gulp
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+#### EJS syntax
+* We use EJS tags to inject logic and content
+* `<%` A scriptlet tag for JS logic
+* `<%=` An output tag that escapes the text and injects into the HTML
+* `<%-` An output tag that does not escpae the text and injects it into HTML
+* `%>` Closing tag to finish logic or output
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+#### A menu example
+```ejs
+const menuTemplate = `<ul class="menu">
+	<% menuItems.forEach(function(item) { %>
+	  <li class="menu__item"><a href="<%=item.href%>"><%=item.text%></a></li>
+	<% } %>
+</ul>`
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+#### Using EJS
+* We render the template by passing data to it
+
+```
+const menu = ejs.render(menuTemplate, menuItems);
+document.body.appendChild(menu);
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+#### Compiling EJS
+* We can also compile an EJS template that we will often use
+* This is what the browserify plugin will do
+* Compiled templates return a function that you can call and pass your data
+
+```
+const menuTmpl = ejs.compile(menuTemplate);
+const menu = menuTmpl(menuItems);
+document.body.appendChild(menu);
+```
