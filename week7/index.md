@@ -121,9 +121,11 @@ You can also grab just one file from a previous commit. I often do this when fix
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Activity
-* Clone your projects using the command line
-* Make changes to your readme
-* Commit and push the changes to the server
+* Try and complete the first level of [learn git branching](https://learngitbranching.js.org/)
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Challenge
+Can you make the next commit in your project using the command prompt
 
 
 
@@ -240,7 +242,7 @@ When you finish with a branch you need to bring your changes over to the master 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Your turnA
-* Navigate to [Learn git branching](https://learngitbranching.js.org/)
+* Return to [Learn git branching](https://learngitbranching.js.org/)
 * See how far you can get in 15 minutes
 
 
