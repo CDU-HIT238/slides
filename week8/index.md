@@ -181,7 +181,13 @@ function ToggleText(props) {
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Javascript Template
+## Back to web apps: Web Templates
+"A template is a chunk of HTML that you need to inject onto the page"
+
+- [CSS Tricks](https://css-tricks.com/video-screencasts/127-basics-of-javascript-templating/)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 * We can use templates to reuse HTML
 * Easier to use from JavaScript
 * Less duplication
@@ -191,7 +197,8 @@ function ToggleText(props) {
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Native JavaScript Templates
-We can use backticks for quotes to create template strings
+* We can use backticks for quotes to create template strings
+* These are called [template literals](https://css-tricks.com/html-templates-via-javascript-template-literals/)
 
 ```
 var myString = `This string was created with backticks`
@@ -244,13 +251,21 @@ const menuItem(item) => `<a class="menu__item" href="${item.href}">${item.text}<
 ```
 
 
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity
+* Open codepen and create a new pen
+* Make a pop-up dialog using template strings
+* Add a button to open the dialog
+* How would you add a close button to the dialog?
+
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Using template libraries
 * There are lots of templating libraries around
 	* [ejs](https://ejs.co/)
-	* pug
-	* handlebars
+	* [pug](https://pugjs.org/api/getting-started.html)
+	* [handlebars](https://handlebarsjs.com/)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
