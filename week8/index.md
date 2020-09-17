@@ -9,97 +9,105 @@
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## ES6 Classes
-* ES6 introduced a new class syntax
-* Alternative way to writing class prototypes
+## Props
+* Parameters for components
+* Makes components more versitile and reusable
+* Passed like html properties
+* Access from variable passed to constructor
+	* Often saved in this.props
+* Your component is re-rendered whenever props change
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-```
-class Circle {
-  constructor(radius) {
-    this.radius = radius
-  }
-  computeArea() { return Math.PI * this.radius * this.radius }
-}
-var c = new Circle(4)
-c.computeArea()
-```
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### We can write components using classes
 ```jsx
-import React, { Component } from 'react';
-import { AppRegistry, Text, View } from 'react-native';
-
-class BodyText extends Component {
-  constructor(props) {
-    super(props);
-
-  }
-
+export default function Heading(props){
   render() {
-    return (
-      <Text>{this.props.text}</Text>
-    );
+    return <Text>{props.text}</Text>;
   }
 }
 ```
 
+```jsx
+import Heading from './Heading';
+const heading = <Heading text="Welcome to HIT238" />;
+```
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Why use classes?
-Classes are useful if we need to keep track of data in the component
-
+### StyleSheets
+* No CSS on native
+* Use JavaScript styles
+* Core components accept style prop
+	* Can be an object or an array
+* Can create CSS like styles with StyleSheet.create
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+```
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
+```
+
+```
+<View style={styles.container}></View>
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+Height and Flex
+* Unitless dimensions
+* flex to grow
+* flex direction defaults to column
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Activity
+* Style your profile
+* Move some sections to resuable components
+
+
+
+!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## State
 * Tracks the internal state of your component
 * Only visible to the current component
-* Stored in this.state
-* Should be initialized in the constructor
-* Updated with this.setState
+* Stored in this.state or a [hooks](https://reactjs.org/docs/hooks-intro.html)
+* Updated with a setter
 	* NEVER update the state object directly
 * Component is re-rendered when state changes
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ```jsx
-import React, { Component } from 'react';
+import React, { useState, } from 'react';
 import { AppRegistry, Text, View } from 'react-native';
 
-class ToggleText extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {isShowingText: false};
+function ToggleText(props) {
+	const [showText, setShowText] = useState(false);
 
-		this.buttonPressed.bind(this);	// enusre this is available
+	// If the showText state is true use text from props otherwise use an empty string
+	const display = showText ? props.text : ' ';
 
-  }
+	// When the button is clicked toggle show text from true to false or vice versa
+	const onClick = () => setShowText(!showText);
 
-	buttonPressed() {
-		this.setState(previousState => {
-			return { isShowingText: !previousState.isShowingText };
-		});
-	}
-
-  render() {
-    let display = this.state.isShowingText ? this.props.text : ' ';
-    return (
-      <Text>{display}</Text>
-			<Button onPress={this.buttonPressed}>Toggle</Toggle>
-    );
-  }
+	return (
+		<Text>{display}</Text>
+		<Button onPress={onClick}>Toggle</Toggle>
+	);
 }
 ```
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Access state without a class
-* You don't need a class to access the component state
-* [React Hooks](https://reactjs.org/docs/hooks-intro.html) may be simpler to use
+### Access state with a class
+* If you use a class you can use `this.class` and the `setState` function
 
 
 
@@ -119,8 +127,13 @@ class ToggleText extends Component {
 		multiline={true}
 	/>
 ```
+* Note the arrow function is used inline. This is the same as delaring it elsewhere and passing it as a property.
 
-Note: Text input takes an onChangeText event that is fired whenever the user modifies the inputted text. You can also listen of onSubmitEditing to wait until the user submits the text. onSubmitEditing listens for the go button on the android soft keyboard and does not fire on multiline inputs
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+* Text input takes an onChangeText event that is fired whenever the user modifies the inputted text.
+* You can also listen to onSubmitEditing to wait until the user submits the text.
+* onSubmitEditing listens for the go button on the android soft keyboard and does not fire on multiline inputs
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -134,7 +147,10 @@ Note: Text input takes an onChangeText event that is fired whenever the user mod
 />
 ```
 
-Note: React Native provides a button for basic input touch events. There are also a number of [touchable](https://facebook.github.io/react-native/docs/handling-touches) components that you can use to construct buttons with different feedback. You can build more complex gestures using the [gesture responder system](https://facebook.github.io/react-native/docs/gesture-responder-system)
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+* React Native provides a button for basic input touch events.
+* There are also a number of [touchable](https://facebook.github.io/react-native/docs/handling-touches) components that you can use to construct buttons with different feedback.
+* You can build more complex gestures using the [gesture responder system](https://facebook.github.io/react-native/docs/gesture-responder-system)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -145,6 +161,22 @@ Note: React Native provides a button for basic input touch events. There are als
 	* From the command line run `npm install rot-13`
 	* In your component load the module with `import rot13 from 'rot-13';`
 	* Then you can encode text with `this.state.ciphertext = rot13(this.state.plaintext)`
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Summary
+* React Native is a powerful platform
+* It is _very_ popular
+	* Lots of support documnetation
+	* Lots of employers want React Native skills
+* It is a new skillset but is very similar to existing web skills
+* React has a very specific style that may not translate to other platforms
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Some more resources
+* https://facebook.github.io/react-native/docs/getting-started.html
+* https://facebook.github.io/react-native/docs/tutorial
 
 
 

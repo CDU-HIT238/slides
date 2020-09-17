@@ -94,6 +94,52 @@ The official examples use the async/await features. These are just shortcuts to 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## ES6 Classes
+* ES6 introduced a new class syntax
+* Alternative way to writing class prototypes
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+```
+class Circle {
+  constructor(radius) {
+    this.radius = radius
+  }
+  computeArea() { return Math.PI * this.radius * this.radius }
+}
+var c = new Circle(4)
+c.computeArea()
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### We can write components using classes
+```jsx
+import React, { Component } from 'react';
+import { AppRegistry, Text, View } from 'react-native';
+
+class BodyText extends Component {
+  constructor(props) {
+    super(props);
+
+  }
+
+  render() {
+    return (
+      <Text>{this.props.text}</Text>
+    );
+  }
+}
+```
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Why use classes?
+Classes are useful if we need to keep track of data in the component
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## JavaScript Web Notifications
 * Back into progressive web apps
 "The Notifications API lets a web page or app send notifications that are displayed outside the page at the system level; this lets web apps send information to a user even if the application is idle or in the background. This article looks at the basics of using this API in your own apps."
