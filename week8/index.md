@@ -73,7 +73,7 @@ Height and Flex
 
 
 
-!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## State
 * Tracks the internal state of your component
 * Only visible to the current component
