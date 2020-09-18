@@ -123,7 +123,7 @@ function ToggleText(props) {
 ```
 	<TextInput
 		style={{height: 80}}
-		onChangeText={(text) => this.setState({text})}
+		onChangeText={(text) => setText(text)}
 		multiline={true}
 	/>
 ```
@@ -160,7 +160,7 @@ function ToggleText(props) {
 * Use the [rot-13](https://www.npmjs.com/package/rot-13) package to encode
 	* From the command line run `npm install rot-13`
 	* In your component load the module with `import rot13 from 'rot-13';`
-	* Then you can encode text with `this.state.ciphertext = rot13(this.state.plaintext)`
+	* Then you can encode text with `const encoded = rot13(plaintext)`
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
