@@ -23,14 +23,14 @@
 * You must request permission in your final build
 	* Enable `NSLocationWhenInUseUsageDescription` in plist for iOS
 	* Add `<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />` to AndroidManifest.xml
-* Some [additional native options](https://facebook.github.io/react-native/docs/geolocation)
+* Some [additional native options](https://github.com/react-native-community/react-native-geolocation)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### AsyncStorage
 * Use in place of LocalStorage
 * Uses native options depending on OS
-* Details at [https://facebook.github.io/react-native/docs/asyncstorage](https://facebook.github.io/react-native/docs/asyncstorage)
+* Details at [https://react-native-community.github.io/async-storage/](https://react-native-community.github.io/async-storage/)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -76,8 +76,12 @@ retieveData();
 
 ```
 
-Note:
-The official examples use the async/await features. These are just shortcuts to convert promises to return values and wait until they complete to continue running. This code is in practice exactly the same as the first example
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+# Async & Await
+* The official examples use the async/await features.
+* These are just shortcuts to convert promises to return values and wait until they complete to continue running.
+* This code is in practice exactly the same as the first example
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -90,6 +94,13 @@ The official examples use the async/await features. These are just shortcuts to 
 * Lots of extra resources on github
 * Have a look at [https://codingislove.com/top-15-react-native-libraries/](https://codingislove.com/top-15-react-native-libraries/)
 * For those of you using firebase [https://medium.com/@anum.amin/react-native-integrating-push-notifications-using-fcm-349fff071591](https://medium.com/@anum.amin/react-native-integrating-push-notifications-using-fcm-349fff071591)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### More third part libraries
+* Maps are available with [MapView](https://docs.expo.io/versions/latest/sdk/map-view/)
+	* No support for web deployments but I wrote a wrapper for another project I can provide if anyone needs it
+* [There are logs of component libraries](https://www.codeinwp.com/blog/react-native-component-libraries/)
 
 
 
@@ -135,7 +146,9 @@ class BodyText extends Component {
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Why use classes?
-Classes are useful if we need to keep track of data in the component
+* Classes are useful if we have complex components
+
+
 
 
 
