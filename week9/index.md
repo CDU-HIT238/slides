@@ -103,6 +103,12 @@ retieveData();
 * [There are logs of component libraries](https://www.codeinwp.com/blog/react-native-component-libraries/)
 
 
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity: Search for plgins
+* Search google and NPM for some modules that you think will be useful
+* Can you install and load one?
+
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## ES6 Classes
@@ -149,6 +155,10 @@ class BodyText extends Component {
 * Classes are useful if we have complex components
 
 
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity: Create a class component
+* Can you create a class component
+* Make it display a heading from props
 
 
 
