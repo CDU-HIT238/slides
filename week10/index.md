@@ -95,6 +95,62 @@ console.log('Final list', list);
 	* This helps us find errors we didn't know we created
 
 
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity
+* Copy the createList function above into a new file
+* Create a HTML page and load the createList function
+* Add a button to call createList and pass it an array of strings
+* Use the debugging to step through the code and fix any errors
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Debugging in React Native
+* Expo gives us access to the browser console and debugger
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+* Shake your phone and select "Debug Remote JS"
+![React Native Debug Menu](images/react-native-debugger.jpg) <!-- .element class="half-height centre no-border" -->
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+* This opens a browser window
+* Your react native code runs in a web worker in this window
+* This gives you access to the browser debug tools
+![React Native browser debugger](images/react-native-browser-debugger.png)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+* Now you can find your code and set breakpoints as normal
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+<video>
+	<source data-src="videos/react-native-debugger.webm" type="video/webm" />
+</video>
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Browser plugins
+* There are also browser plugins for react native
+* Thwy will give you a nicer debugging interface
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity
+* Start your React Native app
+* Start the debugger and step through a function
+* Can you see your state values change?
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## What problems are you having?
+* Does anyone have code they want to troubleshoot?
+* Share a link in collaborate and we can troubleshoot it together
+
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Finishing Up
