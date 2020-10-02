@@ -103,6 +103,21 @@ console.log('Final list', list);
 * Use the debugging to step through the code and fix any errors
 
 
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Debugging from a mobile device
+* Both chrome/android and ios/safari have remote debuggers
+* You can connect your phone and access the debugger in the browser
+* In my experience iPhones need a mac to debug
+	* There are many alternative suggestions online
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Activity
+* [Android users try debugging in android](https://developers.google.com/web/tools/chrome-devtools/remote-debugging)
+* [iOS users try debugging in Safari using "method 1"](https://www.browserstack.com/guide/how-to-debug-on-iphone)
+	* Note this iOS page is trying to sell your their alterntive product so we will only use method 1
+
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Debugging in React Native
@@ -110,6 +125,15 @@ console.log('Final list', list);
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Redbox errors
+* By now you have all likely seen the "Red Box" errors
+* These are critical errors building or running your app
+* They show a stacktrace which shows where the error occurred
+* Look for the first line in the error then work back through the trace
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Start the debugger
 * Shake your phone and select "Debug Remote JS"
 ![React Native Debug Menu](images/react-native-debugger.jpg) <!-- .element class="half-height centre no-border" -->
 
