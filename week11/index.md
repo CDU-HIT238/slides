@@ -5,19 +5,60 @@
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Exam
-* 3 sections
-* No code
-	* I don't expect you to remember all the code we covered
-	* I *do* expect you to be able to write it with an internet connection
-	* If you know the functions, tools and technologies you can lookup the syntax
+* Learnline Test
+* 28th of October at 10am
+* 2 Hours
+* Mix of short answer and code
 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Section 1: Understanding different devices
-* 21 Marks
-* 3 Short answer questions
-* Questions about Web, Hybrid, cross-plan and Native
+## Short answer questions
+* Read the question carefully
+* Enter your answer in the provided space
+* Usually about comparing or describing tools/technologies
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Fill in the blank questions
+* Very short answers (mostly single word)
+* Mostly asking which function you should use
+* Some variation is accepted but be careful with formatting
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### File upload questions
+* Write your answer in a seperate file and upload the file
+* Used for code questions
+* Write your code in an IDE, test it works and then upload
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Code question tips
+* Make sure your IDE (Atom, VSCode, etc...) is working
+* Make sure you have your web environment setup
+* Make sure you have a local web server setup to test
+* Make sure you have node/npm and react native installed
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Code question tips
+* I will first test answers by running them
+* Test your code before uploading
+* If you are given a function template make sure you use the same function name and properties
+* If you are asked to export your code make sure you have a [default export](https://cdu-hit238.github.io/slides/week7/#/5/3)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Sample Exam
+* Try the test exam in LearnLine
+* You can use google and the lecture slides if you get stuck
+* See if you can complete it in 90 minutes
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Looking back
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -58,15 +99,6 @@
 [Week 2: Mobile Context](https://cdu-hit238.github.io/slides/week2/#/5)
 
 
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Section B: Designing mobile applications
-* 11 marks
-* 3 questions
-* Short answer
-* Questions about user research, testing, user stories and MVPs
-
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### User Research
 [Week 2: User Research](https://cdu-hit238.github.io/slides/week2/#/6)
@@ -80,16 +112,6 @@
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### MVP
 [Week 3: MVP](https://cdu-hit238.github.io/slides/week3/#/5)
-
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Section C: Technical Knowledge
-* 18 marks
-* 3 Questions
-* Short answer
-* No code!!!
-* You just need to know what the different tools and technologies are
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -164,7 +186,7 @@
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Next Week: Presentations
-* 5 Minutes each
+* 3 Minutes each
 * 20 marks
 	* Marked on both your application and presentation
 * This is a product pitch
@@ -176,7 +198,7 @@
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Presentation marks
 * [Marking criteria]( 	
-https://online.cdu.edu.au/bbcswebdav/pid-2841918-dt-content-rid-13341885_2/xid-13341885_2)
+https://online.cdu.edu.au/bbcswebdav/pid-3139661-dt-content-rid-17399245_2/xid-17399245_2)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -186,4 +208,5 @@ https://online.cdu.edu.au/bbcswebdav/pid-2841918-dt-content-rid-13341885_2/xid-1
 	* If you are not here for your turn you will get 0
 * Setup the presentation on your laptop and plug it in to present
 	* If you need an emulator please ensure it is setup
+* This is a big class so make sure you a ready to go as soon as your name is called
 
