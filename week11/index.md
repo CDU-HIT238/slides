@@ -74,13 +74,12 @@
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Hybrid Apps
 [Week 1: Hyrbid Web Applications](https://cdu-hit238.github.io/slides/week1/#/5)
-[Week 8: Hyrbird Apps](https://cdu-hit238.github.io/slides/week8/#/1)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Cross Platform Apps
 [Week 1: Cross Platforms Apps](https://cdu-hit238.github.io/slides/week1/#/6)
-[Week 9: Cross Platform Apps](https://cdu-hit238.github.io/slides/week9/#/1)
+[Week 7: Cross Platform Apps](https://cdu-hit238.github.io/slides/week7/#/3)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -106,12 +105,12 @@
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### User Stories
-[Week 4: User Stories](https://cdu-hit238.github.io/slides/week4/#/2)
+[Week 3: User Stories](https://cdu-hit238.github.io/slides/week3/#/2)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### MVP
-[Week 3: MVP](https://cdu-hit238.github.io/slides/week3/#/5)
+[Week 3: MVP](https://cdu-hit238.github.io/slides/week3/#/1)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -121,18 +120,18 @@
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Promises
-[Week 3: Promises](https://cdu-hit238.github.io/slides/week3/#/1)
+[Week 3: Promises](https://cdu-hit238.github.io/slides/week3/#/3)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### HTTP Requests & Fetch
-[Week 3: HTTP Requests](https://cdu-hit238.github.io/slides/week3/#/2)
-[Week 3: CORS](https://cdu-hit238.github.io/slides/week3/#/3)
+[Week 3: HTTP Requests](https://cdu-hit238.github.io/slides/week3/#/4)
+[Week 3: CORS](https://cdu-hit238.github.io/slides/week3/#/5)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Touch Events
-[Week 4: Touch Events](https://cdu-hit238.github.io/slides/week5/#/1)
+[Week 5: Touch Events](https://cdu-hit238.github.io/slides/week5/#/1)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -143,44 +142,47 @@
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Web Storage
 [Week 4: Web Storage](https://cdu-hit238.github.io/slides/week4/#/5)
-[Week 5: IndexedDB](https://cdu-hit238.github.io/slides/week5/#/5)
+[Week 5: IndexedDB](https://cdu-hit238.github.io/slides/week5/#/4)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Build Tools
-[Week 5: Build tools](https://cdu-hit238.github.io/slides/week5/#/2)
+[Week 6: Build tools](https://cdu-hit238.github.io/slides/week6/#/1)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### WebRTC
-[Week 5: WebRTC](https://cdu-hit238.github.io/slides/week5/#/3)
+### Media API
+[Week 5: WebRTC](https://cdu-hit238.github.io/slides/week2/#/3)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Service Workers
-[Week 6: Service Workers](https://cdu-hit238.github.io/slides/week6/#/3)
+[Week 6: Service Workers](https://cdu-hit238.github.io/slides/week6/#/2)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Manifest
-[Week 6: Manifest](https://cdu-hit238.github.io/slides/week6/#/4)
+[Week 6: Manifest](https://cdu-hit238.github.io/slides/week6/#/3)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Notifications
-[Week 7: Notifications](https://cdu-hit238.github.io/slides/week7/#/1)
+[Week 9: Notifications](https://cdu-hit238.github.io/slides/week9/#/3)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Cordova
-[Week 8: Cordova](https://cdu-hit238.github.io/slides/week8/#/2)
-[Week 8: Plugins](https://cdu-hit238.github.io/slides/week8/#/5/5)
-[Week 8: Third party plugins](https://cdu-hit238.github.io/slides/week8/#/6)
+### Web Templates
+[Week 8: JS Templates](https://cdu-hit238.github.io/slides/week8/#/5)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->\
 ### React Native
-[Week 9: React Native](https://cdu-hit238.github.io/slides/week9/#/2)
+[Week 7: React Native](https://cdu-hit238.github.io/slides/week7/#/4)
+[Week 7: Components](https://cdu-hit238.github.io/slides/week7/#/6)
+[Week 8: Props](https://cdu-hit238.github.io/slides/week8/#/2)
+[Week 8: State](https://cdu-hit238.github.io/slides/week8/#/3)
+[Week 8: User Input](https://cdu-hit238.github.io/slides/week8/#/4)
+[Week 9: Extra functions](https://cdu-hit238.github.io/slides/week9/#/1)
 
 
 
