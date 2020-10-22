@@ -87,7 +87,7 @@
 
 ### Cross Platform Apps
 
-[Week 1: Cross Platforms Apps](https://cdu-hit238.github.io/slides/week1/#/6)
+[Week 1: Cross Platforms Apps](https://cdu-hit238.github.io/slides/week1/#/6)  
 [Week 7: Cross Platform Apps](https://cdu-hit238.github.io/slides/week7/#/3)
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -100,7 +100,7 @@
 
 ### Android \* iOS
 
-[Week 2: Android](https://cdu-hit238.github.io/slides/week2/#/4)
+[Week 2: Android](https://cdu-hit238.github.io/slides/week2/#/4)  
 [Week 2: iOS](https://cdu-hit238.github.io/slides/week2/#/4/2)
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -143,7 +143,7 @@
 
 ### HTTP Requests & Fetch
 
-[Week 3: HTTP Requests](https://cdu-hit238.github.io/slides/week3/#/4)
+[Week 3: HTTP Requests](https://cdu-hit238.github.io/slides/week3/#/4)  
 [Week 3: CORS](https://cdu-hit238.github.io/slides/week3/#/5)
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -162,7 +162,7 @@
 
 ### Web Storage
 
-[Week 4: Web Storage](https://cdu-hit238.github.io/slides/week4/#/5)
+[Week 4: Web Storage](https://cdu-hit238.github.io/slides/week4/#/5)  
 [Week 5: IndexedDB](https://cdu-hit238.github.io/slides/week5/#/4)
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -205,11 +205,11 @@
 
 ### React Native
 
-[Week 7: React Native](https://cdu-hit238.github.io/slides/week7/#/4)
-[Week 7: Components](https://cdu-hit238.github.io/slides/week7/#/6)
-[Week 8: Props](https://cdu-hit238.github.io/slides/week8/#/2)
-[Week 8: State](https://cdu-hit238.github.io/slides/week8/#/3)
-[Week 8: User Input](https://cdu-hit238.github.io/slides/week8/#/4)
+[Week 7: React Native](https://cdu-hit238.github.io/slides/week7/#/4)  
+[Week 7: Components](https://cdu-hit238.github.io/slides/week7/#/6)  
+[Week 8: Props](https://cdu-hit238.github.io/slides/week8/#/2)  
+[Week 8: State](https://cdu-hit238.github.io/slides/week8/#/3)  
+[Week 8: User Input](https://cdu-hit238.github.io/slides/week8/#/4)  
 [Week 9: Extra functions](https://cdu-hit238.github.io/slides/week9/#/1)
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -236,7 +236,7 @@
 
 - I will randomly generate an order at the start of class
 - If you are unable to attend please contact me in advance
-  - If you are not here for your turn you will get 0
+- If you are not here for your turn you will get 0
 - Setup the presentation on your laptop and plug it in to present
-  - If you need an emulator please ensure it is setup
-- This is a big class so make sure you a ready to go as soon as your name is called
+- If you need an emulator please ensure it is setup
+- This is a big class so make sure you are ready to go as soon as your name is called
