@@ -236,7 +236,7 @@
 
 - I will randomly generate an order at the start of class
 - If you are unable to attend please contact me in advance
-- If you are not here for your turn you will get 0
+  - If you are not here for your turn you will get 0
 - Setup the presentation on your laptop and plug it in to present
-- If you need an emulator please ensure it is setup
+  - If you need an emulator please ensure it is setup
 - This is a big class so make sure you are ready to go as soon as your name is called
