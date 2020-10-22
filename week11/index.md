@@ -81,7 +81,7 @@
 
 ### Hybrid Apps
 
-[Week 1: Hyrbid Web Applications](https://cdu-hit238.github.io/slides/week1/#/5)
+[Week 1: Hybrid Web Applications](https://cdu-hit238.github.io/slides/week1/#/5)
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 
@@ -201,7 +201,7 @@
 
 [Week 8: JS Templates](https://cdu-hit238.github.io/slides/week8/#/5)
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->\
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 
 ### React Native
 
