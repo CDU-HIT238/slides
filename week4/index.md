@@ -1,349 +1,371 @@
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 # HIT238 The mobile paradigm
 
-
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ## Design Sprint 1 Recap
-* Some great app ideas and fantastic data gathered
+
+- Some great app ideas and fantastic data gathered
 
 Note:
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Extensions
-* If you need an extension please see be _before_ the due date
-	* Tell me why you need an extension and when you need it until
-	* Requests less than 24 hours before the due date will not be considered without a medical certificate
-	* Good practices for the workplace
+
+- If you need an extension please see be _before_ the due date
+  - Tell me why you need an extension and when you need it until
+  - Requests less than 24 hours before the due date will not be considered without a medical certificate
+  - Good practices for the workplace
 
 Note:
-If you are running out of time and need an extension please let me know before the due date. I understand that sometimes things can get hectic and am happy to accomodate your needs but you need to contact me beforehand with the reason you are running late and when you want an extension until. I won't consider anything within 24 hours of the due date without a medical certificate. 
-
+If you are running out of time and need an extension please let me know before the due date. I understand that sometimes things can get hectic and am happy to accommodate your needs but you need to contact me beforehand with the reason you are running late and when you want an extension until. I won't consider anything within 24 hours of the due date without a medical certificate.
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Submission
-* Please follow the sumibssion guidelines
-	* Link to google document
-	* Make document it public
-	* Use a spell checker
+
+- Please follow the submission guidelines
+  - Link to google document
+  - Make document it public
+  - Use a spell checker
 
 Note:
 Can you please submit your assignments as google documents (or through google drive)? I appreciate attaching a word document but it makes my job much easier if there is a link to your google doc and shows that you have read the assignment guidelines. Please also base your document off the provided template. If you haven't looked at the template please be sure to use it in your next submission.
 If you are attaching images, please make sure they fit on the page and are the right way up.
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Problem Statement:
-* These were really good. Most provided a little bit of context for the problem and what they are trying to solve.
+
+- These were really good. Most provided a little bit of context for the problem and what they are trying to solve.
 
 Note:
 The problem statement should outline the user problems you want to solve. This is not the place to explain what your application will do, instead we want to look at the overall goal of our applications before we commit to a particular application idea.
 Sometimes we get very attached to a particular application idea, which is not actually something our users are interested in. By stepping back from the app idea and first understanding how our users engage with the particular problem we can ensure our application idea is developed around their needs and environment.
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Research Objectives
-* A lot done really well
-* Remember this are the goals for your *research* not your app or project
-* What do you want to find out about your users
-	* What is their experience of your problem?
-	* What solutions have their tried
-	* What are their frustrations?
+
+- A lot done really well
+- Remember this are the goals for your _research_ not your app or project
+- What do you want to find out about your users
+  - What is their experience of your problem?
+  - What solutions have their tried
+  - What are their frustrations?
 
 Note:
-Your objectives should be the questions you want to find out from your users in order to design your application. Who are they, what is their experience of your target problem, what are thir frustrations and what has worked fro them. This information will be used to build your personas and to reframe your application concept to ensure it is relevant to your users. The "5Ws and an H" questions are a great place to start, you can take these further by tailoring them to your application and reducing them to a couple of broader core questions you want to know about your users.
-
+Your objectives should be the questions you want to find out from your users in order to design your application. Who are they, what is their experience of your target problem, what are their frustrations and what has worked fro them. This information will be used to build your personas and to reframe your application concept to ensure it is relevant to your users. The "5Ws and an H" questions are a great place to start, you can take these further by tailoring them to your application and reducing them to a couple of broader core questions you want to know about your users.
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Research Hypotheis
-* Again generally well done
-* These are _your_ answers to the questions from your _objectives_
-* A tool to help you critically evaluate your knowledge and results
-* some went a little off topic
+
+### Research Hypothesis
+
+- Again generally well done
+- These are _your_ answers to the questions from your _objectives_
+- A tool to help you critically evaluate your knowledge and results
+- some went a little off topic
 
 Note:
-These are the answers you expect to the questions from your objectives. The purporse of this is to acknowledge your bias to prevent it from influencing your researc results, to better clarify how well you know your users and potentially identify area that may need more research. You are not looking to confirm your hypothesis but rather learn beyond it.
-
+These are the answers you expect to the questions from your objectives. The purpose of this is to acknowledge your bias to prevent it from influencing your research results, to better clarify how well you know your users and potentially identify area that may need more research. You are not looking to confirm your hypothesis but rather learn beyond it.
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Research Methods
-* Overall well done
-* COVID-19 makes things difficult
-* Could be more specific
-	* Make sure to include your actual questions
-	* Include how you will find/select participants
+
+- Overall well done
+- COVID-19 makes things difficult
+- Could be more specific
+  - Make sure to include your actual questions
+  - Include how you will find/select participants
 
 Note:
 The methods were generally done well. These are the actual research methods you want to apply. You should be quite specific about what you are doing though. If you are doing a survey, the survey questions should be listed. If you are doing a card sort what cards are you asking people to sort and what criteria are they sorting them into? It is a bit premature for prototyping but if you prototype, what is the prototype you are showing participants and what are you asking them to do on it?
-It is also important to outline how you are recruiting your participants. This can be as simple as going to the cafe and asking people or posting it on facebook. You should also outline how many particpants you aim to get. Recruiting methods can impact on the results and this is important in the workpace where you may have different people performing the research so the process needs to be as explicit as possible.
-
+It is also important to outline how you are recruiting your participants. This can be as simple as going to the cafe and asking people or posting it on facebook. You should also outline how many participants you aim to get. Recruiting methods can impact on the results and this is important in the workplace where you may have different people performing the research so the process needs to be as explicit as possible.
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Research Notes
-* Some great data collected
-* Outline the results of your research
-* Don't just confirm that your app is a good idea
-	* What did you learn that is a surprise
-	* Does it raise any new questions (further research)
+
+- Some great data collected
+- Outline the results of your research
+- Don't just confirm that your app is a good idea
+  - What did you learn that is a surprise
+  - Does it raise any new questions (further research)
 
 Note:
 This is where you outline the results from your research. Data is great to include but be careful not to include anything that can identify your participants. It is valuable to discuss how the results relate to your hypothesis but look at more than just if it support or contradicts your hypothesis. Are there any interesting observations? Are there any new questions your research has raised? Remember this information is the basis for your personas.
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Personas
-* Don't use a real person
-* Don't _just_ make up a person
-	* _Use the data from your research_
-	* _Fit them in your target audience_
-* Do their goals refelct your research data?
+
+- Don't use a real person
+- Don't _just_ make up a person
+  - _Use the data from your research_
+  - _Fit them in your target audience_
+- Do their goals reflect your research data?
 
 Note:
 Be sure to structure your personas well and provide some relevant personal information to make them more relatable. The big thing I wanted to see was the process of using personas to represent your user research. There is no value in just making up a user if it isn't grounded in some real user data. Personas are a great way to turn the lessons from your user research in to hypothetical users that you can reference throughout development. If your data is limited than you need to make some assumptions but try to capture as much of your research data as possible. You personas also need to reflect your target audience.
 
-
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ## Trello
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### What is Trello?
-* A tool for managing lists
-* You can create many boards
-* Each board can have many lists
-* Each list can have many cards
-* Each card can have labels, comments and be assigned to users
-* It can track almost anything
 
+- A tool for managing lists
+- You can create many boards
+- Each board can have many lists
+- Each list can have many cards
+- Each card can have labels, comments and be assigned to users
+- It can track almost anything
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### I use Trello at work
-* Manage feature lists / user stories
-* Map out sprints
-* Track task progress
-* Create to do lists
-* Plan out the weekly topics for this class
 
+- Manage feature lists / user stories
+- Map out sprints
+- Track task progress
+- Create to do lists
+- Plan out the weekly topics for this class
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Create a board
-* A board is like a workspace
-* You can have many lists on one board
-* Usually all lists are related
 
+### Create a board
+
+- A board is like a workspace
+- You can have many lists on one board
+- Usually all lists are related
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 <video>
 	<source data-src="videos/trello-create-board.webm" type="video/webm" />
 </video>
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Create lists
-* A list is like a category
-* You often move cards between lists
 
+### Create lists
+
+- A list is like a category
+- You often move cards between lists
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 <video>
 	<source data-src="videos/trello-create-list.webm" type="video/webm" />
 </video>
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Create cards
-* A card is an individual item
-* These are the things we are really tracking
-* There are often lots of cards in a project
 
+### Create cards
+
+- A card is an individual item
+- These are the things we are really tracking
+- There are often lots of cards in a project
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 <video>
 	<source data-src="videos/trello-create-cards.webm" type="video/webm" />
 </video>
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Manage your cards
-* Cards can be sorted into lists
-* You can add labels to cards
-* You can add attachments, checklists, comments and descriptions to cards
-* You can assign cards to different people
 
+### Manage your cards
+
+- Cards can be sorted into lists
+- You can add labels to cards
+- You can add attachments, checklists, comments and descriptions to cards
+- You can assign cards to different people
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 <video>
 	<source data-src="videos/trello-move-cards.webm" type="video/webm" />
 </video>
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 <video>
 	<source data-src="videos/trello-add-labels.webm" type="video/webm" />
 </video>
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Check out the docs
-* [Trello 101](https://trello.com/guide/trello-101) provides a basic introduction
-* [Create a board](https://trello.com/guide/create-a-board) gives you a better walk through
 
+- [Trello 101](https://trello.com/guide/trello-101) provides a basic introduction
+- [Create a board](https://trello.com/guide/create-a-board) gives you a better walk through
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Your turn
-* Register for Trello
-* Create a new board called "Project MVP"
-* Create some labels to sort your features by
 
-
+- Register for Trello
+- Create a new board called "Project MVP"
+- Create some labels to sort your features by
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ## Mobile performance
+
 ![Speed gauge](images/gauge.svg) <!-- .element class="centre half-height no-border" -->
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-"The average time it takes to fully load a mobile landing page is 22 seconds, according to a new analysis.  Yet 53% of mobile site visitors leave a page that takes longer than three seconds to load."
+
+"The average time it takes to fully load a mobile landing page is 22 seconds, according to a new analysis. Yet 53% of mobile site visitors leave a page that takes longer than three seconds to load."
 
 From [Mobile page speed new industry benchmarks](https://think.storage.googleapis.com/docs/mobile-page-speed-new-industry-benchmarks.pdf) by Google
 
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
+- Load time matters (although maybe not as much as we think)
+- Mobile connections are highly variable
+- Mobile devices are highly variable
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* Load time matters (although maybe not as much as we think)
-* Mobile connections are highly variable
-* Mobile devices are highly variable
 
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Page Sizes
-* The average page size is over 3mb
-* The average page size [probably doesn't matter much](https://speedcurve.com/blog/web-performance-page-bloat/)
-* So what matters?
 
+- The average page size is over 3mb
+- The average page size [probably doesn't matter much](https://speedcurve.com/blog/web-performance-page-bloat/)
+- So what matters?
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Load time
-* Remember the quote from earlier?
-	* The average load time is 22 seconds according to google
-	* 53% of people leave a page that takes longer to three seconds to load
-* But what is the load time?
-	* Fully loaded includes all resources
-	* What matters is perceived load time or time to an interactive page
-* Recommended target is < 3s
 
+- Remember the quote from earlier?
+  - The average load time is 22 seconds according to google
+  - 53% of people leave a page that takes longer to three seconds to load
+- But what is the load time?
+  - Fully loaded includes all resources
+  - What matters is perceived load time or time to an interactive page
+- Recommended target is < 3s
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### So what matters
-* Read [https://speedcurve.com/blog/web-performance-page-bloat/](https://speedcurve.com/blog/web-performance-page-bloat/)
-* What do you think matters?
 
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* What matters is time until a page feels loaded
-* How long until you can start using the page?
-* Minimise lag and loading time
-* An [Ericsson study found video lag caused more stress than driving in heavy Jakarta traffic](https://www.ericsson.com/id/en/press-releases/7/2017/delay-in-video-streaming-creates-higher-stress-level-than-driving-in-heavy-jakarta-traffic)
-
+- Read [https://speedcurve.com/blog/web-performance-page-bloat/](https://speedcurve.com/blog/web-performance-page-bloat/)
+- What do you think matters?
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
+- What matters is time until a page feels loaded
+- How long until you can start using the page?
+- Minimise lag and loading time
+- An [Ericsson study found video lag caused more stress than driving in heavy Jakarta traffic](https://www.ericsson.com/id/en/press-releases/7/2017/delay-in-video-streaming-creates-higher-stress-level-than-driving-in-heavy-jakarta-traffic)
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Cost of your page
-* Page size still matters
-* It's just about more than loading time
-* The median page costs [4 cents in Australia](https://whatdoesmysitecost.com/)
 
+- Page size still matters
+- It's just about more than loading time
+- The median page costs [4 cents in Australia](https://whatdoesmysitecost.com/)
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### What to do
-* Reduce percieved loading time
-* Defer loading javascript
-	* Set the defer flag
-	* Put at the end of yor page body
-* Minimise your resources
-* Delay anything you don't need at the time
-* Try not to wait on the server
-* Preload resouces if you have time and are confidant you will need them
+
+- Reduce perceived loading time
+- Defer loading javascript
+  - Set the defer flag
+  - Put at the end of yor page body
+- Minimise your resources
+- Delay anything you don't need at the time
+- Try not to wait on the server
+- Preload resources if you have time and are confidant you will need them
 
 Note:
-The defer flag should be enough to prevent your script from blocking the DOM from loading but it is a good idea to still put your scripts at the bottom to also cater to older browsers. 
-
+The defer flag should be enough to prevent your script from blocking the DOM from loading but it is a good idea to still put your scripts at the bottom to also cater to older browsers.
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Minify your resources
-* You can reduce to size of your CSS and JavaScript by minifying (or uglifying) it
-* Try compresing resources at https://www.minifier.org/
-* Compress your images at http://webresizer.com/resizer/
-* Combine your JavaScript and CSS to reduce the number of files
-	* This is less important with HTTP/2 but is still useful
 
+- You can reduce to size of your CSS and JavaScript by minifying (or uglifying) it
+- Try compressing resources at https://www.minifier.org/
+- Compress your images at http://webresizer.com/resizer/
+- Combine your JavaScript and CSS to reduce the number of files
+  - This is less important with HTTP/2 but is still useful
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Reduce this page
-* Clone the repository https://github.com/CDU-HIT238/HIT238-performance-exercise
-* Can you reduce the perceived loading time of this page?
-* Use [throttling](https://developers.google.com/web/tools/chrome-devtools/network-performance/reference#throttling) in Chrome dev tools to simulate a slower connection
 
-
+- Clone the repository https://github.com/CDU-HIT238/HIT238-performance-exercise
+- Can you reduce the perceived loading time of this page?
+- Use [throttling](https://developers.google.com/web/tools/chrome-devtools/network-performance/reference#throttling) in Chrome dev tools to simulate a slower connection
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ## Geolocation API
 
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
+- Get the user's current position
+- Watch for changes in the position
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-* Get the user's current position
-* Watch for changes in the position
 
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Some caveats
-* The location API is only available on secure (HTTPS) connections
-* The user must grant access to geolocation
-* No guarantee that geolocation is available
 
+- The location API is only available on secure (HTTPS) connections
+- The user must grant access to geolocation
+- No guarantee that geolocation is available
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Check if geolocation is available
-* Check for navigator.geolocation
-	* If it is truthy than geolocation services are available
+
+- Check for navigator.geolocation
+  - If it is truthy than geolocation services are available
 
 ```js
-if("geolocation" in navigator) {
-	// location services are available
+if ("geolocation" in navigator) {
+  // location services are available
 } else {
-	// location services are not available
+  // location services are not available
 }
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Getting the current position
-* navigator.geolocation.getCurrentPosition(successFunc, errFunc, options)
-	* Get's the current position and calls a callback function
-	* Calls successFunc when the location is successfully retrieved
-	* successFunc takes a [Position](https://developer.mozilla.org/en-US/docs/Web/API/Position) parameter
-	* Calls the optional errFunc when an error occurs
-	* errFunc takes a [PositionError](https://developer.mozilla.org/en-US/docs/Web/API/PositionError) parameter
-	* The optional [options](https://developer.mozilla.org/en-US/docs/Web/API/PositionOptions) parameter provides configuration 
 
+- navigator.geolocation.getCurrentPosition(successFunc, errFunc, options)
+  - Gets the current position and calls a callback function
+  - Calls successFunc when the location is successfully retrieved
+  - successFunc takes a [Position](https://developer.mozilla.org/en-US/docs/Web/API/Position) parameter
+  - Calls the optional errFunc when an error occurs
+  - errFunc takes a [PositionError](https://developer.mozilla.org/en-US/docs/Web/API/PositionError) parameter
+  - The optional [options](https://developer.mozilla.org/en-US/docs/Web/API/PositionOptions) parameter provides configuration
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Using getCurrentPosition
+
 ```js
 navigator.geolocation.getCurrentPosition(
-	function(position) {
-		console.log('Success', position);
-	},
-	function(err) {
-		console.error('Error', err);
-	}
+  function (position) {
+    console.log("Success", position);
+  },
+  function (err) {
+    console.error("Error", err);
+  }
 );
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Reading the location
-* The position object holds the [coordinates](https://developer.mozilla.org/en-US/docs/Web/API/Coordinates) and a timestamp
+
+- The position object holds the [coordinates](https://developer.mozilla.org/en-US/docs/Web/API/Coordinates) and a timestamp
 
 ```
 {
@@ -361,29 +383,31 @@ navigator.geolocation.getCurrentPosition(
 
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Coordinates
-* Accuracy - the accuracy of the location in metres
-* Altitude - The altitude from sea level in metres
-* Altitude Accuracy - The accuracy of the altitude in metres
-* Heading - The direction of motion in degrees from true north
-* Latitude - The current latitude in degrees
-* Longitude - The current longitude in degrees
-* Speed - The current velocity in metres per second
 
+- Accuracy - the accuracy of the location in metres
+- Altitude - The altitude from sea level in metres
+- Altitude Accuracy - The accuracy of the altitude in metres
+- Heading - The direction of motion in degrees from true north
+- Latitude - The current latitude in degrees
+- Longitude - The current longitude in degrees
+- Speed - The current velocity in metres per second
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Location accuracy
-* By default getCurrentLocation tries to get a fast low-accuracy location
-	* Usually from network location
-* You can request a high accuracy location
-	* Usually from GPS
-	* Takes longer
-	* May not be available
 
+- By default getCurrentLocation tries to get a fast low-accuracy location
+  - Usually from network location
+- You can request a high accuracy location
+  - Usually from GPS
+  - Takes longer
+  - May not be available
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ```
 navigator.geolocation.getCurrentPosition(
 	successFunc,
@@ -394,53 +418,55 @@ navigator.geolocation.getCurrentPosition(
 );
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Activity: Add a marker to the map
-* Open the pen [https://codepen.io/elvey/pen/BPJppR](https://codepen.io/elvey/pen/BPJppR)
-* Add a marker at the current location using the addMarker() function
-* Try with both high and low accuracy
-	* Do you notice any difference
-	* Why or why not?
-* Test on a mobile device if you can
-* Save your changes. You'll need them shortly
 
+- Open the pen [https://codepen.io/elvey/pen/BPJppR](https://codepen.io/elvey/pen/BPJppR)
+- Add a marker at the current location using the addMarker() function
+- Try with both high and low accuracy
+  - Do you notice any difference
+  - Why or why not?
+- Test on a mobile device if you can
+- Save your changes. You'll need them shortly
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Watching the location
-* You can watch the current position for changes with watchPosition()
-* Same input parameters as getCurrentLocation()
-* The success callback gets called each time the position is updated
-* You can stop watching using clearWatch()
 
+- You can watch the current position for changes with watchPosition()
+- Same input parameters as getCurrentLocation()
+- The success callback gets called each time the position is updated
+- You can stop watching using clearWatch()
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ```js
-var watchID = navigator.geolocation.watchPosition(
-	successFunc,
-	errorFunc
-);
+var watchID = navigator.geolocation.watchPosition(successFunc, errorFunc);
 navigator.geolocation.clearWatch(watchID);
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Activity: Update the map marker
-* Go back to the code from your last activity
-* Use watchLocation to move the marker when the position changes
-* Use moveMarker() to update the marker position
-* [Update your location](https://developers.google.com/web/tools/chrome-devtools/device-mode/device-input-and-sensors)
 
+- Go back to the code from your last activity
+- Use watchLocation to move the marker when the position changes
+- Use moveMarker() to update the marker position
+- [Update your location](https://developers.google.com/web/tools/chrome-devtools/device-mode/device-input-and-sensors)
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Checking permission
-* The geolocation API does not allow you to check if a user has granted permission or not
-* The new [Permissions API](https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API) does
-	* But it [isn't fully supported](https://caniuse.com/#feat=permissions-api)
 
+- The geolocation API does not allow you to check if a user has granted permission or not
+- The new [Permissions API](https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API) does
+  - But it [isn't fully supported](https://caniuse.com/#feat=permissions-api)
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Using the permissions API
+
 ```
 navigator.permissions.query({
 	name: 'geolocation'
@@ -456,91 +482,101 @@ navigator.permissions.query({
 	});
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Asking for permission
-* It is a good practive to notify users before asking permission
-* It can be confusing when a page unexpectedly asks for your location
-* People are more likely to allow permission if they know why
 
-
+- It is a good practice to notify users before asking permission
+- It can be confusing when a page unexpectedly asks for your location
+- People are more likely to allow permission if they know why
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ## Web Storage
+
 ![Hard Drive](images/hard-drive.jpg)
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### What is web storage
-* Data stores for the server origin
-* Session Storage and Local Storage
-* Save name/value pairs
-* Limited data on each
-* Does not work on data: URIs
 
+- Data stores for the server origin
+- Session Storage and Local Storage
+- Save name/value pairs
+- Limited data on each
+- Does not work on data: URIs
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Storage limits
-* 5mb for each on iOS
-* 10MB each on Chrome
-* 10MB shared on Firefox
 
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Session Storage 
-* Save data for the duration of the session
-* Used for temporary data
-* Lasts as long as the browser is open
-* Is only accessable from the current tab
-* Persists across refreshes
-* Removed when the tab is closed
-
+- 5mb for each on iOS
+- 10MB each on Chrome
+- 10MB shared on Firefox
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
+### Session Storage
+
+- Save data for the duration of the session
+- Used for temporary data
+- Lasts as long as the browser is open
+- Is only accessible from the current tab
+- Persists across refreshes
+- Removed when the tab is closed
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Set data
+
 ```
 sessionStorage.setItem(key, value);
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Get data
+
 ```
 var value = sessionStorage.getItem(key);
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Remove a key
+
 ```
 sessionStorage.remove(key);
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Clear all data
+
 ```
 sessionStorage.clear();
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Count keys
+
 ```
 var count = sessionStorage.length;
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Read key
+
 ```
 var key = sessionStorage.key(index);
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Putting it togther
+
+### Putting it together
+
 Read all the key / values to an object
 
 ```
@@ -552,106 +588,115 @@ for(var i = 0; i < sessionStorage.length; i++) {
 }
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Activity: Your turn
-* Open the pen [https://codepen.io/elvey/pen/MBBWPb](https://codepen.io/elvey/pen/MBBWPb)
-* Add code to save data from the form to session storage
-* Add code to load data from session storage and show it in the form
-* Add code to remove a key from session storage
-* Save your code and reload the page - what happens to your data
-* Open a new tab and check your data
 
-
+- Open the pen [https://codepen.io/elvey/pen/MBBWPb](https://codepen.io/elvey/pen/MBBWPb)
+- Add code to save data from the form to session storage
+- Add code to load data from session storage and show it in the form
+- Add code to remove a key from session storage
+- Save your code and reload the page - what happens to your data
+- Open a new tab and check your data
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Local Storage
-* Persistant data storage
-* Used for longer storage
-* Lasts until deleted
-* Is accessible from all windows
-* Uses same API as sessionStorage
 
+- Persistent data storage
+- Used for longer storage
+- Lasts until deleted
+- Is accessible from all windows
+- Uses same API as sessionStorage
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Set data
+
 ```
 localStorage.setItem(key, value);
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Get data
+
 ```
 var value = localStorage.getItem(key);
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Remove a key
+
 ```
 localStorage.remove(key);
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Clear all data
+
 ```
 localStorage.clear();
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Count keys
+
 ```
 var count = localStorage.length;
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Read key
+
 ```
 var key = localStorage.key(index);
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Activity: Your turn
-* Open the pen [https://codepen.io/elvey/pen/MBBWPb](https://codepen.io/elvey/pen/MBBWPb)
-* Implement the same functionality with localStorage
-* Save your code and reload the page - what happens to your data
-* Open a new tab and check your data
 
-
+- Open the pen [https://codepen.io/elvey/pen/MBBWPb](https://codepen.io/elvey/pen/MBBWPb)
+- Implement the same functionality with localStorage
+- Save your code and reload the page - what happens to your data
+- Open a new tab and check your data
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Storing objects
-* How can you store objects in web storage?
 
+- How can you store objects in web storage?
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ```
 localStorage.setItem(key, JSON.stringify(myObject));
 ```
 
-
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Private browsing
-* Read [Private Browsing / Incognito Modes](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API#Private_Browsing_Incognito_modes)
-* How do you think you should handle this?
 
-
+- Read [Private Browsing / Incognito Modes](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API#Private_Browsing_Incognito_modes)
+- How do you think you should handle this?
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ## Activity: Make a shopping list
-* Make a simple page that lets you store a list of items
-* Enter an item in a text field
-* Show all saved items in an unordered list
-* Can you remove an item once it has been added
 
-
+- Make a simple page that lets you store a list of items
+- Enter an item in a text field
+- Show all saved items in an unordered list
+- Can you remove an item once it has been added
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+
 ### Prepare for next week
-* Next week we will learn about some tools to make this easier
-* Can you install [node and npm](https://nodejs.org/en/) before next week?
+
+- Next week we will learn about some tools to make this easier
+- Can you install [node and npm](https://nodejs.org/en/) before next week?

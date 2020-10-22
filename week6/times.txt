@@ -14,7 +14,7 @@
 
 3:20 Manifest
 3:30 Manifest activity
-3:50 Insalling on iOS
+3:50 Installing on iOS
 4:00 Install on iOS activity
 
 4:10 Make a shopping list
