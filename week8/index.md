@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 
-Height and Flex
+### Height and Flex
 
 - Unitless dimensions
 - flex to grow

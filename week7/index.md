@@ -382,7 +382,7 @@ expo init MyProject
 
 ### Some lessons
 
-- If your app is very complex you need a native app
+- If your app is very complex, you need a native app
 - If you have a huge development budget, a native app is better
 - If not, Hybrid Apps are a good solution
 
@@ -391,7 +391,7 @@ expo init MyProject
 ### Activity: Create a React Native Project
 
 - Follow the guide at [https://facebook.github.io/react-native/docs/getting-started.html](https://facebook.github.io/react-native/docs/getting-started.html)
-- Connect your phone to wifi, Install Expo and test your app
+- Connect your phone to wifi, install Expo and test your app
 - Start your Android emulator and run `npm run android`
 - You may need to allow access in your firewall
 
@@ -402,7 +402,7 @@ expo init MyProject
 - ES6
 - JSX
 
-Note: React Native uses some new javascript features and some non-standard javascript extensions. You've used some ES6 javascript in class, especially when we discussed build tools and using babel and browserify to add new features. We'll go in to them in a bit more detail now.
+Note: React Native uses some new javascript features and some non-standard javascript extensions. You've used some ES6 javascript in class, especially when we discussed build tools and using babel and browserify to add new features. We'll go into them in a bit more detail now.
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 
@@ -507,9 +507,9 @@ const heading = <Heading text="Welcome to HIT238" />;
 ### React Native Components
 
 - Base components come from native code
-- A number of [build in components](https://facebook.github.io/react-native/docs/components-and-apis.html)
-- Many [different](https://nativebase.io/) [community developed components](http://www.awesome-react-native.com/)
-- When in doubt search [npm](https://www.npmjs.com/search?q=react-native&page=1&ranking=optimal)
+- A number of [built-in components](https://facebook.github.io/react-native/docs/components-and-apis.html)
+- Many [different](https://nativebase.io/) [community-developed components](http://www.awesome-react-native.com/)
+- When in doubt, search [npm](https://www.npmjs.com/search?q=react-native&page=1&ranking=optimal)
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 
