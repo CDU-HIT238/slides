@@ -46,7 +46,7 @@ AsyncStorage.getItem('testkey')
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-The offical examples are the same but look different
+The official examples are the same but look different
 
 ```
 import { AsyncStorage } from "react-native"
@@ -72,7 +72,7 @@ retrieveData = async () => {
 }
 
 storeData();
-retieveData();
+retrieveData();
 
 ```
 
@@ -104,7 +104,7 @@ retieveData();
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Activity: Search for plgins
+### Activity: Search for plugins
 * Search google and NPM for some modules that you think will be useful
 * Can you install and load one?
 

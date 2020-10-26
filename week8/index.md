@@ -11,7 +11,7 @@
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Props
 * Parameters for components
-* Makes components more versitile and reusable
+* Makes components more versatile and reusable
 * Passed like html properties
 * Access from variable passed to constructor
 	* Often saved in this.props
@@ -60,8 +60,8 @@ const styles = StyleSheet.create({
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-Height and Flex
-* Unitless dimensions
+### Height and Flex
+* Unit-less dimensions
 * flex to grow
 * flex direction defaults to column
 
@@ -69,7 +69,7 @@ Height and Flex
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Activity
 * Style your profile
-* Move some sections to resuable components
+* Move some sections to reusable components
 
 
 
@@ -127,7 +127,7 @@ function ToggleText(props) {
 		multiline={true}
 	/>
 ```
-* Note the arrow function is used inline. This is the same as delaring it elsewhere and passing it as a property.
+* Note the arrow function is used inline. This is the same as declaring it elsewhere and passing it as a property.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -167,7 +167,7 @@ function ToggleText(props) {
 ## Summary
 * React Native is a powerful platform
 * It is _very_ popular
-	* Lots of support documnetation
+	* Lots of support documentation
 	* Lots of employers want React Native skills
 * It is a new skillset but is very similar to existing web skills
 * React has a very specific style that may not translate to other platforms
@@ -281,7 +281,7 @@ const menuItem(item) => `<a class="menu__item" href="${item.href}">${item.text}<
 * We use EJS tags to inject logic and content
 * `<%` A scriptlet tag for JS logic
 * `<%=` An output tag that escapes the text and injects into the HTML
-* `<%-` An output tag that does not escpae the text and injects it into HTML
+* `<%-` An output tag that does not escape the text and injects it into HTML
 * `%>` Closing tag to finish logic or output
 
 
