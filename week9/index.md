@@ -97,7 +97,7 @@ retrieveData();
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### More third part libraries
+### More third party libraries
 * Maps are available with [MapView](https://docs.expo.io/versions/latest/sdk/map-view/)
 	* No support for web deployments but I wrote a wrapper for another project I can provide if anyone needs it
 * [There are logs of component libraries](https://www.codeinwp.com/blog/react-native-component-libraries/)
