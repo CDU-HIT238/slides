@@ -66,6 +66,7 @@ console.log('Final list', list);
 ```
 
 
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Use breakpoints in the debugger
 * Click on a line number to set a break point
 * Refresh the page
