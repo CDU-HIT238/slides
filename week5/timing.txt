@@ -7,7 +7,7 @@
 1:45 Advanced gulp (Links?)
 
 1:50 WebRTC
-1:55 Activity
+1:55 Actiity
 
 2:15 Media recorder
 2:20 Media recorder activity
