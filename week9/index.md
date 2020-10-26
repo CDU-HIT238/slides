@@ -78,7 +78,7 @@ retrieveData();
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-# Async & Await
+### Async & Await
 * The official examples use the async/await features.
 * These are just shortcuts to convert promises to return values and wait until they complete to continue running.
 * This code is in practice exactly the same as the first example
