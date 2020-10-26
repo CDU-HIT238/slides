@@ -2,7 +2,7 @@ Promises: 15m
 HTTP - 37 minutes
 	Slides - 7 minutes
 	Activity 1: 15 minutes
-	Activity 2: 15 minutes
+	Actividy 2: 15 minutes
 CORS - 25 minutes
 	- Slides: 10 m
 	- Activity: 15m
@@ -13,9 +13,9 @@ MVP - 30m
 	Slides - 10m
 	Activity: 20m
 
-Touch - 44m
+Tocuh - 44m
 	Slides: 4m
-	Activity 1 - 10m
+	Activty 1 - 10m
 	Activity 2 - 30m
 
 Total: 175m = 3h
