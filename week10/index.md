@@ -66,6 +66,7 @@ console.log('Final list', list);
 ```
 
 
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Use breakpoints in the debugger
 * Click on a line number to set a break point
 * Refresh the page
@@ -115,7 +116,7 @@ console.log('Final list', list);
 ### Activity
 * [Android users try debugging in android](https://developers.google.com/web/tools/chrome-devtools/remote-debugging)
 * [iOS users try debugging in Safari using "method 1"](https://www.browserstack.com/guide/how-to-debug-on-iphone)
-	* Note this iOS page is trying to sell your their alterntive product so we will only use method 1
+	* Note this iOS page is trying to sell your their alternative product so we will only use method 1
 
 
 
@@ -158,7 +159,7 @@ console.log('Final list', list);
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Browser plugins
 * There are also browser plugins for react native
-* Thwy will give you a nicer debugging interface
+* They will give you a nicer debugging interface
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->

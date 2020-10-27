@@ -46,7 +46,7 @@ AsyncStorage.getItem('testkey')
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-The offical examples are the same but look different
+The official examples are the same but look different
 
 ```
 import { AsyncStorage } from "react-native"
@@ -72,13 +72,13 @@ retrieveData = async () => {
 }
 
 storeData();
-retieveData();
+retrieveData();
 
 ```
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-# Async & Await
+### Async & Await
 * The official examples use the async/await features.
 * These are just shortcuts to convert promises to return values and wait until they complete to continue running.
 * This code is in practice exactly the same as the first example
@@ -97,14 +97,14 @@ retieveData();
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### More third part libraries
+### More third party libraries
 * Maps are available with [MapView](https://docs.expo.io/versions/latest/sdk/map-view/)
 	* No support for web deployments but I wrote a wrapper for another project I can provide if anyone needs it
 * [There are logs of component libraries](https://www.codeinwp.com/blog/react-native-component-libraries/)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Activity: Search for plgins
+### Activity: Search for plugins
 * Search google and NPM for some modules that you think will be useful
 * Can you install and load one?
 

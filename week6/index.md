@@ -14,7 +14,7 @@
 * Minimise CSS
 * Linting
 * Testing
-* Import/Concatanate Javascript
+* Import/Concatenate Javascript
 * Prepare images
 
 
@@ -165,7 +165,7 @@ exports.default = js;
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 #### Browserify
 * Import javascript modules
-* Smarter than concatanate
+* Smarter than concatenate
 
 ```
 const importedFunction = require('./myFunc.js');
@@ -223,7 +223,7 @@ Service workers are a special type of web worker that can act as a proxy for off
 * Can access [a lot of other functions](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers)
 
 Note:
-Until now we've learned that javascript is asynchronous because it runs in the same thread. Web workers however let us run some scripts in an independant thread. This means they do not have access to the same window object (although they can access some window functions) and have no access to the DOM.
+Until now we've learned that javascript is asynchronous because it runs in the same thread. Web workers however let us run some scripts in an independent thread. This means they do not have access to the same window object (although they can access some window functions) and have no access to the DOM.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -273,7 +273,7 @@ if ('serviceWorker' in navigator) {
 ```
 
 Note:
-To load a service worker you need to tell the browser to load it. The service worker must be in a seperate script which we direct the browser to load.
+To load a service worker you need to tell the browser to load it. The service worker must be in a separate script which we direct the browser to load.
 Here we can see we check if service workers are supported and wait for the page to finish loading. We then register the service worker using the function navigator.serviceWorker.register which returns a promise
 
 
@@ -512,7 +512,7 @@ self.addEventListener('activate', function(event) {
 ### display
 * How you want your app to open
 	* fullscreen - no browser UI elements and take up the full screen
-	* standalone - no browser UI elements in a seperate window from the browser
+	* standalone - no browser UI elements in a separate window from the browser
 	* browser - Open in the browser
 
 
@@ -598,7 +598,7 @@ self.addEventListener('activate', function(event) {
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### iOS doesn't use the manfest icons
+### iOS doesn't use the manifest icons
 * Need to set the icon meta tags
 * Good idea to set all the fancy apple tags
 
@@ -624,5 +624,5 @@ self.addEventListener('activate', function(event) {
 * Create a form to save shopping items and quantity
 * Save them to IndexedDB or LocalStorage
 * Show items in a list
-* Checkoff items
+* Check off items
 * Add a serviceworker and manifest to work offline

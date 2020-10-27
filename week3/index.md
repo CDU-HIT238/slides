@@ -50,8 +50,8 @@ Author/Copyright holder: Jussi Pasanen. With acknowledgements to Aarron Walter, 
 ### An MVP does not have to be complete
 * Many resources talk about MVP as the smallest product for each release
 	* I disagree
-	* MVP is a great way to release regularaly but an MVP is not a release
-* Your MVP should be _usable_ not necessecary _complete_
+	* MVP is a great way to release regularly but an MVP is not a release
+* Your MVP should be _usable_ not necessary _complete_
 * You don't release your first MVPs to public
 * There should be a number of MVPs for each release
 
@@ -86,7 +86,7 @@ From [How to Build a Minimum Viable Product](https://rubygarage.org/blog/how-to-
 ![Sprints from PhyAR exercises](images/physar-sprints.png)
 
 Note:
-While the MVPs are not explicitly specified this project started developing a satellite exercise first as an interactive model, then as a web page. Then after it was developed and tested a plane was model developed and then an AR experience was developed. This was continued for a more complecated diver activity
+While the MVPs are not explicitly specified this project started developing a satellite exercise first as an interactive model, then as a web page. Then after it was developed and tested a plane was model developed and then an AR experience was developed. This was continued for a more complicated diver activity
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -96,7 +96,7 @@ While the MVPs are not explicitly specified this project started developing a sa
 * Sort the core category by priority
 * Pick the most important - does it / do they depend on any others
 * Sketch out wireframes and UX flows for those features
-* Cut out anything unecessecary in the designs
+* Cut out anything unnecessary in the designs
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -152,7 +152,7 @@ As a &#95; I want to &#95; so that &#95;
 ### Get into the user perspective
 
 Note:
-Write from the perspective of your users. These are not developer requirements but user requirements. They should be worded like a user would write them, and concequently make sense to everyone, not just the developers.
+Write from the perspective of your users. These are not developer requirements but user requirements. They should be worded like a user would write them, and consequently make sense to everyone, not just the developers.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -189,8 +189,8 @@ Personas can use broad user categories, specific categories or personas. You wil
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 #### Personas
-* Beatrice, a 70 year old woman who has trouble with phones. She has high blood pressure and takes blood thinners. She recently had pneumona and had to take a prolonged course of antibiotics.
-* Kevin, a 45 year old carer for his elderly father. His father is perscribed heart medication his father often forgets to take.
+* Beatrice, a 70 year old woman who has trouble with phones. She has high blood pressure and takes blood thinners. She recently had pneumonia and had to take a prolonged course of antibiotics.
+* Kevin, a 45 year old carer for his elderly father. His father is prescribed heart medication his father often forgets to take.
 * Susan, A 12 year old diabetic. She has only recently been diagnosed and doesn't like having to take insular or check or blood sugar as she finds it disrupts her other activities.
 
 
@@ -264,7 +264,7 @@ loadJSON()
 
 Note:
 Promises really shine when we chain them together.  A chain of promises is a much nicer alternative to nested callbacks.
-The catch function will be exected if there is an error anywhere along the chain.
+The catch function will be expected if there is an error anywhere along the chain.
 Be careful though, long promise chains can swallow your errors and make it difficult to debug
 
 
@@ -320,7 +320,7 @@ Promise.all(arrayOfPromises)
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Activity: Your turn
 * Open the pen [Promises exercise](https://codepen.io/elvey/pen/PBRMBJ)
-* Modify the function delayedUppserCase to
+* Modify the function delayedUpperCase to
 	* Return a new promise 
 	* If the input is a string
 		* Resolve the promise after 500ms with the input in upper case
@@ -445,10 +445,10 @@ fetch(url, {
 ### Same Origin Policy
 * Browser restricts HTTP requests to resources within the same origin
 * An origin is
-	* Some host (subdomains are also excluded)
+	* Some host (sub-domains are also excluded)
 	* Same port
 	* Same protocol
-* Embedded resourecs are not restricted (images, CSS, scripts, etc...
+* Embedded resources are not restricted (images, CSS, scripts, etc...
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -456,7 +456,7 @@ fetch(url, {
 * CORS allows a resource to permit additional domains to access it
 * The response header defines the pages that are permitted to access the resource
 	* Defined in the Access-Control-Allow-Origin header
-* For modify requests (not GET) the broswer makes a preflight request
+* For modify requests (not GET) the browser makes a preflight request
 	* Can see OPTIONS request in dev tools
 * Server also declares if credentials may be sent with requests
 
@@ -535,7 +535,7 @@ Why is a grid polyfill a bad idea? Does this apply to other features?
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Progressive Enhancement
-* Progressive enhancement and graceful degredation suggest
+* Progressive enhancement and graceful degradation suggest
 	* A site should work without newer features
 	* Add functionality as it becomes available
-* Only polyfill what is absolutely necessecary
+* Only polyfill what is absolutely necessary

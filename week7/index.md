@@ -6,7 +6,7 @@
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Using the git command line
 * Every git GUI client is different
-* Git has a consistant UI on every system
+* Git has a consistent UI on every system
 * Most instructions use the command prompt
 * Open your terminals or Git Bash command prompts and follow along
 
@@ -19,7 +19,7 @@ So far we have used GUI git tools. Unfortunately the different platforms people 
 * don't worry, it's not as scary as it looks
 
 Note:
-When we think of command prompts we often think aobut super nerd hackers from the movies with walls of scrolling green text. Don't worry, it's much easier than that. With just a few basic commands you can unlock the power of git.
+When we think of command prompts we often think about super nerd hackers from the movies with walls of scrolling green text. Don't worry, it's much easier than that. With just a few basic commands you can unlock the power of git.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -45,7 +45,7 @@ git pull
 ```
 
 Note:
-In the windows Git GUI we leared, you had to fetch and then merge. The command line has an easy shortcut. Git pull will fetch changes from the server and merge them in to your current branch.
+In the windows Git GUI we learned, you had to fetch and then merge. The command line has an easy shortcut. Git pull will fetch changes from the server and merge them in to your current branch.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -56,7 +56,7 @@ git commit -m "comment comment"
 ```
 
 Note:
-Just like from the GUI, you need to stage changed files before commiting them. You stage files with the git add command and provide the path to the files you want to stage. You then commit staged files with the git commit command. We use the m flag to provide a commit comment which is important to see what's changed.
+Just like from the GUI, you need to stage changed files before committing them. You stage files with the git add command and provide the path to the files you want to stage. You then commit staged files with the git commit command. We use the m flag to provide a commit comment which is important to see what's changed.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -121,7 +121,7 @@ You can also grab just one file from a previous commit. I often do this when fix
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Activity
-* Try and complete the first level of [learn git branching](https://learngitbranching.js.org/)
+* Try and complete the first level of [learn Git branching](https://learngitbranching.js.org/)
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Challenge
@@ -145,7 +145,7 @@ Git branches provide us way a way to keep working code isolated from the main co
 * Can merge with other branches
 
 Note:
-If you think of your repository as a chain, with each commit linked to the commit before and after it, a branch is like a seperate chain. It's called a branch because it branches off from another commit. 
+If you think of your repository as a chain, with each commit linked to the commit before and after it, a branch is like a separate chain. It's called a branch because it branches off from another commit. 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -241,7 +241,7 @@ When you finish with a branch you need to bring your changes over to the master 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Your turnA
+### Your turn
 * Return to [Learn git branching](https://learngitbranching.js.org/)
 * See how far you can get in 15 minutes
 
@@ -257,13 +257,13 @@ When you finish with a branch you need to bring your changes over to the master 
 ### Use branches to isolate changes
 * If you start work on something and don't want to keep it you still have the original branch
 * If you want to resume working on it later it is easy to update with latest changes
-* Great for avoiding conficts in teams
+* Great for avoiding conflicts in teams
 * Used heavily in the workplace
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Best practices
-Intead of merging into master your should raise a pull request
+Instead of merging into master your should raise a pull request
 * Navigate to your GitHub repository
 * Click the Pull Requests tab
 * Click New pull request
@@ -283,11 +283,11 @@ Intead of merging into master your should raise a pull request
 ### Advantages of Cross Platform
 * Faster than web and hybrid apps
 * Supports multiple platforms with a single codebase
-* UI is consistant with native apps
+* UI is consistent with native apps
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Disadvances of Cross Platform
+### Disadvantages of Cross Platform
 * Limited _native_ components
 * May need to mix with native code
 * Unique platforms - tied to a vendor
@@ -313,7 +313,7 @@ Intead of merging into master your should raise a pull request
 * Development is very similar to ReactJS
 
 Note:
-Unlike hybrid apps, react native is closer to a native app than a web app. React Native has a native implementation of the DOM which renders to native components. Unlike web apps, the UI runs in an independant process. A seperate process runs the logic on a javascript engine. React Native handles communication between these two processes. This can give native-like performance. 
+Unlike hybrid apps, react native is closer to a native app than a web app. React Native has a native implementation of the DOM which renders to native components. Unlike web apps, the UI runs in an independent process. A separate process runs the logic on a javascript engine. React Native handles communication between these two processes. This can give native-like performance. 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -322,7 +322,7 @@ Unlike hybrid apps, react native is closer to a native app than a web app. React
 	* React is in the top 5 most starred repositories on GitHub
 	* React native is in the top 25
 	* [React popularity is still increasing](https://2019.stateofjs.com/front-end-frameworks/react/)
-* [Many large apps are build in ReactNative](https://reactnative.dev/showcase)
+* [Many large apps are built in React Native](https://reactnative.dev/showcase)
 * Lots of job listings for React and React Native
 
 
@@ -372,16 +372,16 @@ expo init MyProject
 * ES6
 * JSX
 
-Note: React Native uses some new javascript features and some non-standard javascript extensions. You've used some ES6 javascript in class, especially when we disucssed build tools and using babel and browserfiy to add new features. We'll go in to them in a bit more detail now.
+Note: React Native uses some new javascript features and some non-standard javascript extensions. You've used some ES6 javascript in class, especially when we discussed build tools and using babel and browserify to add new features. We'll go in to them in a bit more detail now.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## ECMAScript6 (ES6)
 * Version 6 of ECMAScript (JavaScript) released in 2015
 * [Lots of new features](http://www.reactnativeexpress.com/es6)
-* Backwards compatable with ES5
+* Backwards compatible with ES5
 * Used in React Native Development
-* [Supported by modern broswers](https://caniuse.com/#feat=es6)
+* [Supported by modern browsers](https://caniuse.com/#feat=es6)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -468,7 +468,7 @@ const heading = <Heading text="Welcome to HIT238" />;
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### React Native Components
 * Base components come from native code
-* A number of [build in components](https://facebook.github.io/react-native/docs/components-and-apis.html)
+* A number of [built-in components](https://facebook.github.io/react-native/docs/components-and-apis.html)
 * Many [different](https://nativebase.io/) [community developed components](http://www.awesome-react-native.com/)
 * When in doubt search [npm](https://www.npmjs.com/search?q=react-native&page=1&ranking=optimal)
 
