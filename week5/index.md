@@ -478,7 +478,7 @@ But what if you don't know the ID?
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Your turn
+### Activity: Your turn
 * Open the pen [https://codepen.io/elvey/pen/GBbKJW](https://codepen.io/elvey/pen/GBbKJW)
 * Connect to a database
 * Create a new store to store users ID and their name in upgradedneeded
@@ -498,7 +498,7 @@ But what if you don't know the ID?
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Camera App: putting it all together
-* Spent the rest of the class building a camera app
+* Spend the rest of the class building a camera app
 * Use WebRTC to [take a still photo](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Taking_still_photos)
 * Save photos in IndexedDB
 * Allow users to load and delete their photos
