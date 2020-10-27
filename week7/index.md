@@ -241,7 +241,7 @@ When you finish with a branch you need to bring your changes over to the master 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Your turnA
+### Your turn
 * Return to [Learn git branching](https://learngitbranching.js.org/)
 * See how far you can get in 15 minutes
 
@@ -322,7 +322,7 @@ Unlike hybrid apps, react native is closer to a native app than a web app. React
 	* React is in the top 5 most starred repositories on GitHub
 	* React native is in the top 25
 	* [React popularity is still increasing](https://2019.stateofjs.com/front-end-frameworks/react/)
-* [Many large apps are build in ReactNative](https://reactnative.dev/showcase)
+* [Many large apps are built in React Native](https://reactnative.dev/showcase)
 * Lots of job listings for React and React Native
 
 
@@ -381,7 +381,7 @@ Note: React Native uses some new javascript features and some non-standard javas
 * [Lots of new features](http://www.reactnativeexpress.com/es6)
 * Backwards compatible with ES5
 * Used in React Native Development
-* [Supported by modern broswers](https://caniuse.com/#feat=es6)
+* [Supported by modern browsers](https://caniuse.com/#feat=es6)
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -468,7 +468,7 @@ const heading = <Heading text="Welcome to HIT238" />;
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### React Native Components
 * Base components come from native code
-* A number of [build in components](https://facebook.github.io/react-native/docs/components-and-apis.html)
+* A number of [built-in components](https://facebook.github.io/react-native/docs/components-and-apis.html)
 * Many [different](https://nativebase.io/) [community developed components](http://www.awesome-react-native.com/)
 * When in doubt search [npm](https://www.npmjs.com/search?q=react-native&page=1&ranking=optimal)
 
