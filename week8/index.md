@@ -147,6 +147,7 @@ function ToggleText(props) {
 />
 ```
 
+
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 * React Native provides a button for basic input touch events.
 * There are also a number of [touchable](https://facebook.github.io/react-native/docs/handling-touches) components that you can use to construct buttons with different feedback.
