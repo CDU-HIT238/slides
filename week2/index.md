@@ -5,7 +5,7 @@
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Your websites & best practices
-* 10 minutes review your website
+* 10 minutes to review your website
 * Install the [chrome lighthouse plugin](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en)
 * Generate report on your site
 * Share a screenshot and your notes on the discussion board
@@ -35,11 +35,11 @@
 ## Types of mobile apps
 * Last week we talked about
 	* Web apps
-	* Hyrbid apps
+	* Hybrid apps
 	* Cross platform apps
 
 Note:
-We talked about web apps, hybrid apps and cross platform apps. Take a momemnt to recap on what their differences are.
+We talked about web apps, hybrid apps and cross platform apps. Take a moment to recap on what their differences are.
 Web Apps: Quick to develop, update and small to download. Work across the most devices
 Hybrid Apps: Thin app wrapper around a web app. Quick to develop and can install from the app store
 Cross Platform: Single code base that can be compiled into native code for different platforms. Faster than web and hybrid apps.
@@ -54,15 +54,15 @@ Cross Platform: Single code base that can be compiled into native code for diffe
 Note:
 Let's look at native applications now. 
 A native application is developed in a specific language and API/SDK for the platform it targets,
-They cannot run on other platforms so you need to write and maintain a seperate code base for each platform you support.
+They cannot run on other platforms so you need to write and maintain a separate code base for each platform you support.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Advantages of native apps
 * Full access to device features through native API
 * Faster because they are optimised for the platform
-* Fully installed before use - interet connection is not required
-* More consistant UX
+* Fully installed before use - internet connection is not required
+* More consistent UX
 
 Note:
 Native applications are fully optimised for the targeted platform.
@@ -82,7 +82,7 @@ A more targeted platform also means developers can be more confidant that the ap
 Note:
 Because native platforms are so specialised the skills to develop them are less common.
 They are also often more complex to develop. This makes them usually more expensive to develop.
-It is necessecary to decide which platforms are going to be supported. Usually only one platform is supported first with a second being added after the first platform is established.
+It is necessary to decide which platforms are going to be supported. Usually only one platform is supported first with a second being added after the first platform is established.
 Making changes are more costly when they need to be made in multiple code bases.
 
 
@@ -121,12 +121,12 @@ Android Studio is a popular IDE that is make specifically for Android developmen
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### IOS
 * Developed by Apple and only released on the iPhone / iPad / iPod range
-* Has [wealither](https://www.comscore.com/Insights/Data-Mine/iPhone-Users-Earn-Higher-Income-Engage-More-on-Apps-than-Android-Users), [more educated](https://theappsolutions.com/blog/development/ios-vs-android/) users who spend more on apps
+* Has [wealthier](https://www.comscore.com/Insights/Data-Mine/iPhone-Users-Earn-Higher-Income-Engage-More-on-Apps-than-Android-Users), [more educated](https://theappsolutions.com/blog/development/ios-vs-android/) users who spend more on apps
 * Requires a Mac to develop for
 * More controlled environment - easier to develop for
 
 Note:
-IOS is the main compeditor to Android. It is used only on Apple mobile devices.
+IOS is the main competitor to Android. It is used only on Apple mobile devices.
 It has a smaller install base than android but a different demographic of users.
 IOS users are more educated, wealthier and are more comfortable paying for an application.
 The build environment, XCode, is only available on OSX so an Apple computer is required to build an IOS application.
@@ -169,7 +169,7 @@ Apple provide the XCode IDE to assist developers to write and build IOS applicat
 ### Discussion continued
 * Your client has identified a second demographic of elderly people who have trouble with traditional phone booking systems
 	* Does this change your recommendation?
-* Add your thoughts to the disucssion board
+* Add your thoughts to the discussion board
 
 
 
@@ -186,7 +186,7 @@ Apple provide the XCode IDE to assist developers to write and build IOS applicat
 * What are you doing when you use phone apps?
 
 Note:
-Mobile applications are differnt to desktop applications.
+Mobile applications are different to desktop applications.
 The biggest different is that they are... mobile. That is, they can be used anywhere.
 When we use desktop applications we are usually sitting down and focusing mainly on the application.
 Mobile applications instead can be used in a wide variety of settings.
@@ -210,7 +210,7 @@ When do you use your phone? How is it different to when you use desktop applicat
 	* Shorter, simpler interactions
 * Privacy concerns. e.g. easily lost
 * Different input interfaces
-* Internet connection may be intermittant
+* Internet connection may be intermittent
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -276,8 +276,8 @@ Put simply, user testing stops you from wasting time and money in developing som
 * [Lab vs Journal vs Field](https://www.interaction-design.org/literature/article/getting-into-the-mobile-app-user-s-mind-user-research-for-mobile-applications)
 
 Note:
-There are many types of user research. One broad way of categorising them is as overservational and experimental.
-Overservational looks to identify what happens in the real world while experimental tests a hypothesis
+There are many types of user research. One broad way of categorising them is as observational and experimental.
+Observational looks to identify what happens in the real world while experimental tests a hypothesis
 Lab is conducted in a controlled environment to test a key feature, journal involves a user writing down their thoughts and field involves going out and seeing what happens in the real world. 
 
 
@@ -292,7 +292,7 @@ Lab is conducted in a controlled environment to test a key feature, journal invo
 * Co-creation
 
 Note:
-There are many tools that you can use for user research. These are some of the more common types. Many of these can be applied in different ways and so could be considered broad catagories for multiple tools.
+There are many tools that you can use for user research. These are some of the more common types. Many of these can be applied in different ways and so could be considered broad categories for multiple tools.
 
 
 
@@ -336,9 +336,9 @@ An easy way to do this is to think about the who, what, where, when, why and how
 * Sketch answers to your objective questions
 
 Note:
-What is your hypothsis about this question? This is important to identify biases in your own thinking.
+What is your hypothesis about this question? This is important to identify biases in your own thinking.
 An easy way to do this is to try and answer your questions from the objective stage. This is your expectation. 
-This is important for two reasons. One is to avoid letting your bias influence your testing, make sure you are not just trying to confirm your hypothsis. The second is to acknowledge your hypothesis so that you can test it and update your thinking if you find you are wrong or re-affirm it if you are right.
+This is important for two reasons. One is to avoid letting your bias influence your testing, make sure you are not just trying to confirm your hypothesis. The second is to acknowledge your hypothesis so that you can test it and update your thinking if you find you are wrong or re-affirm it if you are right.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -371,7 +371,7 @@ Note:
 Now that you have data from real users you need to turn that in to answers.
 Don't just answer your questions but also reflect on how effective your user research process was.
 Did your research effectively answer your questions? Did the methods you use work?
-Now look at your hypothesis, did it prove or disprove your hypothsis?
+Now look at your hypothesis, did it prove or disprove your hypothesis?
 Finally are there are any questions that you need to ask in the next phase of user research?
 
 
@@ -405,7 +405,7 @@ It should not restrict your testing though. If something isn't working during a 
 From [The UX Research Plan That Stakeholders Love](https://www.smashingmagazine.com/2012/01/ux-research-plan-stakeholders-love/)
 
 Note:
-In an article for Smashing Magazine Tomer outlines a basic structure for user research. You should create a research plan that includes each of the listed sections. We have created a template to help you create your research plans.
+In an article for Smashing Magazine, Tomer outlines a basic structure for user research. You should create a research plan that includes each of the listed sections. We have created a template to help you create your research plans.
 You don't need to test with a lot of people. [Jackob Nielson suggests that it is better to run a lot of tests with very few users rather than big expensive tests with a lot of users](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/)
 
 
@@ -462,7 +462,7 @@ We won't go into much detail here but they are an important product from your us
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### What is JSON
 * A string representation of nested data
-* Modeled off JavaScript objects
+* Modelled off JavaScript objects
 * Has .json extension
 * Has application/json MIME type
 * Allows for data to easily be sent between server/client

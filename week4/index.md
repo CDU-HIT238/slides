@@ -23,7 +23,7 @@ If you are running out of time and need an extension please let me know before t
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Submission
-* Please follow the sumibssion guidelines
+* Please follow the submission guidelines
 	* Link to google document
 	* Make document it public
 	* Use a spell checker
@@ -52,18 +52,18 @@ Sometimes we get very attached to a particular application idea, which is not ac
 	* What are their frustrations?
 
 Note:
-Your objectives should be the questions you want to find out from your users in order to design your application. Who are they, what is their experience of your target problem, what are thir frustrations and what has worked fro them. This information will be used to build your personas and to reframe your application concept to ensure it is relevant to your users. The "5Ws and an H" questions are a great place to start, you can take these further by tailoring them to your application and reducing them to a couple of broader core questions you want to know about your users.
+Your objectives should be the questions you want to find out from your users in order to design your application. Who are they, what is their experience of your target problem, what are their frustrations and what has worked fro them. This information will be used to build your personas and to reframe your application concept to ensure it is relevant to your users. The "5Ws and an H" questions are a great place to start, you can take these further by tailoring them to your application and reducing them to a couple of broader core questions you want to know about your users.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Research Hypotheis
+### Research Hypothesis
 * Again generally well done
 * These are _your_ answers to the questions from your _objectives_
 * A tool to help you critically evaluate your knowledge and results
 * some went a little off topic
 
 Note:
-These are the answers you expect to the questions from your objectives. The purporse of this is to acknowledge your bias to prevent it from influencing your researc results, to better clarify how well you know your users and potentially identify area that may need more research. You are not looking to confirm your hypothesis but rather learn beyond it.
+These are the answers you expect to the questions from your objectives. The purpose of this is to acknowledge your bias to prevent it from influencing your research results, to better clarify how well you know your users and potentially identify area that may need more research. You are not looking to confirm your hypothesis but rather learn beyond it.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -76,7 +76,7 @@ These are the answers you expect to the questions from your objectives. The purp
 
 Note:
 The methods were generally done well. These are the actual research methods you want to apply. You should be quite specific about what you are doing though. If you are doing a survey, the survey questions should be listed. If you are doing a card sort what cards are you asking people to sort and what criteria are they sorting them into? It is a bit premature for prototyping but if you prototype, what is the prototype you are showing participants and what are you asking them to do on it?
-It is also important to outline how you are recruiting your participants. This can be as simple as going to the cafe and asking people or posting it on facebook. You should also outline how many particpants you aim to get. Recruiting methods can impact on the results and this is important in the workpace where you may have different people performing the research so the process needs to be as explicit as possible.
+It is also important to outline how you are recruiting your participants. This can be as simple as going to the cafe and asking people or posting it on facebook. You should also outline how many participants you aim to get. Recruiting methods can impact on the results and this is important in the workplace where you may have different people performing the research so the process needs to be as explicit as possible.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -97,7 +97,7 @@ This is where you outline the results from your research. Data is great to inclu
 * Don't _just_ make up a person
 	* _Use the data from your research_
 	* _Fit them in your target audience_
-* Do their goals refelct your research data?
+* Do their goals reflect your research data?
 
 Note:
 Be sure to structure your personas well and provide some relevant personal information to make them more relatable. The big thing I wanted to see was the process of using personas to represent your user research. There is no value in just making up a user if it isn't grounded in some real user data. Personas are a great way to turn the lessons from your user research in to hypothetical users that you can reference throughout development. If your data is limited than you need to make some assumptions but try to capture as much of your research data as possible. You personas also need to reflect your target audience.
@@ -256,14 +256,14 @@ From [Mobile page speed new industry benchmarks](https://think.storage.googleapi
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### What to do
-* Reduce percieved loading time
+* Reduce perceived loading time
 * Defer loading javascript
 	* Set the defer flag
 	* Put at the end of yor page body
 * Minimise your resources
 * Delay anything you don't need at the time
 * Try not to wait on the server
-* Preload resouces if you have time and are confidant you will need them
+* Preload resources if you have time and are confidant you will need them
 
 Note:
 The defer flag should be enough to prevent your script from blocking the DOM from loading but it is a good idea to still put your scripts at the bottom to also cater to older browsers. 
@@ -272,7 +272,7 @@ The defer flag should be enough to prevent your script from blocking the DOM fro
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Minify your resources
 * You can reduce to size of your CSS and JavaScript by minifying (or uglifying) it
-* Try compresing resources at https://www.minifier.org/
+* Try compressing resources at https://www.minifier.org/
 * Compress your images at http://webresizer.com/resizer/
 * Combine your JavaScript and CSS to reduce the number of files
 	* This is less important with HTTP/2 but is still useful
@@ -319,7 +319,7 @@ if("geolocation" in navigator) {
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Getting the current position
 * navigator.geolocation.getCurrentPosition(successFunc, errFunc, options)
-	* Get's the current position and calls a callback function
+	* GETs the current position and calls a callback function
 	* Calls successFunc when the location is successfully retrieved
 	* successFunc takes a [Position](https://developer.mozilla.org/en-US/docs/Web/API/Position) parameter
 	* Calls the optional errFunc when an error occurs
@@ -459,7 +459,7 @@ navigator.permissions.query({
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Asking for permission
-* It is a good practive to notify users before asking permission
+* It is a good practice to notify users before asking permission
 * It can be confusing when a page unexpectedly asks for your location
 * People are more likely to allow permission if they know why
 
@@ -492,7 +492,7 @@ navigator.permissions.query({
 * Save data for the duration of the session
 * Used for temporary data
 * Lasts as long as the browser is open
-* Is only accessable from the current tab
+* Is only accessible from the current tab
 * Persists across refreshes
 * Removed when the tab is closed
 
@@ -540,7 +540,7 @@ var key = sessionStorage.key(index);
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Putting it togther
+### Putting it together
 Read all the key / values to an object
 
 ```
@@ -566,7 +566,7 @@ for(var i = 0; i < sessionStorage.length; i++) {
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### Local Storage
-* Persistant data storage
+* Persistent data storage
 * Used for longer storage
 * Lasts until deleted
 * Is accessible from all windows

@@ -14,7 +14,7 @@
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/expected-knowledge.ogg" -->
-## Exepected knowledge
+## Expected knowledge
 * You will need to already know basic HTML, CSS and Javascript
 * You should be familiar with Git
 * You should know design steps from HIT226 (testing, personas, etc...)
@@ -137,7 +137,7 @@ There are different types of mobile applications depending on how they are devel
 
 Note:
 A web application is not the same as a web site. For example you go to the CDU homepage to get some information, while you can interact with applications like twitter or facebook. 
-The big difference between a web site like CDU and an application like facebook is interactivity. Facebook will respond to your actions while the CDU homepage will show the same information nomatter what you do. The line between a web side and a web application is not always clear, but as we are looking at applications we will be focusing in interactivity.
+The big difference between a web site like CDU and an application like facebook is interactivity. Facebook will respond to your actions while the CDU homepage will show the same information no matter what you do. The line between a web side and a web application is not always clear, but as we are looking at applications we will be focusing in interactivity.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/mobile-web-applications1.ogg" -->
@@ -146,7 +146,7 @@ The big difference between a web site like CDU and an application like facebook 
 * Can you name some mobile web applications
 
 Note:
-Spend 5 minutes to see if you can think of some web applicationst that you use. Are they also mobile applications?
+Spend 5 minutes to see if you can think of some web applications that you use. Are they also mobile applications?
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/mobile-web-applications2.ogg" -->
@@ -156,8 +156,8 @@ Spend 5 minutes to see if you can think of some web applicationst that you use. 
 * Google docs and facebook messenger push users to install their app on mobile
 
 Note:
-While both Google and Apple originally imagined their mobile systems using web applications, for a long time many people did not consider them as compeditive alternatives to appliations installed on the mobile platform. Many organisations still feel it is important that their app is insSalled in order to get exposure. Incedently [research found in 2015 that users spend most of their time in only a couple of apps](https://techcrunch.com/2015/06/22/consumers-spend-85-of-time-on-smartphones-in-apps-but-only-5-apps-see-heavy-use/) so just having an "app" doesn't mean it will get used.
-More recently service worksers and PWA manifests have allowed web applications to work more like native apps with installable menus and offline functionality bridging the gap between web and native. It is now even possible to install progressive web applications through the Google Play Store
+While both Google and Apple originally imagined their mobile systems using web applications, for a long time many people did not consider them as competitive alternatives to applications installed on the mobile platform. Many organisations still feel it is important that their app is installed in order to get exposure. Incidentally, [research found in 2015 that users spend most of their time in only a couple of apps](https://techcrunch.com/2015/06/22/consumers-spend-85-of-time-on-smartphones-in-apps-but-only-5-apps-see-heavy-use/) so just having an "app" doesn't mean it will get used.
+More recently service workers and PWA manifests have allowed web applications to work more like native apps with installable menus and offline functionality bridging the gap between web and native. It is now even possible to install progressive web applications through the Google Play Store
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/web-app-advantages.ogg" -->
@@ -170,7 +170,7 @@ More recently service worksers and PWA manifests have allowed web applications t
 * no app store registration or review
 
 Note:
-Mobile web applications are very popular. This is because they can be build with the same tools as for existing web platforms and work on all devices with a web browser. As a result they are much cheaper to develop since the skills are more common and there is not need to build a seperate app for each platform. They also do not need to be installed to run which means they automatically update so everyone is running the same version of the app which makes it very easy to prototype or try an idea out quickly. Further nobody controls a web application marketplace so there is no registration or review process required to publish a web application.
+Mobile web applications are very popular. This is because they can be build with the same tools as for existing web platforms and work on all devices with a web browser. As a result they are much cheaper to develop since the skills are more common and there is not need to build a separate app for each platform. They also do not need to be installed to run which means they automatically update so everyone is running the same version of the app which makes it very easy to prototype or try an idea out quickly. Further nobody controls a web application marketplace so there is no registration or review process required to publish a web application.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/web-app-disadvantages.ogg" -->
@@ -222,8 +222,8 @@ They should work offline and feel fast and responsive like a native application
 
 Note:
 Google have been promoting PWAs as an alternative to native applications.
-Scan the provided articles to see some of the adavantages some users have found with PWAs.
-It is interesting to note that two of the applications come from India where network connections are heavily utalised and have historically suffered from congestion problems. 
+Scan the provided articles to see some of the advantages some users have found with PWAs.
+It is interesting to note that two of the applications come from India where network connections are heavily utilised and have historically suffered from congestion problems. 
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -247,7 +247,7 @@ It is interesting to note that two of the applications come from India where net
 
 Note:
 A hybrid application is a web application that has been bundled into an installable mobile package. They use a web view to display the web application as if it was a native app.
-Think of it as a thin native wrapper aound a web application.
+Think of it as a thin native wrapper around a web application.
 This means that you can use the same tools as you use when building a web application but users install it like a native application.
 
 
@@ -269,6 +269,7 @@ They are similar to the default browser provided by the OS but may have some lim
 
 Note:
 Much like progressive web applications, Hybrid apps allow you to use common web technologies to develop an app and can target multiple platforms with a single code base. They also provide better hardware access than a web application and allow you to submit your application to all common application stores.
+
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/hybrid-advantages.ogg" -->
 ### Disadvantages
@@ -322,8 +323,8 @@ Frameworks using web languages like Appcellerator have been called hybrid apps i
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-"We've tried in the past to just build web apps that we could wrap in thin native wrappers, but it doesn’t work. [...] Anytime somebody tries to reimplement a native widget using HTML, CSS and JavaScript it always feels like shit."
-- Tom Occhino, React Native, Facebook
+"We've tried in the past to just build web apps that we could wrap in thin native wrappers, but it doesn't work. [...] Any time somebody tries to reimplement a native widget using HTML, CSS and JavaScript it always feels like shit."
+-Tom Occhino, React Native, Facebook
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" data-audio-src="audio/cross-platform-advantages.ogg" -->
@@ -344,7 +345,7 @@ Cross platforms apps allow you to write in a single language and build your code
 * Need to be installed and updated through the app store
 
 Note:
-Because your logic must be interpreted or converted to native code, it may not be as preformant as a native application. You are also bound by the functionality that your platform provides which may not suit all your needs. It is often possible to write your own native plugins or components to increase your access but then you must manage native code for each platform you support. Users also need to install your application through the app store which can result in much larger download sizes than a web application.
+Because your logic must be interpreted or converted to native code, it may not be as performant as a native application. You are also bound by the functionality that your platform provides which may not suit all your needs. It is often possible to write your own native plugins or components to increase your access but then you must manage native code for each platform you support. Users also need to install your application through the app store which can result in much larger download sizes than a web application.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -373,11 +374,11 @@ You will have covered Git in HIT226. It is important you use Git for this unit. 
 ### What's the difference
 * Git is a source control system
 * Github is a public git repository (there are others)
-* GitHub pages is a hosting platform like spinetail
+* GitHub pages is a hosting platform like Spinetail
 * They are connected but are not the same
 
 Note:
-There is often some confusion between Git, GitHub and GitHub Pages. Git is a system for managing your source code. GitHub is a public Git service, other public services include GitLab and BitBucket. GitHub Pages is a platform to host a webpage... like what you have used Spinetail for in the past.
+There is often some confusion between Git, GitHub and GitHub Pages. Git is a system for managing your source code. GitHub is a public Git service, other public services include GitLab and BitBucket. GitHub Pages is a platform to host a web page... like what you have used Spinetail for in the past.
 
 
 
@@ -399,7 +400,7 @@ Git is often intimidating to learn. But don't worry, once you get your head arou
 
 Note:
 Git is a distributed, versioned, source control system. 
-It is distributed because it can synchronise many repositories together. You keep a local copy of the repository and synchronise it with a server copy. Other users can do the same allowing everyone to keep their code synchorised.
+It is distributed because it can synchronise many repositories together. You keep a local copy of the repository and synchronise it with a server copy. Other users can do the same allowing everyone to keep their code synchronised.
 It is versioned because it tracks all your changes in commits. Each commit records what changed so you can go back and view any version of the application. You can also use tags and branches to flag major versions.
 It is source control because it holds your source code
 
@@ -435,18 +436,18 @@ These are some common git functions. Don't worry, you don't need to learn them a
 * [Lots of great resources available](https://learngitbranching.js.org/)
 
 Note:
-Most sources suggest learning Git from the command prompt. I am guessing most people here are probably not comfortable using the command prompt. That's OK, but I encourage all of you to spend some time getting comfortable with the linux/unix command prompt (also on MacOS and the Linux Subsystem for Windows) as it is used in almost every field of Computing. LearnGitBranching.js.org is an excellent resouce to get familiar with the Git command prompt.
+Most sources suggest learning Git from the command prompt. I am guessing most people here are probably not comfortable using the command prompt. That's OK, but I encourage all of you to spend some time getting comfortable with the linux/unix command prompt (also on MacOS and the Linux Subsystem for Windows) as it is used in almost every field of Computing. LearnGitBranching.js.org is an excellent resource to get familiar with the Git command prompt.
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/git-gui.ogg" -->
 ### Sourcetree GUI client
 * Lots of GUI clients available but not many with good instructions
-* Install git and sourcetree following instructions from [https://www.atlassian.com/git/tutorials/install-git](https://www.atlassian.com/git/tutorials/install-git)
-* GUI with sourcetree and command prompt with Git Bash
-* You will need to create an atlassian account to use sourcetree
+* Install Git and Sourcetree following instructions from [https://www.atlassian.com/git/tutorials/install-git](https://www.atlassian.com/git/tutorials/install-git)
+* GUI with Sourcetree and command prompt with Git Bash
+* You will need to create an Atlassian account to use Sourcetree
 
 Note:
-There are a lot of Git GUI clients about. Most online instructions use the command prompt but sourcetree is a simple GUI tool with excellent instructions that works on Windows, Mac and Linux. Most IDEs like Atom also have Git integration.
+There are a lot of Git GUI clients about. Most online instructions use the command prompt but Sourcetree is a simple GUI tool with excellent instructions that works on Windows, Mac and Linux. Most IDEs like Atom also have Git integration.
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg"data-audio-src="audio/git-clone.ogg"  -->
@@ -463,10 +464,10 @@ Sourcetree provide instructions to clone a remote repository. When using github 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/git-commit.ogg" -->
 ### Commit, Push and Pull
-[Commit, fetch and pull a repository on sourcetree](https://confluence.atlassian.com/sourcetreekb/commit-push-and-pull-a-repository-on-sourcetree-785616067.html)
+[Commit, fetch and pull a repository on Sourcetree](https://confluence.atlassian.com/sourcetreekb/commit-push-and-pull-a-repository-on-sourcetree-785616067.html)
 
 Note:
-When you finish you'll need to commit to save your work and push to send them to the server. To do this you will need to save your changes in a "commit". Once your changes are comitted you will then need to send them to the server by pushing them. Remember, I can't see any work that you haven't pushed.
+When you finish you'll need to commit to save your work and push to send them to the server. To do this you will need to save your changes in a "commit". Once your changes are committed you will then need to send them to the server by pushing them. Remember, I can't see any work that you haven't pushed.
 Finally you can pull other changes from the server. A pull is the same as doing a fetch and a merge.
 
 
@@ -496,11 +497,11 @@ If you do not already have a GitHub account, register one now. Then create a new
 
 <!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/github-pages.ogg" -->
 ## GitHub Pages
-* Free webhosting for your github projectS
+* Free web hosting for your github projectS
 * Used for lots of static websites (including these slides)
 
 Note:
-GitHub pages provides free web hosting for the files in your Git Repository. It is a great service that is used for lost of programming projects web pages. Even these slides are hosted on GitHub Pages. You will use GitHub pages to host your assigments.
+GitHub pages provides free web hosting for the files in your Git Repository. It is a great service that is used for lost of programming projects web pages. Even these slides are hosted on GitHub Pages. You will use GitHub pages to host your assignments.
 
 
 <!-- .slide: data-background-image="images/git-bg.jpg" data-audio-src="audio/github-pages-activity.ogg" -->

@@ -211,8 +211,8 @@ mediaRecorder.start(timeslice);
 ```
 
 Note:
-The default behaviour of start is to record until a stop signal is recieved. Then the dataavailable event is called with the data from the whole recording. 
-Alternativly you can specify a timeslice recording interval. If you set a timeslice, the data will be split in chunks and dataavailable will be called at each interval. You can use this for streaming or if you want to manage your buffer size.
+The default behaviour of start is to record until a stop signal is received. Then the dataavailable event is called with the data from the whole recording. 
+Alternatively you can specify a timeslice recording interval. If you set a timeslice, the data will be split in chunks and dataavailable will be called at each interval. You can use this for streaming or if you want to manage your buffer size.
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -295,7 +295,7 @@ var connReq = indexedDB.open(
 );
 ```
 
-[IDBFactory.open()](https://developer.mozilla.org/en-US/docs/Web/API/IDBFactory/open) returns an [IDBOpenRequest](https://developer.mozilla.org/en-US/docs/Web/API/IDBOpenDBRequest) immediately but asyncronouly connects using events
+[IDBFactory.open()](https://developer.mozilla.org/en-US/docs/Web/API/IDBFactory/open) returns an [IDBOpenRequest](https://developer.mozilla.org/en-US/docs/Web/API/IDBOpenDBRequest) immediately but asynchronously connects using events
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -333,7 +333,7 @@ conn.addEventListener('upgradeneeded',function(evt) {
 * The onupgradeneeded events triggers an [IDBVersionChangeEvent](https://developer.mozilla.org/en-US/docs/Web/API/IDBVersionChangeEvent)
 * This happens when you increase the version number (or first create the database)
 * Create or delete any required object stores with [IDBDatabase.createObjectStore()](https://developer.mozilla.org/en-US/docs/Web/API/IDBDatabase/createObjectStore)
-* If the event finishes without erorrs the onsuccess event is triggered
+* If the event finishes without errors the onsuccess event is triggered
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
@@ -426,7 +426,7 @@ request.addEventListener('success', function(evt) {
 * To update use put
 
 ```
-var transactiong = objectStore.put({id: 123, name: 'Elvey', role: 'teacher'});
+var transaction = objectStore.put({id: 123, name: 'Elvey', role: 'teacher'});
 ```
 
 
@@ -478,7 +478,7 @@ But what if you don't know the ID?
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Your turn
+### Activity: Your turn
 * Open the pen [https://codepen.io/elvey/pen/GBbKJW](https://codepen.io/elvey/pen/GBbKJW)
 * Connect to a database
 * Create a new store to store users ID and their name in upgradedneeded
@@ -498,7 +498,7 @@ But what if you don't know the ID?
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Camera App: putting it all together
-* Spent the rest of the class building a camera app
+* Spend the rest of the class building a camera app
 * Use WebRTC to [take a still photo](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Taking_still_photos)
 * Save photos in IndexedDB
 * Allow users to load and delete their photos
