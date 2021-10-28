@@ -214,3 +214,10 @@ https://online.cdu.edu.au/bbcswebdav/pid-3139661-dt-content-rid-17399245_2/xid-1
 	* If you need an emulator please ensure it is setup
 * This is a big class so make sure you a ready to go as soon as your name is called
 * Only for external students, you're allowed to record a video presentation and email me before Friday, Week 12, 12:00 PM
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### External Students
+* Only for external students, you're allowed to record a video presentation and email me before Friday, Week 12, 12:00 PM
+* Internal student should present live
+* No marks for no-show
