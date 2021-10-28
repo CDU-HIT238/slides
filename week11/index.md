@@ -17,12 +17,20 @@
 * Read the question carefully
 * Enter your answer in the provided space
 * Usually about comparing or describing tools/technologies
+* Partial marking available so even if you don't get the exact result, don't worry
+
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### File upload questions
+## Strictly, DO NOT COPY, DO NOT SHARE
+* LearnLine SafeAssign is smart
+* If plagiarism is identified, it's straight zero, no matter if you're copying or sharing.
+
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+### Code / File upload questions
 * Write your answer in a separate file and upload the file
-* alternatively, copy and paste it in the answer box.
 * Used for code questions
 * Write your code in an IDE, test it works and then upload
 
@@ -41,6 +49,13 @@
 * Test your code before uploading
 * If you are given a function template make sure you use the same function name and properties
 * If you are asked to export your code make sure you have a [default export](https://cdu-hit238.github.io/slides/week7/#/5/3)
+
+
+<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
+## Sample Exam
+* Try the test exam in LearnLine
+* You can use google and the lecture slides if you get stuck
+* See if you can complete it in 90 minutes
 
 
 
