@@ -43,13 +43,6 @@
 * If you are asked to export your code make sure you have a [default export](https://cdu-hit238.github.io/slides/week7/#/5/3)
 
 
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-## Sample Exam
-* Try the test exam in LearnLine
-* You can use google and the lecture slides if you get stuck
-* See if you can complete it in 90 minutes
-
-
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Looking back
