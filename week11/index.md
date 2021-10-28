@@ -6,7 +6,7 @@
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Exam
 * Learnline Test
-* 28th of October at 10am
+* 19th November 2021 
 * 2 Hours
 * Mix of short answer and code
 
@@ -20,15 +20,9 @@
 
 
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
-### Fill in the blank questions
-* Very short answers (mostly single word)
-* Mostly asking which function you should use
-* Some variation is accepted but be careful with formatting
-
-
-<!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ### File upload questions
 * Write your answer in a separate file and upload the file
+* alternatively, copy and paste it in the answer box.
 * Used for code questions
 * Write your code in an IDE, test it works and then upload
 
@@ -189,7 +183,7 @@
 <!-- .slide: data-background-image="../images/bg-smartphone.jpg" -->
 ## Next Week: Presentations
 * 3 Minutes each
-* 20 marks
+* 30 marks
 	* Marked on both your application and presentation
 * This is a product pitch
 	* Focus on your app
@@ -211,4 +205,4 @@ https://online.cdu.edu.au/bbcswebdav/pid-3139661-dt-content-rid-17399245_2/xid-1
 * Setup the presentation on your laptop and plug it in to present
 	* If you need an emulator please ensure it is setup
 * This is a big class so make sure you a ready to go as soon as your name is called
-
+* Only for external students, you're allowed to record a video presentation and email me before Friday, Week 12, 12:00 PM
